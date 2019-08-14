@@ -324,6 +324,20 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
+    <type name="AmmoBox_22_50Rnd">
+        <nominal>60</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
     <type name="AmmoBox_308WinTracer_20Rnd">
         <nominal>10</nominal>
         <lifetime>10800</lifetime>
@@ -574,6 +588,20 @@
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+    </type>
+    <type name="Ammo_22">
+        <nominal>130</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>100</min>
+        <quantmin>30</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Ammo_308Win">
         <nominal>80</nominal>
@@ -4652,6 +4680,19 @@
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
+    <type name="Glock19">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Police"/>
+    </type>
     <type name="GoatPelt">
         <lifetime>10800</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
@@ -6804,6 +6845,19 @@
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
+    <type name="Mag_Glock_15Rnd">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>5</min>
+        <quantmin>20</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Police"/>
+    </type>
     <type name="Mag_IJ70_8Rnd">
         <nominal>150</nominal>
         <lifetime>10800</lifetime>
@@ -6820,6 +6874,20 @@
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+    </type>
+    <type name="Mag_MKII_10Rnd">
+        <nominal>100</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>80</min>
+        <quantmin>10</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Mag_MP5_30Rnd">
         <nominal>25</nominal>
@@ -7479,6 +7547,20 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+    </type>
+    <type name="MKII">
+        <nominal>40</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Morphine">
         <nominal>15</nominal>
