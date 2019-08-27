@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <variables>
-    <var name="CleanupAvoidance" type="0" value="50"/>
+    <var name="CleanupAvoidance" type="0" value="100"/>
     <var name="CleanupLifetimeLimit" type="0" value="50"/>
     <var name="TimeLogin" type="0" value="15"/>
     <var name="TimeLogout" type="0" value="15"/>
@@ -15,8 +15,8 @@
     <var name="RestartSpawn" type="0" value="100"/>
     <var name="CleanupLifetimeRuined" type="0" value="330"/>
     <var name="AnimalMaxCount" type="0" value="200"/>
-    <var name="CleanupLifetimeDeadPlayer" type="0" value="330"/>
+    <var name="CleanupLifetimeDeadPlayer" type="0" value="3600"/>
     <var name="CleanupLifetimeDeadInfected" type="0" value="330"/>
-    <var name="CleanupLifetimeDeadAnimal" type="0" value="330"/>
+    <var name="CleanupLifetimeDeadAnimal" type="0" value="1200"/>
     <var name="TimeHopping" type="0" value="60"/>
 </variables>
