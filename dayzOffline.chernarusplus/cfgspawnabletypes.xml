@@ -2922,7 +2922,7 @@
 			<item name="Sedan_02_Wheel" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.90" />
+			<item name="CarRadiator" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.60" />
