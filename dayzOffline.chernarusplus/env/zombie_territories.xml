@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="1124502272">
-        <zone name="InfectedArmy" smin="3" smax="5" dmin="3" dmax="5" x="7992.86" z="14634.2" r="90"/>
-        <zone name="InfectedArmy" smin="4" smax="8" dmin="4" dmax="8" x="7827.86" z="14750.3" r="100"/>
-        <zone name="InfectedArmy" smin="4" smax="8" dmin="5" dmax="10" x="1652.01" z="14247.3" r="160"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="4" dmax="8" x="620.333" z="13648.7" r="75"/>
-        <zone name="InfectedArmy" smin="4" smax="8" dmin="4" dmax="8" x="4214.18" z="11041.8" r="100"/>
-        <zone name="InfectedArmy" smin="4" smax="8" dmin="4" dmax="8" x="4484.86" z="10807.4" r="90"/>
+        <zone name="InfectedArmy" smin="3" smax="5" dmin="5" dmax="10" x="7992.86" z="14634.2" r="90"/>
+        <zone name="InfectedArmy" smin="4" smax="8" dmin="5" dmax="10" x="7827.86" z="14750.3" r="90"/>
+        <zone name="InfectedArmy" smin="4" smax="10" dmin="5" dmax="15" x="1652.01" z="14247.3" r="140"/>
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="10" x="620.333" z="13648.7" r="75"/>
+        <zone name="InfectedArmy" smin="4" smax="8" dmin="6" dmax="12" x="4214.18" z="11041.8" r="110"/>
+        <zone name="InfectedArmy" smin="4" smax="8" dmin="4" dmax="10" x="4484.86" z="10807.4" r="100"/>
         <zone name="InfectedArmy" smin="4" smax="8" dmin="4" dmax="8" x="4113.52" z="10572" r="100"/>
         <zone name="InfectedArmy" smin="4" smax="8" dmin="4" dmax="8" x="4554.29" z="9588.57" r="160"/>
         <zone name="InfectedArmy" smin="4" smax="8" dmin="4" dmax="8" x="4519.75" z="8303.5" r="100"/>
@@ -250,40 +250,40 @@
         <zone name="InfectedPolice" smin="0" smax="0" dmin="1" dmax="4" x="3589.29" z="2453.57" r="70"/>
     </territory>
     <territory color="1291845632">
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="10584" z="2481" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="6489" z="2382" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="1719" z="3840" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="2745" z="5424" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="4509" z="6411" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="5400" z="5490" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="6090" z="7788" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="5241" z="8574" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="7062" z="7722" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="3009" z="8004" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="2715" z="10002" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="2256" z="9306" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="9474" z="8832" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="10701" z="8067" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="9579" z="6822" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="10074" z="5514" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="12111" z="7260" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13035" z="10530" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13959" z="13188" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13350" z="12894" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13488" z="14181" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="11481" z="15075" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="7749" z="13281" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="6564" z="15000" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="5025" z="15129" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="3624" z="13113" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="2616" z="15201" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="1476" z="11940" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="8572.5" z="11966.3" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="8182.5" z="12348.8" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="7953.75" z="11955" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="8748.75" z="12607.5" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="10972.5" z="12285" r="120"/>
-        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="11223.8" z="12213.8" r="120"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="10584" z="2481" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="6489" z="2382" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="1719" z="3840" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="2745" z="5424" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="4509" z="6411" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="5400" z="5490" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="6090" z="7788" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="5241" z="8574" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="7062" z="7722" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="3009" z="8004" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="2715" z="10002" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="2256" z="9306" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="9474" z="8832" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="10701" z="8067" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="9579" z="6822" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="10074" z="5514" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="12111" z="7260" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13035" z="10530" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13959" z="13188" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13350" z="12894" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13488" z="14181" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="11481" z="15075" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="7749" z="13281" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="6564" z="15000" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="5025" z="15129" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="3624" z="13113" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="2616" z="15201" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="1476" z="11940" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="8572.5" z="11966.3" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="8182.5" z="12348.8" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="7953.75" z="11955" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="8748.75" z="12607.5" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="10972.5" z="12285" r="80"/>
+        <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="11223.8" z="12213.8" r="80"/>
     </territory>
     <territory color="1102461653">
         <zone name="InfectedIndustrial" smin="0" smax="0" dmin="5" dmax="10" x="7117.5" z="2748.75" r="200"/>
