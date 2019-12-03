@@ -14,6 +14,7 @@
 		<file path="env/wolf_territories.xml" />
 		<file path="env/hare_territories.xml" />
 		<file path="env/zombie_territories.xml" />
+		<file path="env/bear_territories.xml" />
 
 		<territory type="Herd" name="Deer" behavior="DZDeerGroupBeh">
 			<file usable="red_deer_territories" />
@@ -38,6 +39,9 @@
 		</territory>
 		<territory type="Herd" name="Pig" behavior="DZSheepGroupBeh">
 			<file usable="pig_territories" />
+		</territory>
+		<territory type="Herd" name="Bear" behavior="BlissBearGroupBeh">
+			<file usable="bear_territories"/>
 		</territory>
 
 		<!-- HEN -->
