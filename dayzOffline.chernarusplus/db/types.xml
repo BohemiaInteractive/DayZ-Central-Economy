@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Random values for lifetime
+    1800 = 30m
+    3600 = 1h
+    7200 = 2h
+   10800 = 3h
+   86400 = 1d
+  604800 = 7d
+ 2592000 = 10d
+ 3888000 = 45d
+15552000 = 180d
+-->
 <types>
     <type name="ACOGOptic">
         <nominal>15</nominal>
