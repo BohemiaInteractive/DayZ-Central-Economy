@@ -77,6 +77,7 @@ class CustomMission: MissionServer
 				itemBs.SetQuantity(4);
 
 			SetRandomHealth(itemEnt);
+      player.SetQuickBarEntityShortcut(itemEnt, 2, true);
 
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt(0, 4);
@@ -92,6 +93,7 @@ class CustomMission: MissionServer
 				itemEnt = player.GetInventory().CreateInInventory("Plum");
 
 			SetRandomHealth(itemEnt);
+      player.SetQuickBarEntityShortcut(itemEnt, 3, true);
 		}
 	}
 };
