@@ -28,6 +28,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="log_ce_lootrespawn" value="false"/>
 		<default name="log_ce_statistics" value="false"/>
 		<default name="log_ce_zombie" value="false"/>
+		<default name="log_ce_animal" value="false"/>
 		<default name="log_storageinfo" value="false"/>
 		<default name="log_hivewarning" value="true"/>
 		<default name="log_missionfilewarning" value="true"/>

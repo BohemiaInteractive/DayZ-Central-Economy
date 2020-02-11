@@ -530,8 +530,8 @@
         <max>50</max>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>250</distanceradius>
+        <saferadius>250</saferadius>
+        <distanceradius>20</distanceradius>
         <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
@@ -563,7 +563,7 @@
         <lifetime>86400</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
-        <distanceradius>500</distanceradius>
+        <distanceradius>100</distanceradius>
         <cleanupradius>2500</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
@@ -574,7 +574,7 @@
         </children>
     </event>
     <event name="StaticFridgeTest">
-        <nominal>19</nominal>
+        <nominal>0</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>0</lifetime>
@@ -625,7 +625,7 @@
         </children>
     </event>
     <event name="StaticSmallBoat">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>2500</lifetime>
