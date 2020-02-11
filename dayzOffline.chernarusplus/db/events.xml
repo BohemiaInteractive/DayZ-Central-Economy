@@ -32,7 +32,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>custom</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_UrsusArctos"/>
         </children>
@@ -515,8 +515,8 @@
         <max>50</max>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>250</distanceradius>
+        <saferadius>250</saferadius>
+        <distanceradius>20</distanceradius>
         <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
@@ -530,7 +530,7 @@
         <nominal>0</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>180</lifetime>
+        <lifetime>0</lifetime>
         <restock>0</restock>
         <saferadius>0</saferadius>
         <distanceradius>0</distanceradius>
@@ -542,13 +542,13 @@
         <children/>
     </event>
     <event name="StaticChristmasTree">
-        <nominal>0</nominal>
+        <nominal>13</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>86400</lifetime>
         <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>100</distanceradius>
+        <saferadius>100</saferadius>
+        <distanceradius>5</distanceradius>
         <cleanupradius>2500</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
@@ -559,7 +559,7 @@
         </children>
     </event>
     <event name="StaticFridgeTest">
-        <nominal>19</nominal>
+        <nominal>0</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>0</lifetime>
