@@ -5,7 +5,7 @@
 				<item name="SardinesCan" chance="0.11" />
 				<item name="Apple" chance="0.07" />
 		</cargo>
-		<cargo chance="0.18" name="foodVillage">
+		<cargo chance="0.16" name="foodVillage">
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />
@@ -15,7 +15,7 @@
 				<item name="SpaghettiCan" chance="0.10" />
 				<item name="BakedBeansCan" chance="0.10" />
 		</cargo>
-		<cargo chance="0.18" name="foodCity"> <!--same as the one above - just preparing -->
+		<cargo chance="0.16" name="foodCity"> <!--same as the one above - just preparing -->
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />
@@ -69,17 +69,16 @@
 				<item name="Flashlight" chance="0.07" />
 		</cargo>
 		<cargo chance="0.35" name="toolsMedic">
-				<item name="Rag" chance="0.07" />
-				<item name="SalineBag" chance="0.07" />
-				<item name="BandageDressing" chance="0.14" />
+				<item name="SalineBag" chance="0.05" />
+				<item name="BandageDressing" chance="0.15" />
 				<item name="BloodBagEmpty" chance="0.1" />
 				<item name="BloodTestKit" chance="0.05" />
 				<item name="StartKitIV" chance="0.05" />
-				<item name="PurificationTablets" chance="0.05" />
-				<item name="CharcoalTablets" chance="0.05" />
-				<item name="PainkillerTablets" chance="0.05" />
+				<item name="PurificationTablets" chance="0.1" />
+				<item name="CharcoalTablets" chance="0.1" />
+				<item name="PainkillerTablets" chance="0.1" />
 				<item name="VitaminBottle" chance="0.05" />
-				<item name="TetracyclineAntibiotics" chance="0.05" />
+				<item name="TetracyclineAntibiotics" chance="0.1" />
 				<item name="Thermometer" chance="0.05" />
 		</cargo>
 		<cargo chance="0.15" name="toolsPolice">
@@ -390,9 +389,9 @@
 			<item name="AssaultBag_Green" chance="0.10" />
 			<item name="AssaultBag_Ttsko" chance="0.10" />
 			<item name="AssaultBag_Black" chance="0.10" />
-			<item name="AliceBag_Camo" chance="0.10" />
-			<item name="AliceBag_Green" chance="0.10" />
-			<item name="AliceBag_Black" chance="0.10" />
+			<item name="AliceBag_Camo" chance="0.05" />
+			<item name="AliceBag_Green" chance="0.05" />
+			<item name="AliceBag_Black" chance="0.05" />
 			<item name="TortillaBag" chance="0.05" />
 			<item name="SmershBag" chance="0.05" />
 			<item name="CoyoteBag_Brown" chance="0.01" />
