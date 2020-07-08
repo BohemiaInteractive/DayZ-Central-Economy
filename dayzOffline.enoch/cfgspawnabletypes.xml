@@ -23,6 +23,24 @@
 	<type name="MediumTent">
 		<hoarder />
 	</type>
+	<type name="MediumTent_Green">
+		<hoarder />
+	</type>
+	<type name="MediumTent_Orange">
+		<hoarder />
+	</type>
+	<type name="PartyTent">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Blue">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Brown">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Lunapark">
+		<hoarder />
+	</type>
 	<type name="SeaChest">
 		<hoarder />
 	</type>
@@ -2066,6 +2084,15 @@
 			<item name="Mag_Saiga_Drum20Rnd" chance="0.20" />
 		</attachments>
 	</type>
+	<type name="Ruger1022">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.18">
+			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
+			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
+		</attachments>
+	</type>
 <!-- FUTURE
 	<type name="AugSteyr">
 		<attachments chance="0.10">
@@ -2105,15 +2132,6 @@
 		<attachments chance="0.08">
 			<item name="Mag_PM73_25Rnd" chance="0.50" />
 			<item name="Mag_PM73_15Rnd" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="Ruger1022">
-		<attachments chance="0.15">
-			<item name="HuntingOptic" chance="0.50" />
-		</attachments>
-		<attachments chance="0.08">
-			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
-			<item name="Mag_Ruger1022_10Rnd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="Scout">

@@ -1,76 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playerspawnpoints>
-    <!--
-        Spawn points settings for newly created player characters
-    -->
-    <fresh>
-        <!-- runtime parameters used when player is spawning -->
-        <spawn_params>
-            <!-- used to rate point against infected -->
-            <min_dist_infected>30.0</min_dist_infected>
-            <max_dist_infected>70.0</max_dist_infected>
-            <!-- used to rate point against other players -->
-            <min_dist_player>25.0</min_dist_player>
-            <max_dist_player>70.0</max_dist_player>
-            <!-- used to rate point against buildings -->
-            <min_dist_static>0.5</min_dist_static>
-            <max_dist_static>2.0</max_dist_static>
-        </spawn_params>
+	<fresh>
+		<spawn_params>
+			<min_dist_infected>30.0</min_dist_infected>
+			<max_dist_infected>70.0</max_dist_infected>
+			<min_dist_player>25.0</min_dist_player>
+			<max_dist_player>70.0</max_dist_player>
+			<min_dist_static>0.5</min_dist_static>
+			<max_dist_static>2.0</max_dist_static>
+		</spawn_params>
 
-        <!--
-            Generator parameters
+		<generator_params>
+			<grid_density>8</grid_density>
+			<grid_width>40.0</grid_width>
+			<grid_height>40.0</grid_height>
+			<min_dist_static>0.5</min_dist_static>
+			<max_dist_static>2.0</max_dist_static>
+			<min_steepness>-45</min_steepness>
+			<max_steepness>45</max_steepness>
+		</generator_params>
 
-            Spawn points are generated around positions given inside <generator_posbubbles> element.
-            Around every position is created a rectangle with given dimensions.
-            This rectangle is then sampled for spawn point candidates in form of a grid.
-        -->
-        <generator_params>
-            <!--
-                Density is sample frequency of created rectangle.
-
-                example:                         example:
-                  density 4                        density 8
-
-                grid will look like this:        grid will look like this:
-
-                  +-----+-----+-----+-----+        +--+--+--+--+--+--+--+--+
-                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
-                  |     |     |     |     |        +--+--+--+--+--+--+--+--+
-                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
-                  +-----+-----+-----+-----+        +--+--+--+--+--+--+--+--+
-                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
-                  |     |     |     |     |        +--+--+--+--+--+--+--+--+
-                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
-                  +-----+-----+-----+-----+        +--+--+--+--+--+--+--+--+
-                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
-                  |     |     |     |     |        +--+--+--+--+--+--+--+--+
-                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
-                  +-----+-----+-----+-----+        +--+--+--+--+--+--+--+--+
-                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
-                  |     |     |     |     |        +--+--+--+--+--+--+--+--+
-                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
-                  +-----+-----+-----+-----+        +--+--+--+--+--+--+--+--+
-
-                Every '+' represents a spawn point candidate.
-                Blank areas are space between each spawn point.
-                Width of each area is exaclty width / density.
-                Height of each area is exaclty height / density.
-            -->
-            <grid_density>8</grid_density>
-            <!-- total width of grid in metres -->
-            <grid_width>40.0</grid_width>
-            <!-- total height of grid in metres -->
-            <grid_height>40.0</grid_height>
-            <!--  minimum distance from buildings for valid spawn point -->
-            <min_dist_static>0.5</min_dist_static>
-            <!--  maximum distance from buildings used to rate valid spawn point -->
-            <max_dist_static>2.0</max_dist_static>
-            <!-- terrain slope limits for valid spawn point -->
-            <min_steepness>-45</min_steepness>
-            <max_steepness>45</max_steepness>
-        </generator_params>
-
-        <!-- centers for grids of spawn points -->
 		<generator_posbubbles>
 			<pos x="6682.530384" z="11660.38679" />
 			<pos x="7744.035156" z="12151.347656" />
@@ -186,5 +135,135 @@
 			<pos x="11961.262695" z="9411.266601" />
 			<pos x="12093.87793" z="9522.452148" />
 		</generator_posbubbles>
-    </fresh>
+	</fresh>
+
+	<hop>
+		<generator_posbubbles>
+			<pos x="573.002136" z="10445.489258" />
+			<pos x="3009.409424" z="12438.30957" />
+			<pos x="855.646912" z="10261.198242" />
+			<pos x="4080.507568" z="12376.441406" />
+			<pos x="1107.823975" z="10527.147461" />
+			<pos x="785.706055" z="9832.963867" />
+			<pos x="2691.775146" z="12107.932617" />
+			<pos x="3314.250977" z="12373.171875" />
+			<pos x="3656.672363" z="12490.243164" />
+			<pos x="3861.739502" z="12272.451172" />
+			<pos x="2941.478516" z="11527.129883" />
+			<pos x="3389.791016" z="11493.087891" />
+			<pos x="7602.768066" z="12463.098633" />
+			<pos x="2293.296143" z="9846.22168" />
+			<pos x="7187.323242" z="12234.987305" />
+			<pos x="6042.716309" z="12392.444336" />
+			<pos x="2203.403809" z="10200.34082" />
+			<pos x="5419.919434" z="11650.550781" />
+			<pos x="4255.719238" z="11397.201172" />
+			<pos x="5601.583008" z="12134.441406" />
+			<pos x="2962.798096" z="10927.303711" />
+			<pos x="4885.92041" z="10987.259766" />
+			<pos x="6239.562012" z="11985.008789" />
+			<pos x="2861.378512" z="10243.99102" />
+			<pos x="3331.434082" z="11092.976562" />
+			<pos x="422.400177" z="9342.632812" />
+			<pos x="7997.357422" z="12636.131836" />
+			<pos x="663.571594" z="8834.452148" />
+			<pos x="1024.557495" z="8421.243164" />
+			<pos x="2733.535156" z="9598.430664" />
+			<pos x="5364.425293" z="12272.641602" />
+			<pos x="4396.827148" z="11729.557617" />
+			<pos x="8397.635742" z="12456.803711" />
+			<pos x="4450.550293" z="12291.956055" />
+			<pos x="1572.667969" z="9235.796875" />
+			<pos x="2671.820557" z="11208.913086" />
+			<pos x="1659.172729" z="10343.711914" />
+			<pos x="2323.319092" z="9103.714844" />
+			<pos x="4225.279297" z="12130.774414" />
+			<pos x="9242.680664" z="12457.461914" />
+			<pos x="6687.193359" z="12233.499023" />
+			<pos x="751.561768" z="9566.642578" />
+			<pos x="4895.518066" z="12349.720703" />
+			<pos x="4845.45459" z="12028.761719" />
+			<pos x="10809.219727" z="12283.568359" />
+			<pos x="11835.09668" z="12236.80957" />
+			<pos x="12257.625" z="10992.967773" />
+			<pos x="11165.328125" z="12474.569336" />
+			<pos x="12385.640625" z="10487.929687" />
+			<pos x="12284.435547" z="11330.817383" />
+			<pos x="1930.31665" z="8602.532227" />
+			<pos x="10123.287109" z="12560.144531" />
+			<pos x="11420.991211" z="12404.444336" />
+			<pos x="11077.783203" z="12204.355469" />
+			<pos x="10553.706055" z="12285.664062" />
+			<pos x="11484.058594" z="12155.222656" />
+			<pos x="9854.110352" z="12148.658203" />
+			<pos x="11791.280273" z="11529.639648" />
+			<pos x="12495.988281" z="10031.313477" />
+			<pos x="12254.265625" z="11750.137695" />
+		</generator_posbubbles>
+	</hop>
+
+	<travel>
+		<generator_posbubbles>
+			<pos x="573.002136" z="10445.489258" />
+			<pos x="3009.409424" z="12438.30957" />
+			<pos x="855.646912" z="10261.198242" />
+			<pos x="4080.507568" z="12376.441406" />
+			<pos x="1107.823975" z="10527.147461" />
+			<pos x="785.706055" z="9832.963867" />
+			<pos x="2691.775146" z="12107.932617" />
+			<pos x="3314.250977" z="12373.171875" />
+			<pos x="3656.672363" z="12490.243164" />
+			<pos x="3861.739502" z="12272.451172" />
+			<pos x="2941.478516" z="11527.129883" />
+			<pos x="3389.791016" z="11493.087891" />
+			<pos x="7602.768066" z="12463.098633" />
+			<pos x="2293.296143" z="9846.22168" />
+			<pos x="7187.323242" z="12234.987305" />
+			<pos x="6042.716309" z="12392.444336" />
+			<pos x="2203.403809" z="10200.34082" />
+			<pos x="5419.919434" z="11650.550781" />
+			<pos x="4255.719238" z="11397.201172" />
+			<pos x="5601.583008" z="12134.441406" />
+			<pos x="2962.798096" z="10927.303711" />
+			<pos x="4885.92041" z="10987.259766" />
+			<pos x="6239.562012" z="11985.008789" />
+			<pos x="2861.378512" z="10243.99102" />
+			<pos x="3331.434082" z="11092.976562" />
+			<pos x="422.400177" z="9342.632812" />
+			<pos x="7997.357422" z="12636.131836" />
+			<pos x="663.571594" z="8834.452148" />
+			<pos x="1024.557495" z="8421.243164" />
+			<pos x="2733.535156" z="9598.430664" />
+			<pos x="5364.425293" z="12272.641602" />
+			<pos x="4396.827148" z="11729.557617" />
+			<pos x="8397.635742" z="12456.803711" />
+			<pos x="4450.550293" z="12291.956055" />
+			<pos x="1572.667969" z="9235.796875" />
+			<pos x="2671.820557" z="11208.913086" />
+			<pos x="1659.172729" z="10343.711914" />
+			<pos x="2323.319092" z="9103.714844" />
+			<pos x="4225.279297" z="12130.774414" />
+			<pos x="9242.680664" z="12457.461914" />
+			<pos x="6687.193359" z="12233.499023" />
+			<pos x="751.561768" z="9566.642578" />
+			<pos x="4895.518066" z="12349.720703" />
+			<pos x="4845.45459" z="12028.761719" />
+			<pos x="10809.219727" z="12283.568359" />
+			<pos x="11835.09668" z="12236.80957" />
+			<pos x="12257.625" z="10992.967773" />
+			<pos x="11165.328125" z="12474.569336" />
+			<pos x="12385.640625" z="10487.929687" />
+			<pos x="12284.435547" z="11330.817383" />
+			<pos x="1930.31665" z="8602.532227" />
+			<pos x="10123.287109" z="12560.144531" />
+			<pos x="11420.991211" z="12404.444336" />
+			<pos x="11077.783203" z="12204.355469" />
+			<pos x="10553.706055" z="12285.664062" />
+			<pos x="11484.058594" z="12155.222656" />
+			<pos x="9854.110352" z="12148.658203" />
+			<pos x="11791.280273" z="11529.639648" />
+			<pos x="12495.988281" z="10031.313477" />
+			<pos x="12254.265625" z="11750.137695" />
+		</generator_posbubbles>
+	</travel>
 </playerspawnpoints>
