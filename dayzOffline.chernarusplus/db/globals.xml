@@ -8,6 +8,8 @@
     <var name="CleanupLifetimeDefault" type="0" value="45"/>
     <var name="CleanupLifetimeLimit" type="0" value="50"/>
     <var name="CleanupLifetimeRuined" type="0" value="330"/>
+    <var name="IdleModeStartup" type="0" value="1"/>
+    <var name="IdleModeCountdown" type="0" value="60"/>
     <var name="LootProxyPlacement" type="0" value="1"/>
     <var name="RespawnAttempt" type="0" value="2"/>
     <var name="RespawnLimit" type="0" value="20"/>
