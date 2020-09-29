@@ -2093,6 +2093,16 @@
 			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
 		</attachments>
 	</type>
+	<type name="Deagle">
+		<attachments chance="0.10">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Deagle_Gold">
+		<attachments chance="0.05">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
 <!-- FUTURE
 	<type name="AugSteyr">
 		<attachments chance="0.10">
@@ -2146,11 +2156,6 @@
 	<type name="Trumpet">
 		<attachments chance="0.25">
 			<item name="HuntingOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="DE">
-		<attachments chance="0.10">
-			<item name="Mag_DE_9rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="FNX45_arrow">
