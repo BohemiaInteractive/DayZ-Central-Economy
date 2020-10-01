@@ -66,7 +66,6 @@ class CustomMission: MissionServer
 		EntityAI itemTop;
 		EntityAI itemEnt;
 		ItemBase itemBs;
-		float rand;
 
 		itemTop = player.FindAttachmentBySlotName("Body");
 
@@ -77,6 +76,7 @@ class CustomMission: MissionServer
 				itemBs.SetQuantity(4);
 
 			SetRandomHealth(itemEnt);
+      player.SetQuickBarEntityShortcut(itemEnt, 3, true);
 
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt(0, 4);
