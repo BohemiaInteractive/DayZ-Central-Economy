@@ -6,6 +6,6 @@
     <vehicles init="1" load="1" respawn="1" save="1"/>
     <randoms init="0" load="0" respawn="1" save="0"/>
     <custom init="0" load="0" respawn="0" save="0"/>
-    <building init="0" load="0" respawn="0" save="0"/>
+    <building init="1" load="1" respawn="0" save="1"/>
     <player init="1" load="1" respawn="1" save="1"/>
 </economy>
