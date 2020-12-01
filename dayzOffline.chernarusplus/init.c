@@ -45,54 +45,61 @@ class CustomMission: MissionServer
 	{
 		if ( itemEnt )
 		{
-			int rndHlt = Math.RandomInt(55,100);
-			itemEnt.SetHealth("","",rndHlt);
+			float rndHlt = Math.RandomFloat( 0.45, 0.65 );
+			itemEnt.SetHealth01( "", "", rndHlt );
 		}
 	}
 
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
-		playerEnt = GetGame().CreatePlayer(identity, characterName, pos, 0, "NONE");//Creates random player
-		Class.CastTo(m_player, playerEnt);
+		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
+		Class.CastTo( m_player, playerEnt );
 
-		GetGame().SelectPlayer(identity, m_player);
+		GetGame().SelectPlayer( identity, m_player );
 
 		return m_player;
 	}
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
-		EntityAI itemTop;
+		EntityAI itemClothing;
 		EntityAI itemEnt;
 		ItemBase itemBs;
 		float rand;
 
-		itemTop = player.FindAttachmentBySlotName("Body");
-
-		if ( itemTop )
+		itemClothing = player.FindAttachmentBySlotName( "Body" );
+		if ( itemClothing )
 		{
-			itemEnt = itemTop.GetInventory().CreateInInventory("Rag");
-			if ( Class.CastTo(itemBs, itemEnt ) )
-				itemBs.SetQuantity(4);
+			SetRandomHealth( itemClothing );
+			
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
+			if ( Class.CastTo( itemBs, itemEnt ) )
+				itemBs.SetQuantity( 4 );
 
-			SetRandomHealth(itemEnt);
+			SetRandomHealth( itemEnt );
 
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-			int rndIndex = Math.RandomInt(0, 4);
-			itemEnt = itemTop.GetInventory().CreateInInventory(chemlightArray[rndIndex]);
-			SetRandomHealth(itemEnt);
+			int rndIndex = Math.RandomInt( 0, 4 );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+			SetRandomHealth( itemEnt );
 
-			rand = Math.RandomFloatInclusive(0.0, 1.0);
+			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
 			if ( rand < 0.35 )
-				itemEnt = player.GetInventory().CreateInInventory("Apple");
+				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
 			else if ( rand > 0.65 )
-				itemEnt = player.GetInventory().CreateInInventory("Pear");
+				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
 			else
-				itemEnt = player.GetInventory().CreateInInventory("Plum");
+				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
 
-			SetRandomHealth(itemEnt);
+			SetRandomHealth( itemEnt );
 		}
+		
+		itemClothing = player.FindAttachmentBySlotName( "Legs" );
+		if ( itemClothing )
+			SetRandomHealth( itemClothing );
+		
+		itemClothing = player.FindAttachmentBySlotName( "Feet" );
 	}
 };
 

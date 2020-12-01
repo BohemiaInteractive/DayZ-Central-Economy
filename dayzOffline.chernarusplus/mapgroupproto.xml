@@ -15475,26 +15475,7 @@
 						<point pos="-6.017823 0.330002 -8.809569" range="0.890625" height="2.000000" />
 				</container>
 		</group>
-		<!-- 1.07  Amusement Park Objects-->
-<!-- NOT INGAME - PREPARATION
-		<group name="Land_Wreck_truck01_aban1_blue" >
-						<usage name="Village" />		
-						<usage name="Industrial" />		
-						<container name="loot" lootmax="2">
-							<category name="vehicleparts" />
-							<category name="tools" />
-							<category name="containers" />
-							<category name="clothes" />
-							<category name="food" />
-							<category name="weapons" />
-							<category name="explosives" />
-						</container>
-						<dispatch>
-								<proxy type="HatchbackWheel" pos="0.78 -0.427 -1.155" rpy="90.0 0.0 45.0" />
-								<proxy type="HatchbackDoors_Driver" pos="0.767 0.787 -0.532" rpy="90.0 180.0 -90.0" />
-								<proxy type="HatchbackTrunk" pos="-0.054 0.163 1.516" rpy="90.0 180.0 -90.0" />
-						</dispatch>
-		</group>
+		<!-- 1.10 Truck01 wrecks -->
 		<group name="Land_Wreck_truck01_aban1_green" >
 						<usage name="Village" />		
 						<usage name="Industrial" />		
@@ -15508,9 +15489,29 @@
 							<category name="explosives" />
 						</container>
 						<dispatch>
-								<proxy type="HatchbackWheel" pos="0.78 -0.427 -1.155" rpy="90.0 0.0 45.0" />
-								<proxy type="HatchbackDoors_Driver" pos="0.767 0.787 -0.532" rpy="90.0 180.0 -90.0" />
-								<proxy type="HatchbackTrunk" pos="-0.054 0.163 1.516" rpy="90.0 180.0 -90.0" />
+								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_Door_2_1" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+						</dispatch>
+		</group>
+		<group name="Land_Wreck_truck01_aban1_blue" >
+						<usage name="Village" />		
+						<usage name="Industrial" />		
+						<container name="loot" lootmax="2">
+							<category name="vehicleparts" />
+							<category name="tools" />
+							<category name="containers" />
+							<category name="clothes" />
+							<category name="food" />
+							<category name="weapons" />
+							<category name="explosives" />
+						</container>
+						<dispatch>
+								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_Door_2_1_Blue" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood_Blue" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban1_orange" >
@@ -15526,27 +15527,10 @@
 							<category name="explosives" />
 						</container>
 						<dispatch>
-								<proxy type="HatchbackWheel" pos="0.78 -0.427 -1.155" rpy="90.0 0.0 45.0" />
-								<proxy type="HatchbackDoors_Driver" pos="0.767 0.787 -0.532" rpy="90.0 180.0 -90.0" />
-								<proxy type="HatchbackTrunk" pos="-0.054 0.163 1.516" rpy="90.0 180.0 -90.0" />
-						</dispatch>
-		</group>
-		<group name="Land_Wreck_truck01_aban2_blue" >
-						<usage name="Village" />		
-						<usage name="Industrial" />		
-						<container name="loot" lootmax="2">
-							<category name="vehicleparts" />
-							<category name="tools" />
-							<category name="containers" />
-							<category name="clothes" />
-							<category name="food" />
-							<category name="weapons" />
-							<category name="explosives" />
-						</container>
-						<dispatch>
-								<proxy type="HatchbackWheel" pos="0.78 -0.427 -1.155" rpy="90.0 0.0 45.0" />
-								<proxy type="HatchbackDoors_Driver" pos="0.767 0.787 -0.532" rpy="90.0 180.0 -90.0" />
-								<proxy type="HatchbackTrunk" pos="-0.054 0.163 1.516" rpy="90.0 180.0 -90.0" />
+								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_Door_2_1_Orange" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood_Orange" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_green" >
@@ -15562,9 +15546,27 @@
 							<category name="explosives" />
 						</container>
 						<dispatch>
-								<proxy type="HatchbackWheel" pos="0.78 -0.427 -1.155" rpy="90.0 0.0 45.0" />
-								<proxy type="HatchbackDoors_Driver" pos="0.767 0.787 -0.532" rpy="90.0 180.0 -90.0" />
-								<proxy type="HatchbackTrunk" pos="-0.054 0.163 1.516" rpy="90.0 180.0 -90.0" />
+								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_Door_1_1" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+						</dispatch>
+		</group>
+		<group name="Land_Wreck_truck01_aban2_blue" >
+						<usage name="Village" />		
+						<usage name="Industrial" />		
+						<container name="loot" lootmax="2">
+							<category name="vehicleparts" />
+							<category name="tools" />
+							<category name="containers" />
+							<category name="clothes" />
+							<category name="food" />
+							<category name="weapons" />
+							<category name="explosives" />
+						</container>
+						<dispatch>
+								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_Door_1_1_Blue" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_orange" >
@@ -15580,11 +15582,12 @@
 							<category name="explosives" />
 						</container>
 						<dispatch>
-								<proxy type="HatchbackWheel" pos="0.78 -0.427 -1.155" rpy="90.0 0.0 45.0" />
-								<proxy type="HatchbackDoors_Driver" pos="0.767 0.787 -0.532" rpy="90.0 180.0 -90.0" />
-								<proxy type="HatchbackTrunk" pos="-0.054 0.163 1.516" rpy="90.0 180.0 -90.0" />
+								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+								<proxy type="Truck_01_Door_1_1_Orange" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
+<!-- NOT INGAME - PREPARATION
 		<group name="Land_Wreck_truck02_aban1_green" >
 						<usage name="Village" />		
 						<usage name="Industrial" />		
