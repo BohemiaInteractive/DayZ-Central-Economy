@@ -11045,23 +11045,30 @@
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="books" />
-						<tag name="ground" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<point pos="1.926026 1.018105 -6.068848" range="0.527862" height="1.319655" />
-						<point pos="0.596435 0.941109 -6.012695" range="0.805138" height="2.000000" />
-						<point pos="0.405029 0.935532 -3.634521" range="0.753125" height="1.882813" />
-						<point pos="2.077148 0.894196 -0.043945" range="0.821875" height="2.000000" />
-						<point pos="1.738281 0.969711 -8.368408" range="0.888119" height="2.000000" />
-						<point pos="0.913818 7.010284 -8.383301" range="0.100000" height="0.250000" />
+						<tag name="ground" />
+						<point pos="0.934326 0.869911 3.143066" range="1.000929" height="0.182259" />
+						<point pos="2.039063 1.012527 0.910888" range="0.237500" height="0.593750" />
+						<point pos="0.447998 7.037743 -3.364502" range="0.375000" height="0.937500" />
+						<point pos="1.210938 0.951477 -2.701172" range="0.168750" height="0.421875" />
+						<point pos="-0.744629 0.854881 -1.574219" range="0.237500" height="0.593750" />
+						<point pos="2.658448 0.894829 4.798095" range="0.168750" height="0.421875" />
+						<point pos="2.040771 1.014748 -1.923096" range="0.821875" height="2.000000" />
+						<point pos="-0.498291 0.921982 0.368408" range="0.478125" height="1.195313" />
+						<point pos="1.939209 7.019859 -3.859619" range="0.237500" height="0.593750" />
 				</container>
 				<container name="lootweapons" lootmax="2">
 						<category name="weapons" />
 						<category name="explosives" />
-						<point pos="2.456299 0.989212 -9.489990" range="0.443750" height="1.109375" />
-						<point pos="0.797363 0.883919 -9.496826" range="0.237500" height="0.593750" />
-						<point pos="0.911621 0.862221 -1.979736" range="0.512500" height="0.965668" />
-						<point pos="1.766601 7.044838 -8.110353" range="0.796066" height="1.990165" />
+						<point pos="-2.475586 0.743759 4.165527" range="0.100000" height="0.250000" />
+						<point pos="-0.196777 0.816383 -4.911621" range="0.168750" height="0.421875" />
+						<point pos="2.189453 0.966690 -4.868408" range="0.237500" height="0.593750" />
+						<point pos="-0.281250 0.864540 -2.609375" range="0.237500" height="0.593750" />
+						<point pos="1.965088 7.039185 -3.138916" range="0.483926" height="1.453125" />
+						<point pos="0.372070 7.021378 -4.137695" range="0.306250" height="0.765625" />
+						<point pos="-0.344481 0.897499 5.000489" range="0.100000" height="0.250000" />
+						<point pos="0.613037 0.942642 -1.101074" range="0.821875" height="2.000000" />
 				</container>
 		</group>
 		<group name="Land_Misc_Greenhouse" lootmax="2">
@@ -15491,8 +15498,8 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_2_1" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
-								<proxy type="Truck_01_Hood" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_Door_2_1_GreenRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood_GreenRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban1_blue" >
@@ -15510,8 +15517,8 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_2_1_Blue" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
-								<proxy type="Truck_01_Hood_Blue" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_Door_2_1_BlueRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood_BlueRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban1_orange" >
@@ -15529,8 +15536,8 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 0.98" rpy="0.0 0.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="2.48 0.43 -0.86" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_2_1_Orange" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
-								<proxy type="Truck_01_Hood_Orange" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
+								<proxy type="Truck_01_Door_2_1_OrangeRust" pos="-1.55 1.11 0.97" rpy="0.0 190.0 0.0" />
+								<proxy type="Truck_01_Hood_OrangeRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_green" >
@@ -15548,7 +15555,7 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_1_1" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_blue" >
@@ -15566,7 +15573,7 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_1_1_Blue" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_orange" >
@@ -15584,7 +15591,7 @@
 						<dispatch>
 								<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
 								<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
-								<proxy type="Truck_01_Door_1_1_Orange" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
+								<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
 <!-- NOT INGAME - PREPARATION

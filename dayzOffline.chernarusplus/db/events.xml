@@ -91,7 +91,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="Animal_CapraHircusF"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CapraHircusF"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Black"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Brown"/>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_White"/>
