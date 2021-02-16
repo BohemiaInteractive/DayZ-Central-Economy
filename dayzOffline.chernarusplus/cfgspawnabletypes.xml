@@ -1871,6 +1871,20 @@
 		<attachments chance="0.08">
 			<item name="Mag_VSS_10Rnd" chance="1.00" />
 		</attachments>
+	</type>	
+	<type name="ASVAL">
+		<attachments chance="0.08">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.15" />
+			<item name="ReflexOptic" chance="0.15" />
+			<item name="ACOGOptic" chance="0.15" />
+		</attachments>	
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="CZ527">
 		<attachments chance="0.10">
