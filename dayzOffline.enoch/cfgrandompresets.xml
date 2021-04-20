@@ -81,8 +81,7 @@
 				<item name="TetracyclineAntibiotics" chance="0.1" />
 				<item name="Thermometer" chance="0.05" />
 		</cargo>
-		<cargo chance="0.15" name="toolsPolice">
-				<item name="Paper" chance="0.05" />
+		<cargo chance="0.25" name="toolsPolice">
 				<item name="Battery9V" chance="0.1" />
 				<item name="PersonalRadio" chance="0.1" />
 				<item name="Flashlight" chance="0.15" />
@@ -127,8 +126,8 @@
 		<cargo chance="0.3" name="ammoPolice">
 				<item name="Ammo_9x19" chance="0.3" />
 				<item name="AmmoBox_9x19_25Rnd" chance="0.1" />
-				<item name="Ammo_45ACP" chance="0.3" />
-				<item name="AmmoBox_45ACP_25Rnd" chance="0.1" />
+				<item name="Ammo_556x45" chance="0.3" />
+				<item name="AmmoBox_556x45_20Rnd" chance="0.1" />
 		</cargo>
 		<cargo chance="0.25" name="ammoArmy">
 				<item name="Ammo_45ACP" chance="0.2" />
