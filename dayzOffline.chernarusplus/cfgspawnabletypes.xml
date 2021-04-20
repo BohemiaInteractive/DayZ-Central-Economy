@@ -608,17 +608,19 @@
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PoliceJacket">
+		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PolicePants">
-		<cargo preset="foodVillage" />
+		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PoliceJacketOrel">
+		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PolicePantsOrel">
-		<cargo preset="foodVillage" />
+		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
 	<type name="PrisonUniformJacket">
@@ -1482,19 +1484,22 @@
 	<!-- -----------------------------Police----------------------------- -->
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
-		<attachments preset="glassesVillage" />
+		<cargo preset="ammoPolice" />
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="toolsPolice" />
-		<attachments preset="glassesVillage" />
+		<cargo preset="ammoPolice" />
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="toolsPolice" />
-		<attachments preset="glassesVillage" />
+		<cargo preset="ammoPolice" />
+		<cargo chance="0.1">
+			<item name="Mag_Scout_5Rnd" chance="1.0" />
+		</cargo>
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
@@ -1760,18 +1765,18 @@
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
 	<type name="MakarovIJ70">
-		<attachments chance="0.20">
+		<attachments chance="0.60">
 			<item name="Mag_IJ70_8Rnd" chance="1.00" />
 		</attachments>
 		<!-- MakarovPBSuppressor -->
 	</type>
 	<type name="MKII">
-		<attachments chance="0.30">
+		<attachments chance="0.60">
 			<item name="Mag_MKII_10Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="CZ75">
-		<attachments chance="0.20">
+		<attachments chance="0.50">
 			<item name="Mag_CZ75_15Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.05">
@@ -1810,7 +1815,7 @@
 		<attachments chance="0.10">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.30">
+		<attachments chance="0.50">
 			<item name="Mag_CZ61_20Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -1825,7 +1830,8 @@
 			<item name="MP5k_StockBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_MP5_30Rnd" chance="1.00" />
+			<item name="Mag_MP5_15Rnd" chance="0.5" />
+			<item name="Mag_MP5_30Rnd" chance="0.5" />
 		</attachments>
 		<attachments chance="0.20">
 			<item name="BUISOptic" chance="0.30" />
@@ -1845,7 +1851,6 @@
 		<attachments chance="0.20">
 			<item name="Mag_UMP_25Rnd" chance="1.00" />
 		</attachments>
-		<!-- Mag_UMP_25Rnd -->
 		<attachments chance="0.30">
 			<item name="BUISOptic" chance="0.15" />
 			<item name="M68Optic" chance="0.15" />
@@ -1868,12 +1873,12 @@
 		<attachments chance="1.0">
 			<item name="PSO11Optic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.08">
+		<attachments chance="0.10">
 			<item name="Mag_VSS_10Rnd" chance="1.00" />
 		</attachments>
 	</type>	
 	<type name="ASVAL">
-		<attachments chance="0.08">
+		<attachments chance="0.10">
 			<item name="Mag_VAL_20Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
@@ -1950,8 +1955,8 @@
 		<attachments chance="0.50">
 			<item name="AK_Suppressor" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="Mag_AKM_30Rnd" chance="0.30" />
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AK74">
@@ -1984,7 +1989,7 @@
 			<item name="AK_Suppressor" chance="0.50" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_AK74_30Rnd" chance="0.50" />
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AKS74U">
@@ -2003,8 +2008,8 @@
 		<attachments chance="1.00">
 			<item name="AK_Suppressor" chance="0.05" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="Mag_AK74_30Rnd" chance="0.30" />
+		<attachments chance="0.30">
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AK101">
@@ -2031,7 +2036,7 @@
 			<item name="AK_Suppressor" chance="0.50" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_AK101_30Rnd" chance="0.50" />
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="M4A1">
@@ -2080,7 +2085,7 @@
 		<attachments chance="0.05">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.60">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2088,7 +2093,7 @@
 		<attachments chance="0.15">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.60">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2111,7 +2116,7 @@
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.18">
+		<attachments chance="0.50">
 			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
 			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
 		</attachments>
@@ -2122,8 +2127,41 @@
 		</attachments>
 	</type>
 	<type name="Deagle_Gold">
-		<attachments chance="0.05">
+		<attachments chance="0.10">
 			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Scout">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Scout_Chernarus">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Scout_Livonia">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
 		</attachments>
 	</type>
 <!-- FUTURE
