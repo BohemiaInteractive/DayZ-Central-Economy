@@ -73,9 +73,9 @@ class CustomMission: MissionServer
 		{
 			SetRandomHealth( itemClothing );
 			
-			itemEnt = itemClothing.GetInventory().CreateInInventory( "Rag" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
 			if ( Class.CastTo( itemBs, itemEnt ) )
-				itemBs.SetQuantity( 4 );
+				itemBs.SetQuantity( 2 );
 
 			SetRandomHealth( itemEnt );
 
