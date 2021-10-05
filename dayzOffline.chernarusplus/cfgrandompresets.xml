@@ -221,9 +221,10 @@
 				<item name="ReflexOptic" chance="0.20" />
 		</attachments>
 		<!-- -------------------------------------------------------------------------------------------- -->
-		
-
-
+		<!-- -------------------------  NBC Cargo  -------------------------------- -->
+		<cargo chance="0.2" name="ContaminatedCargo">
+				<item name="GasMask_Filter" chance="1.00" />
+		</cargo>
 		<!-- -------------------------  FARM ATTACHMENTS  ------------------------- -->
 		<attachments chance="0.20" name="hatsFarm">
 				<item name="Ushanka_Black" chance="0.10" />
@@ -445,7 +446,7 @@
 				<item name="SodaCan_Pipsi" chance="0.10" />
 				<item name="SodaCan_Spite" chance="0.10" />
 				<item name="SodaCan_Kvass" chance="0.10" />
-				<item name="SodaCan_Franta" chance="0.10" />
+				<item name="SodaCan_Fronta" chance="0.10" />
 				<item name="WaterBottle" chance="0.1" />
 		</cargo>
 		<cargo chance="0.20" name="food_T1">		
