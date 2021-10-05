@@ -10,7 +10,7 @@
 				<item name="SodaCan_Pipsi" chance="0.02" />
 				<item name="SodaCan_Spite" chance="0.02" />
 				<item name="SodaCan_Kvass" chance="0.02" />
-				<item name="SodaCan_Franta" chance="0.02" />
+				<item name="SodaCan_Fronta" chance="0.02" />
 				<item name="WaterBottle" chance="0.02" />
 				<item name="TunaCan" chance="0.05" />
 				<item name="SardinesCan" chance="0.05" />
@@ -30,7 +30,7 @@
 				<item name="SodaCan_Pipsi" chance="0.02" />
 				<item name="SodaCan_Spite" chance="0.02" />
 				<item name="SodaCan_Kvass" chance="0.02" />
-				<item name="SodaCan_Franta" chance="0.02" />
+				<item name="SodaCan_Fronta" chance="0.02" />
 				<item name="WaterBottle" chance="0.02" />
 				<item name="TunaCan" chance="0.05" />
 				<item name="SardinesCan" chance="0.05" />
@@ -242,7 +242,10 @@
 		</attachments>
 		<!-- -------------------------------------------------------------------------------------------- -->
 		
-
+		<!-- -------------------------  NBC Cargo  -------------------------------- -->
+		<cargo chance="0.2" name="ContaminatedCargo">
+				<item name="GasMask_Filter" chance="1.00" />
+		</cargo>
 
 		<!-- -------------------------  FARM ATTACHMENTS  ------------------------- -->
 		<attachments chance="0.20" name="hatsFarm">
