@@ -77,8 +77,6 @@ class CustomMission: MissionServer
 			if ( Class.CastTo( itemBs, itemEnt ) )
 				itemBs.SetQuantity( 2 );
 
-			SetRandomHealth( itemEnt );
-
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
