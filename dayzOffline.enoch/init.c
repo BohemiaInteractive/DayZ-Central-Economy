@@ -1,14 +1,5 @@
 void main()
 {
-	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-	Weather weather = g_Game.GetWeather();
-
-	weather.MissionWeather(false);    // false = use weather controller from Weather.c
-
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.02, 0.1), 1, 0);
-	weather.GetRain().Set( 0, 1, 0);
-	weather.GetFog().Set( 0, 1, 0);
-
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
 	if ( ce )
