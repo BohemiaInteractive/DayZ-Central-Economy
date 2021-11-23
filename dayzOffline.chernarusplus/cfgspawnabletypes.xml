@@ -1892,6 +1892,10 @@
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsVillage" />
 	</type>
+	<!-- -----------------------------Special----------------------------- -->
+	<type name="ZmbM_Santa">
+		<attachments preset="SantaHat" />
+	</type>
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
 	<type name="MakarovIJ70">
@@ -2135,6 +2139,25 @@
 			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
 		</attachments>
 	</type>
+	<type name="Aug">
+		<attachments chance="0.25">
+			<item name="Mag_Aug_30Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.15" />
+			<item name="ReflexOptic" chance="0.15" />
+			<item name="ACOGOptic" chance="0.15" />
+		</attachments>	
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="AugShort">
+		<attachments chance="0.25">
+			<item name="Mag_Aug_30Rnd" chance="1.0" />
+		</attachments>
+	</type>
 	<type name="FAL">
 		<attachments chance="1.00">
 			<item name="Fal_FoldingBttstck" chance="0.50" />
@@ -2246,18 +2269,6 @@
 		</attachments>
 	</type>
 <!-- FUTURE
-	<type name="AugSteyr">
-		<attachments chance="0.10">
-			<item name="M4_Suppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_STANAG_30Rnd" chance="0.20" />
-			<item name="Mag_CMAG_10Rnd" chance="0.20" />
-			<item name="Mag_CMAG_20Rnd" chance="0.20" />
-			<item name="Mag_CMAG_30Rnd" chance="0.20" />
-			<item name="Mag_CMAG_40Rnd" chance="0.20" />
-		</attachments>
-	</type>
 	<type name="M249">
 		<attachments chance="1.00">
 			<item name="M249_Hndgrd" chance="1.00" />
@@ -2342,667 +2353,209 @@
 			<item name="Battery9V" chance="1.00" />
 		</attachments>
 	</type>
+	
 	<!-- XMAS -->
 	<type name="GiftBox_Small_1">
-		<cargo chance="0.35">
-			<item name="TLRLight" chance="0.50" />
-			<item name="UniversalLight" chance="0.50" />
-		</cargo>
-		<cargo chance="0.80">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.35" />
-			<item name="Mag_1911_7Rnd" chance="0.35" />
-			<item name="Mag_CZ75_15Rnd" chance="0.35" />
-			<item name="Mag_IJ70_8Rnd" chance="0.35" />
-			<item name="Mag_SVD_10Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Small_2">
-		<cargo chance="0.35">
-			<item name="TLRLight" chance="0.50" />
-			<item name="UniversalLight" chance="0.50" />
-		</cargo>
-		<cargo chance="0.80">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.35" />
-			<item name="Mag_1911_7Rnd" chance="0.35" />
-			<item name="Mag_CZ75_15Rnd" chance="0.35" />
-			<item name="Mag_IJ70_8Rnd" chance="0.35" />
-			<item name="Mag_SVD_10Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Small_3">
-		<cargo chance="0.35">
-			<item name="TLRLight" chance="0.50" />
-			<item name="UniversalLight" chance="0.50" />
-		</cargo>
-		<cargo chance="0.80">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.35" />
-			<item name="Mag_1911_7Rnd" chance="0.35" />
-			<item name="Mag_CZ75_15Rnd" chance="0.35" />
-			<item name="Mag_IJ70_8Rnd" chance="0.35" />
-			<item name="Mag_SVD_10Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Small_4">
-		<cargo chance="0.35">
-			<item name="TLRLight" chance="0.50" />
-			<item name="UniversalLight" chance="0.50" />
-		</cargo>
-		<cargo chance="0.80">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.35" />
-			<item name="Mag_1911_7Rnd" chance="0.35" />
-			<item name="Mag_CZ75_15Rnd" chance="0.35" />
-			<item name="Mag_IJ70_8Rnd" chance="0.35" />
-			<item name="Mag_SVD_10Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Medium_1">
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Medium_2">
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Medium_3">
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Medium_4">
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-		</cargo>
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Large_1">
-		<cargo chance="0.35">
-			<item name="MP5K" chance="0.40" />
-			<item name="CZ61" chance="0.40" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_20Rnd" chance="0.15" />
-			<item name="Mag_CZ527_5rnd" chance="0.20" />
-			<item name="Mag_Saiga_5Rnd" chance="0.15" />
-		</cargo>
-		<cargo chance="0.03">
-			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
-			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Mags_Large" />
+		<cargo preset="Xmas_Weapons_Large" />
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Large_2">
-		<cargo chance="0.35">
-			<item name="MP5K" chance="0.40" />
-			<item name="CZ61" chance="0.40" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_20Rnd" chance="0.15" />
-			<item name="Mag_CZ527_5rnd" chance="0.20" />
-			<item name="Mag_Saiga_5Rnd" chance="0.15" />
-		</cargo>
-		<cargo chance="0.03">
-			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
-			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Mags_Large" />
+		<cargo preset="Xmas_Weapons_Large" />
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Large_3">
-		<cargo chance="0.35">
-			<item name="MP5K" chance="0.40" />
-			<item name="CZ61" chance="0.40" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_20Rnd" chance="0.15" />
-			<item name="Mag_CZ527_5rnd" chance="0.20" />
-			<item name="Mag_Saiga_5Rnd" chance="0.15" />
-		</cargo>
-		<cargo chance="0.03">
-			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
-			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Mags_Large" />
+		<cargo preset="Xmas_Weapons_Large" />
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	<type name="GiftBox_Large_4">
-		<cargo chance="0.35">
-			<item name="MP5K" chance="0.40" />
-			<item name="CZ61" chance="0.40" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="CombinationLock" chance="1.00" />
-		</cargo>
-		<cargo chance="0.50">
-			<item name="PersonalRadio" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="Netting" chance="1.00" />
-		</cargo>
-		<cargo chance="0.30">
-			<item name="KazuarOptic" chance="0.05" />
-			<item name="PUScopeOptic" chance="0.20" />
-			<item name="PSO1Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="KobraOptic" chance="0.15" />
-			<item name="M4_CarryHandleOptic" chance="0.10" />
-		</cargo>
-		<cargo chance="0.90">
-			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
-			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
-			<item name="AmmoBox_380_35rnd" chance="0.10" />
-			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
-			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
-			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
-			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
-		</cargo>
-		<cargo chance="0.70">
-			<item name="Battery9V" chance="0.50" />
-			<item name="NailBox" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Chemlight_Blue" chance="0.20" />
-			<item name="Chemlight_Green" chance="0.20" />
-			<item name="Chemlight_Red" chance="0.20" />
-			<item name="Chemlight_Yellow" chance="0.20" />
-			<item name="Chemlight_White" chance="0.20" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Headtorch_Grey" chance="0.50" />
-			<item name="Headtorch_Black" chance="0.50" />
-		</cargo>
-		<cargo chance="0.20">
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
-			<item name="Mag_MP5_30Rnd" chance="0.20" />
-			<item name="Mag_FNX45_15Rnd" chance="0.25" />
-			<item name="Mag_Glock_15Rnd" chance="0.25" />
-			<item name="Mag_MKII_10Rnd" chance="0.15" />
-			<item name="Mag_1911_7Rnd" chance="0.15" />
-			<item name="Mag_CZ75_15Rnd" chance="0.15" />
-			<item name="Mag_IJ70_8Rnd" chance="0.15" />
-			<item name="Mag_SVD_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.15" />
-			<item name="Mag_CMAG_20Rnd" chance="0.15" />
-			<item name="Mag_CZ527_5rnd" chance="0.20" />
-			<item name="Mag_Saiga_5Rnd" chance="0.15" />
-		</cargo>
-		<cargo chance="0.03">
-			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
-			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
-			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
-		</cargo>
+		<cargo preset="Xmas_Mags_Large" />
+		<cargo preset="Xmas_Weapons_Large" />
+		<cargo preset="Xmas_Clothes_Medium" />
+		<cargo preset="Xmas_Weapons_Medium" />
+		<cargo preset="Xmas_Optics_Medium" />
+		<cargo preset="Xmas_Fillers_Medium" />
+		<cargo preset="Xmas_Repairs_Medium" />
+		<cargo preset="Xmas_Food_Medium" />
+		<cargo preset="Xmas_Clothes_Small" />
+		<cargo preset="Xmas_Lights_Small" />
+		<cargo preset="Xmas_Weapons_Small" />
+		<cargo preset="Xmas_Fillers_Small" />
+		<cargo preset="Xmas_AmmoBoxes_Small" />
+		<cargo preset="Xmas_Mags_Small" />
+		<cargo preset="Xmas_Ammo_Small" />
+		<cargo preset="Xmas_Repairs_Small" />
+		<cargo preset="Xmas_Food_Small" />
+		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
+	
 	<!-- VEHICLES -->
 	<type name="OffroadHatchback">
 		<attachments chance="1.00">

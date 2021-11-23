@@ -512,6 +512,23 @@
             <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_priestPopSkinny"/>
         </children>
     </event>
+    <event name="InfectedSanta">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_Santa"/>
+        </children>
+    </event>
     <event name="InfectedSolitude">
         <nominal>50</nominal>
         <min>25</min>
@@ -665,17 +682,17 @@
         <nominal>13</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>86400</lifetime>
+        <lifetime>43200</lifetime>
         <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>5</distanceradius>
-        <cleanupradius>2500</cleanupradius>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
         <limit>child</limit>
         <active>0</active>
         <children>
-            <child lootmax="0" lootmin="0" max="13" min="13" type="ChristmasTree"/>
+            <child lootmax="15" lootmin="10" max="13" min="13" type="ChristmasTree"/>
         </children>
     </event>
     <event name="StaticContaminatedArea">
@@ -746,6 +763,24 @@
         <children>
             <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban1_police"/>
             <child lootmax="5" lootmin="3" max="5" min="5" type="Land_Wreck_sed01_aban2_police"/>
+        </children>
+    </event>
+    <event name="StaticSantaCrash">
+        <nominal>3</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2100</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedSanta</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="SantasSleigh"/>
         </children>
     </event>
     <event name="TrajectoryApple">
