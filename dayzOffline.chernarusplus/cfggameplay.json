@@ -17,6 +17,12 @@
 			"staminaMax": 100.0,
 			"staminaKgToStaminaPercentPenalty": 1.75,
 			"staminaMinCap": 5.0
+		},
+		"ShockHandlingData":
+		{
+			"shockRefillSpeedConscious": 5.0,
+			"shockRefillSpeedUnconscious": 1.0,
+			"allowRefillSpeedModifier": true
 		}
 	},
 	"WorldsData":
@@ -48,6 +54,7 @@
 	},
 	"UIData":
 	{
+		"use3DMap": 0,
 		"HitIndicationData":
 		{
 			"hitDirectionOverrideEnabled": 0,
