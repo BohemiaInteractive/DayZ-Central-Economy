@@ -51,11 +51,11 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurusF_Brown"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="Animal_BosTaurusF_Spotted"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurusF_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurusF_Spotted"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurusF_White"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurus_Brown"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="Animal_BosTaurus_Spotted"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_Spotted"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_White"/>
         </children>
     </event>
@@ -780,7 +780,7 @@
         <limit>child</limit>
         <active>0</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="SantasSleigh"/>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_SantasSleigh"/>
         </children>
     </event>
     <event name="TrajectoryApple">

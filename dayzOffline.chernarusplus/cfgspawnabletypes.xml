@@ -2268,6 +2268,32 @@
 			<item name="M4_Suppressor" chance="0.25" />
 		</attachments>
 	</type>
+	<type name="CZ550">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_CZ550_4rnd" chance="0.70" />
+			<item name="Mag_CZ550_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="PP19">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PP19_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="PSO11Optic" chance="0.25" />
+			<item name="PSO1Optic" chance="0.25" />
+			<item name="KazuarOptic" chance="0.25" />
+			<item name="KobraOptic" chance="0.25" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mag_PP19_64Rnd" chance="1.00" />
+		</attachments>
+	</type>
 <!-- FUTURE
 	<type name="M249">
 		<attachments chance="1.00">

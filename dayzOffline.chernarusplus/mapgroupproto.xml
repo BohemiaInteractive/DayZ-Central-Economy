@@ -2585,7 +2585,7 @@
 						<category name="food" />
 						<category name="books" />
 						<tag name="shelves" />
-						<point pos="-1.112307 -1.782562 4.355712" range="0.134375" height="0.335938" />
+						<point pos="-1.112307 -1.732562 4.355712" range="0.134375" height="0.335938" />
 						<point pos="-5.120118 -2.042526 1.926023" range="0.237500" height="0.593750" />
 						<point pos="-5.183594 -2.575294 3.614258" range="0.271973" height="0.601720" />
 						<point pos="-2.699219 -1.954773 2.032959" range="0.340625" height="0.851563" />
