@@ -2236,6 +2236,11 @@
 			<item name="M4_Suppressor" chance="0.25" />
 		</attachments>
 	</type>
+	<type name="LongHorn">
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="Scout_Chernarus">
 		<attachments chance="0.75">
 			<item name="Mag_Scout_5Rnd" chance="1.00" />
@@ -2265,7 +2270,6 @@
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_CZ550_4rnd" chance="0.70" />
 			<item name="Mag_CZ550_10rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2361,14 +2365,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="PistolOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="P1">
-		<attachments chance="0.10">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="Mag_P1_8Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Red9">
@@ -3275,6 +3271,14 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Truck_01_Door_2_1_Orange" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="P1">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_P1_8Rnd" chance="1.00" />
 		</attachments>
 	</type>
 <!--
