@@ -1327,6 +1327,31 @@
 		<pos x="9901.132813" z="5467.663574" a="102.445946" />
 		<pos x="10257.797851" z="3617.499512" a="270.770691" />
 	</event>
+	<event name="StaticTrain">
+		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
+    	<pos x="5587.466" z="2063.353" a="0" y="7.75" group="Train_Abandoned_Cherno"/>
+    	<pos x="3678.228" z="2328.108" a="0" y="6.7" group="Train_Abandoned_Kamarovo"/>
+    	<pos x="11254.230" z="3290.319" a="0" y="6.65" group="Train_Abandoned_Kamy"/>
+    	<pos x="1256.313" z="9349.465" a="0" y="211.82" group="Train_Abandoned_Myshkino"/>
+    	<pos x="5428.630" z="12312.974" a="0" y="185.59" group="Train_Abandoned_Petrovka"/>
+    	<pos x="8802.031" z="2334.222" a="0" y="8.42" group="Train_Abandoned_Prigorodki"/>
+    	<pos x="13402.112" z="4303.119" a="0" y="6.711" group="Train_Abandoned_Skalisty"/>
+    	<pos x="13377.262" z="13919.888" a="0" y="17.247" group="Train_Abandoned_Svetlo"/>
+    	<pos x="1309.973" z="4991.340" a="0" y="166.685" group="Train_Abandoned_Zvir"/>
+    	<pos x="12912.529" z="15006.073" a="0" y="57.478" group="Train_Accident_Dobroe"/>
+    	<pos x="10797.634" z="2567.169" a="0" y="6.160" group="Train_Accident_Electro"/>
+    	<pos x="12851.586" z="8577.874" a="0" y="6.567" group="Train_Accident_Nizhnoye"/>
+    	<pos x="13590.054" z="11515.854" a="0" y="14.062" group="Train_Accident_Rify"/>
+    	<pos x="9384.272" z="13392.446" a="0" y="105.328" group="Train_Accident_Severo"/>
+    	<pos x="13213.484" z="6894.041" a="0" y="6.160" group="Train_Accident_Solnichniy"/>
+    	<pos x="13363.302" z="5439.232" a="0" y="8.0" group="Train_Accident_Solnichniy2"/>
+    	<pos x="2025.067" z="11378.385" a="0" y="249.535" group="Train_Accident_Vavilovo"/>
+    	<pos x="1321.629" z="2398.199" a="0" y="6.7" group="Train_Mil_Kamenka"/>
+    	<pos x="1443.256" z="6622.697" a="0" y="176.220" group="Train_Mil_Metalurg"/>
+    	<pos x="673.779" z="8747.024" a="0" y="194.405" group="Train_Mil_Myshkino"/>
+    	<pos x="3262.817" z="12430.286" a="0" y="219.495" group="Train_Mil_Petrovka"/>
+	</event>
+
     <event name="VehicleTransitBus" />
     <event name="InfectedVillage" />
     <event name="InfectedSolitude" />
