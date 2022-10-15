@@ -395,7 +395,7 @@
 		<group name="Land_Underground_Storage_Hospital" lootmax="10">
 				<usage name="Military" />
 				<usage name="Underground" />
-				<usage name="Medical" />
+				<usage name="Medic" />
 				<value name="Tier2" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
@@ -425,7 +425,7 @@
 		<group name="Land_Underground_Storage_Laboratory" lootmax="10">
 				<usage name="Military" />
 				<usage name="Underground" />
-				<usage name="Medical" />
+				<usage name="Medic" />
 				<value name="Tier2" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
