@@ -1,21 +1,10 @@
 void main()
 {
-	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-	Weather weather = g_Game.GetWeather();
-
-	weather.MissionWeather(false);    // false = use weather controller from Weather.c
-
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
-	weather.GetRain().Set( 0, 0, 1);
-	weather.GetFog().Set( Math.RandomFloatInclusive(0.05, 0.1), 1, 0);
-
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
 	if ( ce )
-	{
 		ce.InitOffline();
-	}
-	
+
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
 	int reset_month = 9, reset_day = 20;
@@ -42,25 +31,7 @@ void main()
 }
 
 class CustomMission: MissionServer
-{	
-	override void OnClientReadyEvent(PlayerIdentity identity, PlayerBase player)
-	{
-		super.OnClientReadyEvent(identity, player);
-		player.GetModifiersManager().ActivateModifier( eModifiers.MDF_FLIES );
-	}
-	
-	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
-	{
-		Entity playerEnt;
-		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
-		Class.CastTo( m_player, playerEnt );
-		
-		GetGame().SelectPlayer( identity, m_player );
-		m_player.GetModifiersManager().ActivateModifier( eModifiers.MDF_FLIES );
-		
-		return m_player;
-	}
-	
+{
 	void SetRandomHealth(EntityAI itemEnt)
 	{
 		if ( itemEnt )
@@ -68,6 +39,17 @@ class CustomMission: MissionServer
 			float rndHlt = Math.RandomFloat( 0.45, 0.65 );
 			itemEnt.SetHealth01( "", "", rndHlt );
 		}
+	}
+
+	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
+	{
+		Entity playerEnt;
+		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
+		Class.CastTo( m_player, playerEnt );
+
+		GetGame().SelectPlayer( identity, m_player );
+
+		return m_player;
 	}
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
