@@ -211,7 +211,7 @@
 			"Type": "SpookyArea", 
 			"TriggerType": "SpookyTrigger",
 			"Data": { 
-				"Pos": [1088, 0, 11408],
+				"Pos": [ 1088, 0, 11408 ],
 				"Radius": 130,
 				"PosHeight": 30,
 				"NegHeight": 130,
@@ -234,7 +234,7 @@
 			"Type": "SpookyArea", 
 			"TriggerType": "SpookyTrigger",
 			"Data": { 
-				"Pos": [5525, 0, 8780],
+				"Pos": [ 5525, 0, 8780 ],
 				"Radius": 130,
 				"PosHeight": 30,
 				"NegHeight": 130,
@@ -257,7 +257,7 @@
 			"Type": "SpookyArea", 
 			"TriggerType": "SpookyTrigger",
 			"Data": { 
-				"Pos": [4717, 0, 5625],
+				"Pos": [ 4717, 0, 5625 ],
 				"Radius": 130,
 				"PosHeight": 30,
 				"NegHeight": 130,
@@ -276,11 +276,56 @@
 				"PPERequesterType": ""
 			}
 		},
-        { 	"AreaName": "Tower", 
+        { 	"AreaName": "Polkrabiec", 
 			"Type": "SpookyArea", 
 			"TriggerType": "SpookyTrigger",
 			"Data": { 
-				"Pos": [564, 0, 1129],
+				"Pos": [ 11875, 0, 6579 ],
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": ""
+			}
+		},
+        { 	"AreaName": "QuarryNadbor", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 6382, 0, 4891 ],
+				"Radius": 130,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": ""
+			}
+		},
+        { 	"AreaName": "Sarnowek", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 3231, 0, 5014 ],
 				"Radius": 130,
 				"PosHeight": 30,
 				"NegHeight": 130,
@@ -305,13 +350,13 @@
 		[8224, 9710],
 		[8975, 6866],
 		[5431, 2215],
-		[11323, 4449],
+		[11323, 4446],
 		[11610, 664],
 		[7732, 2834],
 		[1229, 9794],
 		[6245, 8033],
 		[3186, 2284],
-		[5585, 5531],
+		[5588, 5527],
 		[643, 5536],
 		[7729, 5177],
 		[8161, 8922],
@@ -319,15 +364,15 @@
 		[2077, 11340],
 		[9208, 4227],
 		[4398, 6366],
-		[9982, 8499],
+		[9985, 8497],
 		[3068, 6620],
 		[5993, 6372],
 		[9093, 2129],
 		[10296, 2359],
 		[4379, 4650],
-		[7975, 10476],
-		[10097, 3658],
+		[7973, 10476],
+		[10099, 3659],
 		[3449, 11703],
-		[2403, 5423]
+		[2402, 5420]
 	]
 }
