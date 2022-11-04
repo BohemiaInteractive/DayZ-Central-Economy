@@ -232,7 +232,7 @@
         <saferadius>100</saferadius>
         <distanceradius>50</distanceradius>
         <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
         <active>1</active>
@@ -759,7 +759,7 @@
     </event>
     <event name="StaticMilitaryConvoy">
         <nominal>3</nominal>
-        <min>2</min>
+        <min>3</min>
         <max>0</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
