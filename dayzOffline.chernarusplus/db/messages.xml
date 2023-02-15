@@ -1,47 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
-<!--
-See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
-
-Example messages:
-
-1) following message will be displayed to every player in countdown manner
-    and shuts down server in 10 hours from its start
-
-    <message>
-        <deadline>600</deadline>
+	<message>
+        <deadline>270</deadline>
         <shutdown>1</shutdown>
-        <text>#name will shutdown in #tmin minutes.</text>
+        <text>☲ *bzzt* ...\\ This server will restart in #tmin minutes. Thanks for playing on Project Lemons! \\... *fzzt* ☲</text>
     </message>
-
-
-2) following message will be displayed every 15 minutes to every player
-
-    <message>
-        <repeat>15</repeat>
-        <text>You're playing on my server (#name). Thank you .)</text>
-    </message>
-
-
-3) following message will be displayed every 50 minutes to every player
-    and 10 minutes after player connect
-
-    <message>
+	<message>
         <delay>10</delay>
-        <repeat>50</repeat>
-        <onconnect>1</onconnect>
-        <text>Check our web page at www.dayz.com</text>
+		<repeat>35</repeat>
+		<onconnect>1</onconnect>
+        <text>☲ *bzzt* ...\\ Wanna join the community? Visit our Discord! plrealism.com \\... *fzzt* ☲</text>
     </message>
-
-
-4) following message will be displayed once
-    and 2 minutes after player connect
-
-    <message>
-        <delay>2</delay>
-        <onconnect>1</onconnect>
-        <text>Welcome to my server #name</text>
+	<message>
+        <delay>14</delay>
+		<repeat>40</repeat>
+		<onconnect>1</onconnect>
+        <text>☲ *bzzt* ...\\ Base-Damage Is Limited To Weekends Only - Raiding Can Be Done 24/7 \\... *fzzt* ☲</text>
     </message>
-    -->
-
+	<message>
+        <delay>16</delay>
+		<repeat>44</repeat>
+		<onconnect>1</onconnect>
+        <text>☲ *bzzt* ...\\ Got Suggestions/Feedback? Let Us Know @ plrealism.com \\... *fzzt* ☲</text>
+    </message>
+	<message>
+        <delay>18</delay>
+		<repeat>48</repeat>
+		<onconnect>1</onconnect>
+        <text>☲ *bzzt* ...\\ You're playing Zagoria Early Access v1.58 - Brought to you by Project Lemons! \\... *fzzt* ☲</text>
+    </message>
 </messages>
