@@ -217,6 +217,7 @@
         <zone name="InfectedMedic" smin="0" smax="0" dmin="2" dmax="6" x="11302.1" z="9562.5" r="60"/>
         <zone name="InfectedMedic" smin="0" smax="0" dmin="2" dmax="6" x="10885.5" z="11008.3" r="60"/>
         <zone name="InfectedVillage" smin="3" smax="3" dmin="0" dmax="0" x="11489.5" z="2925" r="50"/>
+        <zone name="InfectedMedic" smin="0" smax="0" dmin="2" dmax="6" x="6697.22" z="11143.1" r="60"/>
     </territory>
     <territory color="1136576269">
         <zone name="InfectedCity" smin="0" smax="0" dmin="15" dmax="20" x="3496.34" z="12159.8" r="210"/>

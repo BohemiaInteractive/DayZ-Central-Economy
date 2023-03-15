@@ -238,8 +238,8 @@
         <active>1</active>
         <children>
             <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_PatrolNormal_Autumn"/>
-            <child lootmax="5" lootmin="0" max="5" min="10" type="ZmbM_usSoldier_Officer_Convoy"/>
             <child lootmax="5" lootmin="0" max="0" min="15" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="5" min="10" type="ZmbM_usSoldier_Officer_Convoy"/>
             <child lootmax="5" lootmin="0" max="0" min="35" type="ZmbM_usSoldier_normal_Woodland"/>
         </children>
     </event>
@@ -759,7 +759,7 @@
     </event>
     <event name="StaticMilitaryConvoy">
         <nominal>3</nominal>
-        <min>3</min>
+        <min>0</min>
         <max>0</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
@@ -794,7 +794,7 @@
     </event>
     <event name="StaticPoliceSituation">
         <nominal>5</nominal>
-        <min>5</min>
+        <min>0</min>
         <max>0</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
