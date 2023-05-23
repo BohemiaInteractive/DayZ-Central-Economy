@@ -395,7 +395,6 @@
 			<item name="MilitaryBeret_ChDKZ" chance="0.05" />
 			<item name="MilitaryBeret_CDF" chance="0.05" />
 			<item name="ZSh3PilotHelmet" chance="0.05" />
-			<item name="NVGHeadstrap" chance="0.01" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 			<item name="TacticalGoggles" chance="0.10" />
