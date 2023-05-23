@@ -2,7 +2,7 @@
 <!--DayZ CE tool project file-->
 <zg-config>
     <!--GUI props-->
-    <selected row="9"/>
+    <selected row="19"/>
     <global>
         <background file="map.png" rgba="889192447"/>
         <layer size="4096"/>
@@ -1407,6 +1407,7 @@
                 <zone name="InfectedMedic" smin="0" smax="0" dmin="2" dmax="6" x="11302.1" z="9562.5" r="60" d="2"/>
                 <zone name="InfectedMedic" smin="0" smax="0" dmin="2" dmax="6" x="10885.5" z="11008.3" r="60" d="2"/>
                 <zone name="InfectedVillage" smin="3" smax="3" dmin="0" dmax="0" x="11489.5" z="2925" r="50" d="2"/>
+                <zone name="InfectedMedic" smin="0" smax="0" dmin="2" dmax="6" x="6697.22" z="11143.1" r="60" d="2"/>
             </territory>
             <territory name="CityT1" visible="0" color="4290954079">
                 <zone name="InfectedCity" smin="0" smax="0" dmin="15" dmax="25" x="1912.5" z="7231.25" r="220" d="2"/>
