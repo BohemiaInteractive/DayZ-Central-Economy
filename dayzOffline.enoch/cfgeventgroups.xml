@@ -603,7 +603,7 @@
         <child type="Land_Wreck_hb01_aban1_police_DE" deloot="1" lootmax="4" lootmin="2" x="1.305" z="17.400" a="22.173" />
         <child type="Land_Wreck_sed02_aban1_yellow_DE" deloot="1" lootmax="2" lootmin="2" x="0" z="0" a="73.095" />
         <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="-2.625" z="3.697" a="18.822" />
-        <child type="Land_Wreck_hb02_aban2_red_DE" deloot="1" lootmax="2" lootmin="2" x="3.288" z="1.795" a="60.332" />
+        <child type="Land_Wreck_hb02_aban2_red_DE" deloot="1" lootmax="2" lootmin="2" x="3.288" z="2.795" a="60.332" />
         <child type="Land_Wreck_sed01_aban2_white_DE" deloot="1" lootmax="2" lootmin="2" x="17.261" z="8.659" a="68.712" />
         <child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="11.550" z="8.514" a="128.14" />
         <child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="8.471" z="4.762" a="135.103"/>
