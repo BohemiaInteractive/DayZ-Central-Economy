@@ -18797,7 +18797,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <usage name="SeasonalEvent"/>
     </type>
-    <type name="WitchHood_Chainmail_Black">
+    <type name="WitchHoodCoif_Black">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -18808,7 +18808,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="clothes"/>
     </type>
-    <type name="WitchHood_Chainmail_Brown">
+    <type name="WitchHoodCoif_Brown">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -18819,7 +18819,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="clothes"/>
     </type>
-    <type name="WitchHood_Chainmail_Red">
+    <type name="WitchHoodCoif_Red">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
