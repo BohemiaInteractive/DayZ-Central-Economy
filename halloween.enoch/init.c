@@ -41,6 +41,12 @@ class CustomMission: MissionServer
 		}
 	}
 
+	override void OnClientReadyEvent(PlayerIdentity identity, PlayerBase player)
+	{
+		super.OnClientReadyEvent(identity, player);
+		player.GetModifiersManager().ActivateModifier( eModifiers.MDF_FLIES );
+	}
+
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
@@ -48,6 +54,7 @@ class CustomMission: MissionServer
 		Class.CastTo( m_player, playerEnt );
 
 		GetGame().SelectPlayer( identity, m_player );
+		m_player.GetModifiersManager().ActivateModifier( eModifiers.MDF_FLIES );
 
 		return m_player;
 	}
@@ -65,12 +72,12 @@ class CustomMission: MissionServer
 			SetRandomHealth( itemClothing );
 			
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
-			if ( Class.CastTo( itemBs, itemEnt ) )
-				itemBs.SetQuantity( 2 );
-
+			player.SetQuickBarEntityShortcut(itemEnt, 2);
+			
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+			player.SetQuickBarEntityShortcut(itemEnt, 1);
 			SetRandomHealth( itemEnt );
 		}
 		
