@@ -208,8 +208,8 @@
 			}
 		},
         { 	"AreaName": "Branzow", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [ 1088, 0, 11408 ],
 				"Radius": 130,
@@ -227,12 +227,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Prison", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [ 5525, 0, 8780 ],
 				"Radius": 130,
@@ -250,12 +250,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Church", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [ 4717, 0, 5625 ],
 				"Radius": 130,
@@ -273,12 +273,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Polkrabiec", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [ 11875, 0, 6579 ],
 				"PosHeight": 30,
@@ -295,12 +295,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "QuarryNadbor", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [ 6382, 0, 4891 ],
 				"Radius": 130,
@@ -318,12 +318,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Sarnowek", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [ 3231, 0, 5014 ],
 				"Radius": 130,
@@ -341,7 +341,7 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		}
     ],

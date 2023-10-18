@@ -116,12 +116,12 @@
 			}
 		},
 		{ 	"AreaName": "Black Mountain", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [10278, 0, 12034 ],
 				"Radius": 130,
-				"PosHeight": 30,
+				"PosHeight": 35,
 				"NegHeight": 130,
 				"InnerRingCount": 2,
 				"InnerPartDist": 50,
@@ -135,16 +135,16 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Devil's Castle", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [6928, 0, 11417],
 				"Radius": 130,
-				"PosHeight": 30,
+				"PosHeight": 35,
 				"NegHeight": 130,
 				"InnerRingCount": 2,
 				"InnerPartDist": 50,
@@ -158,12 +158,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Voron", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [13475, 0, 3312],
 				"Radius": 160,
@@ -181,12 +181,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Rog", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [11250, 0,4284],
 				"Radius": 130,
@@ -204,12 +204,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Zub", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [6543, 0, 5596],
 				"Radius": 130,
@@ -227,12 +227,12 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Krona-Est", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [1391, 0, 9268],
 				"Radius": 100,
@@ -250,15 +250,15 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		},
         { 	"AreaName": "Krona-West", 
-			"Type": "SpookyArea", 
-			"TriggerType": "SpookyTrigger",
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
 			"Data": { 
 				"Pos": [1499, 0, 9180],
-				"Radius": 100,
+				"Radius": 40,
 				"PosHeight": 30,
 				"NegHeight": 130,
 				"InnerRingCount": 1,
@@ -273,7 +273,7 @@
 			"PlayerData": {
 				"AroundPartName": "",
 				"TinyPartName": "",
-				"PPERequesterType": ""
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
 			}
 		}
     ],
