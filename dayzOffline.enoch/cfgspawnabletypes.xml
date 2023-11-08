@@ -74,6 +74,15 @@
 	<type name="SSG82Optic">
 		<damage min="0.0" max="0.0" />
 	</type>
+	<type name="ChristmasHeadband_Antlers">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ChristmasHeadband_Trees">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ChristmasHeadband_Gingerbread">
+		<damage min="0.0" max="0.0" />
+	</type>
 	
 	<type name="PlateCarrierVest">
 	</type>
@@ -2584,6 +2593,18 @@
 		<damage min="0.0" max="0.32" />
 		<attachments chance="0.30">
 			<item name="FNP45_MRDSOptic" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="M14">
+		<attachments chance="0.25">
+			<item name="Mag_M14_10Rnd" chance="0.70" />
+			<item name="Mag_M14_20Rnd" chance="0.30" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_T3NRDSOptic" chance="0.30" />
+			<item name="ReflexOptic" chance="0.30" />
+			<item name="ACOGOptic" chance="0.30" />
+			<item name="ACOGOptic_6x" chance="0.10" />
 		</attachments>
 	</type>
 	<type name="M4_Suppressor">
