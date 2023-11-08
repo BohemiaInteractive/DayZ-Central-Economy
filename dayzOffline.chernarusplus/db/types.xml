@@ -73,8 +73,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="AK74_Black">
         <nominal>0</nominal>
@@ -124,7 +124,7 @@
     </type>
     <type name="AKM">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -145,6 +145,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="AKS74U_Black">
         <nominal>0</nominal>
@@ -311,8 +314,8 @@
     </type>
     <type name="AK_Suppressor">
         <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>3600</restock>
+        <lifetime>9800</lifetime>
+        <restock>1800</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -391,16 +394,17 @@
         <category name="weapons"/>
     </type>
     <type name="ASVAL">
-        <nominal>1</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="AgaricusMushroom">
         <nominal>0</nominal>
@@ -916,8 +920,8 @@
     </type>
     <type name="Ammo_40mm_Chemgas">
         <nominal>5</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <lifetime>5400</lifetime>
+        <restock>1800</restock>
         <min>3</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
@@ -1519,10 +1523,33 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+    <type name="AnniversaryBox">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="SeasonalEvent"/>
+    </type>
+    <type name="Anniversary_FireworksLauncher">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+    </type>
     <type name="AntiChemInjector">
         <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>3600</restock>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2170,16 +2197,16 @@
         <usage name="School"/>
     </type>
     <type name="Aug">
-        <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="AugShort">
         <nominal>5</nominal>
@@ -2803,7 +2830,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="BaseballCap_Black">
         <nominal>30</nominal>
@@ -2817,7 +2843,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="BaseballCap_Blue">
         <nominal>30</nominal>
@@ -2831,7 +2856,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="BaseballCap_CMMG_Black">
         <nominal>30</nominal>
@@ -2845,7 +2869,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="BaseballCap_CMMG_Pink">
         <nominal>30</nominal>
@@ -2859,7 +2882,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="BaseballCap_Camo">
         <nominal>25</nominal>
@@ -2886,7 +2908,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="BaseballCap_Pink">
         <nominal>30</nominal>
@@ -2900,7 +2921,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="BaseballCap_Red">
         <nominal>30</nominal>
@@ -2914,7 +2934,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="Battery9V">
         <nominal>100</nominal>
@@ -2943,108 +2962,121 @@
         <usage name="Industrial"/>
     </type>
     <type name="BeanieHat_Beige">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BeanieHat_Black">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BeanieHat_Blue">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="BeanieHat_Brown">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BeanieHat_Green">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BeanieHat_Grey">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BeanieHat_Pink">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BeanieHat_Red">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BearPelt">
         <nominal>0</nominal>
@@ -3451,10 +3483,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="BoonieHat_Black">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3462,13 +3494,14 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="BoonieHat_Blue">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3476,13 +3509,14 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="BoonieHat_DPM">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3493,10 +3527,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="BoonieHat_Dubok">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3507,10 +3541,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="BoonieHat_Flecktran">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3521,10 +3555,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="BoonieHat_NavyBlue">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3539,7 +3573,7 @@
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3547,13 +3581,14 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="BoonieHat_Orange">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3561,13 +3596,14 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="BoonieHat_Red">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3575,13 +3611,14 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="BoonieHat_Tan">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3589,7 +3626,8 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="BoxCerealCrunchin">
         <nominal>23</nominal>
@@ -3949,6 +3987,62 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+    </type>
+    <type name="Candycane_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="SeasonalEvent"/>
+    </type>
+    <type name="Candycane_Red">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="SeasonalEvent"/>
+    </type>
+    <type name="Candycane_RedGreen">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="SeasonalEvent"/>
+    </type>
+    <type name="Candycane_Yellow">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="SeasonalEvent"/>
     </type>
     <type name="CaninaBerry">
         <nominal>0</nominal>
@@ -4581,6 +4675,42 @@
         <usage name="Lunapark"/>
         <value name="Tier1"/>
     </type>
+    <type name="ChristmasHeadband_Antlers">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
+    </type>
+    <type name="ChristmasHeadband_Gingerbread">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
+    </type>
+    <type name="ChristmasHeadband_Trees">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
+    </type>
     <type name="ChristmasTree">
         <nominal>0</nominal>
         <lifetime>3</lifetime>
@@ -4600,7 +4730,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackLeft_Black">
@@ -4612,7 +4742,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackLeft_BlackRust">
@@ -4624,7 +4754,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackLeft_WhiteRust">
@@ -4636,7 +4766,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackLeft_Wine">
@@ -4648,7 +4778,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackLeft_WineRust">
@@ -4660,7 +4790,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackRight">
@@ -4672,7 +4802,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackRight_Black">
@@ -4684,7 +4814,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackRight_BlackRust">
@@ -4696,7 +4826,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackRight_WhiteRust">
@@ -4708,7 +4838,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackRight_Wine">
@@ -4720,7 +4850,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_BackRight_WineRust">
@@ -4732,7 +4862,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_CoDriver">
@@ -4744,7 +4874,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_CoDriver_Black">
@@ -4756,7 +4886,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_CoDriver_BlackRust">
@@ -4768,7 +4898,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_CoDriver_WhiteRust">
@@ -4780,7 +4910,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_CoDriver_Wine">
@@ -4792,7 +4922,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_CoDriver_WineRust">
@@ -4804,7 +4934,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_Driver">
@@ -4816,7 +4946,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_Driver_Black">
@@ -4828,7 +4958,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_Driver_BlackRust">
@@ -4840,7 +4970,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_Driver_WhiteRust">
@@ -4852,7 +4982,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_Driver_Wine">
@@ -4864,7 +4994,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanDoors_Driver_WineRust">
@@ -4876,7 +5006,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanHood">
@@ -4888,7 +5018,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanHood_Black">
@@ -4900,7 +5030,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanHood_BlackRust">
@@ -4912,7 +5042,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanHood_WhiteRust">
@@ -4924,7 +5054,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanHood_Wine">
@@ -4936,7 +5066,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanHood_WineRust">
@@ -4948,7 +5078,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanTrunk">
@@ -4960,7 +5090,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanTrunk_Black">
@@ -4972,7 +5102,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanTrunk_BlackRust">
@@ -4984,7 +5114,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanTrunk_WhiteRust">
@@ -4996,7 +5126,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanTrunk_Wine">
@@ -5008,7 +5138,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanTrunk_WineRust">
@@ -5020,7 +5150,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanWheel">
@@ -5032,7 +5162,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="CivSedanWheel_Ruined">
@@ -5044,7 +5174,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
     </type>
     <type name="CivilianBelt">
         <nominal>30</nominal>
@@ -6638,6 +6768,18 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="tools"/>
     </type>
+    <type name="FieldShovel">
+        <nominal>35</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>28</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Military"/>
+    </type>
     <type name="FirefighterAxe">
         <nominal>5</nominal>
         <lifetime>14400</lifetime>
@@ -7284,10 +7426,10 @@
         <tag name="shelves"/>
     </type>
     <type name="FlatCap_Black">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7295,13 +7437,12 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="FlatCap_BlackCheck">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7309,13 +7450,12 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="FlatCap_Blue">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7323,13 +7463,12 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="FlatCap_Brown">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7337,13 +7476,12 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="FlatCap_BrownCheck">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7351,13 +7489,12 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="FlatCap_Grey">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7365,13 +7502,12 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="FlatCap_GreyCheck">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7379,13 +7515,12 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="FlatCap_Red">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7393,7 +7528,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="FryingPan">
         <nominal>40</nominal>
@@ -8249,7 +8383,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_CoDriver_Blue">
@@ -8261,7 +8395,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_CoDriver_BlueRust">
@@ -8273,7 +8407,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_CoDriver_GreenRust">
@@ -8285,7 +8419,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_CoDriver_White">
@@ -8297,7 +8431,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_CoDriver_WhiteRust">
@@ -8309,7 +8443,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_Driver">
@@ -8321,7 +8455,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_Driver_Blue">
@@ -8333,7 +8467,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_Driver_BlueRust">
@@ -8345,7 +8479,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_Driver_GreenRust">
@@ -8357,7 +8491,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_Driver_White">
@@ -8369,7 +8503,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackDoors_Driver_WhiteRust">
@@ -8381,7 +8515,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackHood">
@@ -8393,7 +8527,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackHood_Blue">
@@ -8405,7 +8539,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackHood_BlueRust">
@@ -8417,7 +8551,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackHood_GreenRust">
@@ -8429,7 +8563,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackHood_White">
@@ -8441,7 +8575,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackHood_WhiteRust">
@@ -8453,7 +8587,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackTrunk">
@@ -8465,7 +8599,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackTrunk_Blue">
@@ -8477,7 +8611,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
     </type>
     <type name="HatchbackTrunk_BlueRust">
         <nominal>10</nominal>
@@ -8488,7 +8622,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackTrunk_GreenRust">
@@ -8500,7 +8634,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackTrunk_White">
@@ -8512,7 +8646,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackTrunk_WhiteRust">
@@ -8524,7 +8658,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackWheel">
@@ -8536,7 +8670,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="HatchbackWheel_Ruined">
@@ -8548,7 +8682,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
     </type>
     <type name="Hatchback_02">
         <nominal>0</nominal>
@@ -8589,7 +8723,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_1_Black">
@@ -8601,7 +8735,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_1_BlackRust">
@@ -8613,7 +8747,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_1_Blue">
@@ -8625,7 +8759,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_1_BlueRust">
@@ -8637,7 +8771,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_1_RedRust">
@@ -8649,7 +8783,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_2">
@@ -8661,7 +8795,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_2_Black">
@@ -8673,7 +8807,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_2_BlackRust">
@@ -8685,7 +8819,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_2_Blue">
@@ -8697,7 +8831,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_2_BlueRust">
@@ -8709,7 +8843,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_1_2_RedRust">
@@ -8721,7 +8855,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_1">
@@ -8733,7 +8867,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_1_Black">
@@ -8745,7 +8879,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_1_BlackRust">
@@ -8757,7 +8891,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_1_Blue">
@@ -8769,7 +8903,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_1_BlueRust">
@@ -8781,7 +8915,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_1_RedRust">
@@ -8793,7 +8927,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_2">
@@ -8805,7 +8939,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_2_Black">
@@ -8817,7 +8951,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_2_BlackRust">
@@ -8829,7 +8963,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_2_Blue">
@@ -8841,7 +8975,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_2_BlueRust">
@@ -8853,7 +8987,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Door_2_2_RedRust">
@@ -8865,7 +8999,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Hood">
@@ -8877,7 +9011,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Hood_Black">
@@ -8889,7 +9023,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Hood_BlackRust">
@@ -8901,7 +9035,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Hood_Blue">
@@ -8913,7 +9047,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Hood_BlueRust">
@@ -8925,7 +9059,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Hood_RedRust">
@@ -8937,7 +9071,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Trunk">
@@ -8949,7 +9083,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Trunk_Black">
@@ -8961,7 +9095,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Trunk_BlackRust">
@@ -8973,7 +9107,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Trunk_Blue">
@@ -8985,7 +9119,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Trunk_BlueRust">
@@ -8997,7 +9131,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Trunk_RedRust">
@@ -9009,7 +9143,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Wheel">
@@ -9021,7 +9155,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Hatchback_02_Wheel_Ruined">
@@ -9033,7 +9167,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
     </type>
     <type name="Hatchet">
         <nominal>120</nominal>
@@ -10199,7 +10333,7 @@
     </type>
     <type name="KazuarOptic">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>5400</lifetime>
         <restock>3600</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -10689,6 +10823,16 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+    <type name="Land_wreck_truck01_aban1_firetruck_DE">
+        <nominal>0</nominal>
+        <lifetime>0</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
     <type name="Land_wreck_truck01_aban1_green_DE">
         <nominal>0</nominal>
         <lifetime>0</lifetime>
@@ -10710,6 +10854,16 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Land_wreck_truck01_aban2_blue_DE">
+        <nominal>0</nominal>
+        <lifetime>0</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Land_wreck_truck01_aban2_firetruck_DE">
         <nominal>0</nominal>
         <lifetime>0</lifetime>
         <restock>0</restock>
@@ -11252,6 +11406,18 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="food"/>
     </type>
+    <type name="M14">
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
     <type name="M16A2">
         <nominal>7</nominal>
         <lifetime>28800</lifetime>
@@ -11263,8 +11429,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="M18SmokeGrenade_Green">
         <nominal>10</nominal>
@@ -11328,7 +11494,7 @@
     </type>
     <type name="M4A1">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -11468,7 +11634,7 @@
     </type>
     <type name="M4_Suppressor">
         <nominal>2</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -11785,8 +11951,8 @@
     </type>
     <type name="Mag_AK74_45Rnd">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
-        <restock>3600</restock>
+        <lifetime>5400</lifetime>
+        <restock>1800</restock>
         <min>1</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
@@ -11893,7 +12059,7 @@
     </type>
     <type name="Mag_CMAG_40Rnd">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>1</min>
         <quantmin>5</quantmin>
@@ -12040,6 +12206,34 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <value name="Tier1"/>
+    </type>
+    <type name="Mag_M14_10Rnd">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>14</min>
+        <quantmin>30</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="Mag_M14_20Rnd">
+        <nominal>12</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>30</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Mag_MKII_10Rnd">
         <nominal>30</nominal>
@@ -12260,10 +12454,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_VAL_20Rnd">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12962,6 +13156,18 @@
         <usage name="Village"/>
         <usage name="School"/>
     </type>
+    <type name="MorozkoHat">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
+    </type>
     <type name="Morphine">
         <nominal>15</nominal>
         <lifetime>28800</lifetime>
@@ -13283,10 +13489,10 @@
         <value name="Tier4"/>
     </type>
     <type name="NBCBootsYellow">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13310,10 +13516,10 @@
         <value name="Tier4"/>
     </type>
     <type name="NBCGlovesYellow">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13337,10 +13543,10 @@
         <value name="Tier4"/>
     </type>
     <type name="NBCHoodYellow">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13364,10 +13570,10 @@
         <value name="Tier4"/>
     </type>
     <type name="NBCJacketYellow">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13391,10 +13597,10 @@
         <value name="Tier4"/>
     </type>
     <type name="NBCPantsYellow">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13540,6 +13746,30 @@
         <usage name="Farm"/>
         <usage name="Hunting"/>
     </type>
+    <type name="OKZKCap_Beige">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
+    <type name="OKZKCap_Green">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
     <type name="OMNOGloves_Brown">
         <nominal>7</nominal>
         <lifetime>14400</lifetime>
@@ -13634,7 +13864,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Door_1_1_Rust">
@@ -13646,7 +13876,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Door_1_2">
@@ -13658,7 +13888,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Door_1_2_Rust">
@@ -13670,7 +13900,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Door_2_1">
@@ -13682,7 +13912,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Door_2_1_Rust">
@@ -13694,7 +13924,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Door_2_2">
@@ -13706,7 +13936,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Door_2_2_Rust">
@@ -13718,7 +13948,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Hood">
@@ -13730,7 +13960,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
     </type>
     <type name="Offroad_02_Trunk">
         <nominal>0</nominal>
@@ -13741,7 +13971,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Trunk_Rust">
@@ -13753,7 +13983,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
     </type>
     <type name="Offroad_02_Wheel">
@@ -13765,7 +13995,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Military"/>
         <usage name="Industrial"/>
         <value name="Tier2"/>
@@ -13888,6 +14118,42 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="PaddedGloves_Beige">
+        <nominal>16</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>13</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Village"/>
+    </type>
+    <type name="PaddedGloves_Brown">
+        <nominal>16</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>13</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Town"/>
+    </type>
+    <type name="PaddedGloves_Threat">
+        <nominal>16</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>13</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
         <usage name="Hunting"/>
     </type>
     <type name="PainkillerTablets">
@@ -14244,6 +14510,42 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
+        <usage name="Town"/>
+    </type>
+    <type name="PetushokHat_Black">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>7</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Town"/>
+    </type>
+    <type name="PetushokHat_Green">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>7</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Town"/>
+    </type>
+    <type name="PetushokHat_Yellow">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>7</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
         <usage name="Town"/>
     </type>
     <type name="Pickaxe">
@@ -15162,10 +15464,10 @@
         <category name="tools"/>
     </type>
     <type name="RadarCap_Black">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15174,14 +15476,12 @@
         <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="RadarCap_Blue">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15190,14 +15490,12 @@
         <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="RadarCap_Brown">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15210,10 +15508,10 @@
         <usage name="Village"/>
     </type>
     <type name="RadarCap_Green">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15226,10 +15524,10 @@
         <usage name="Village"/>
     </type>
     <type name="RadarCap_Red">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15569,16 +15867,16 @@
         <value name="Tier4"/>
     </type>
     <type name="SVD">
-        <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="Saiga">
         <nominal>8</nominal>
@@ -15921,7 +16219,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_1_Grey">
@@ -15933,7 +16231,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_1_GreyRust">
@@ -15945,7 +16243,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_1_Red">
@@ -15957,7 +16255,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_1_RedRust">
@@ -15969,7 +16267,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_1_YellowRust">
@@ -15981,7 +16279,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2">
@@ -15993,7 +16291,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2_Grey">
@@ -16005,7 +16303,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2_GreyRust">
@@ -16017,7 +16315,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2_Red">
@@ -16029,7 +16327,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2_RedRust">
@@ -16041,7 +16339,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2_YellowRust">
@@ -16053,7 +16351,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1">
@@ -16065,7 +16363,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1_Grey">
@@ -16077,7 +16375,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1_GreyRust">
@@ -16089,7 +16387,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1_Red">
@@ -16101,7 +16399,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1_RedRust">
@@ -16113,7 +16411,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1_YellowRust">
@@ -16125,7 +16423,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2">
@@ -16137,7 +16435,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2_Grey">
@@ -16149,7 +16447,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2_GreyRust">
@@ -16161,7 +16459,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2_Red">
@@ -16173,7 +16471,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2_RedRust">
@@ -16185,7 +16483,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2_YellowRust">
@@ -16197,7 +16495,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Grey">
@@ -16219,7 +16517,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Hood_Grey">
@@ -16231,7 +16529,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Hood_GreyRust">
@@ -16243,7 +16541,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Hood_Red">
@@ -16255,7 +16553,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Hood_RedRust">
@@ -16267,7 +16565,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Hood_YellowRust">
@@ -16279,7 +16577,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Red">
@@ -16301,7 +16599,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Trunk_Grey">
@@ -16313,7 +16611,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Trunk_GreyRust">
@@ -16325,7 +16623,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Trunk_Red">
@@ -16337,7 +16635,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Trunk_RedRust">
@@ -16349,7 +16647,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Trunk_YellowRust">
@@ -16361,7 +16659,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Wheel">
@@ -16373,7 +16671,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <tag name="floor"/>
     </type>
     <type name="Sedan_02_Wheel_Ruined">
@@ -16385,7 +16683,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
     </type>
     <type name="SewingKit">
         <nominal>100</nominal>
@@ -17359,7 +17657,7 @@
     </type>
     <type name="StarlightOptic">
         <nominal>1</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>5400</lifetime>
         <restock>3600</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -17402,6 +17700,36 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="StaticObj_Misc_SupplyBox1_DE">
+        <nominal>0</nominal>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="StaticObj_Misc_SupplyBox2_DE">
+        <nominal>0</nominal>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="StaticObj_Misc_SupplyBox3_DE">
+        <nominal>0</nominal>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="StaticObj_Roadblock_Wood_Long_DE">
         <nominal>0</nominal>
@@ -18552,7 +18880,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18565,7 +18893,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18578,7 +18906,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18591,7 +18919,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18604,7 +18932,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18617,7 +18945,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18630,7 +18958,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18643,7 +18971,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18656,7 +18984,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18669,7 +18997,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18682,7 +19010,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18695,7 +19023,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18708,7 +19036,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18721,7 +19049,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18734,7 +19062,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18747,7 +19075,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18760,7 +19088,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18773,7 +19101,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18786,7 +19114,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
     </type>
@@ -18799,7 +19127,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
     </type>
     <type name="Truck_01_WheelDouble_Ruined">
         <nominal>0</nominal>
@@ -18810,7 +19138,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
     </type>
     <type name="Truck_01_Wheel_Ruined">
         <nominal>0</nominal>
@@ -18821,7 +19149,19 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
+    </type>
+    <type name="Tshirt_10thAnniversary">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
     </type>
     <type name="TunaCan">
         <nominal>20</nominal>
@@ -19014,34 +19354,40 @@
         <category name="food"/>
     </type>
     <type name="Ushanka_Black">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Ushanka_Blue">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Ushanka_Green">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19050,16 +19396,17 @@
         <usage name="Village"/>
     </type>
     <type name="VSS">
-        <nominal>1</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="VitaminBottle">
         <nominal>40</nominal>
@@ -19257,6 +19604,54 @@
         <usage name="Hunting"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
+    </type>
+    <type name="WinterCoif_Black">
+        <nominal>14</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Village"/>
+    </type>
+    <type name="WinterCoif_Blue">
+        <nominal>14</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Village"/>
+    </type>
+    <type name="WinterCoif_Green">
+        <nominal>14</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Village"/>
+    </type>
+    <type name="WinterCoif_Skull">
+        <nominal>14</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Village"/>
     </type>
     <type name="WitchHat">
         <nominal>0</nominal>
@@ -19679,6 +20074,30 @@
         <category name="clothes"/>
         <usage name="Police"/>
     </type>
+    <type name="WoolGlovesFingerless_ChristmasBlue">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
+    </type>
+    <type name="WoolGlovesFingerless_ChristmasRed">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
+    </type>
     <type name="WoolGlovesFingerless_Green">
         <nominal>4</nominal>
         <lifetime>14400</lifetime>
@@ -19729,6 +20148,30 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Police"/>
+    </type>
+    <type name="WoolGloves_ChristmasBlue">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
+    </type>
+    <type name="WoolGloves_ChristmasRed">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="SeasonalEvent"/>
     </type>
     <type name="WoolGloves_Green">
         <nominal>12</nominal>
@@ -21618,10 +22061,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="ZmijovkaCap_Black">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -21629,73 +22072,73 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="ZmijovkaCap_Blue">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <tag name="shelves"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
         <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="ZmijovkaCap_Brown">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <tag name="shelves"/>
-        <usage name="Industrial"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="ZmijovkaCap_Green">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <tag name="shelves"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="ZmijovkaCap_Red">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <tag name="shelves"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Zucchini">
         <nominal>20</nominal>
