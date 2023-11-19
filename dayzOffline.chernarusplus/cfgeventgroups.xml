@@ -156,6 +156,8 @@
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="3.228" z="12.332" a="5.801" y="1.314"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="13.717" z="47.396" a="21.271" y="1.314"/>
         <child type="Land_Wreck_Ikarus_DE" x="-2.749" z="-6.006" a="325.254"/>
+        <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-4.831" z="5.751" a="280.0"/>
+        <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="8.382" z="-2.813" a="75.0"/>
     </group>
     <!--pos x="12851.586" z="8577.874" a="0" y="6.407" group="Train_Accident_Nizhnoye"/-->
     <group name="Train_Accident_Nizhnoye">
@@ -195,12 +197,13 @@
     <group name="Train_Accident_Severo">
         <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="196.725" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="29.008" z="53.607" a="33.647" y="1.2067"/>
-        <child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="1" x="-4.430" z="-5.382" a="342.529"/>
+        <child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="1" x="-4.8" z="-5.382" a="342.529"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="4.738" z="11.703" a="24.881" y="1.253"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="15.961" z="33.232" a="29.135" y="1.256"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="10.146" z="22.590" a="26.428" y="1.260"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="22.241" z="43.574" a="32.616" y="1.200"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-4.959" z="-5.016" a="159.211"/>
+        <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-5.2" z="6.1" a="250.0"/>
     </group>
     <!--pos x="13213.484" z="6894.041" a="0" y="6.000" group="Train_Accident_Solnichniy"/-->
     <group name="Train_Accident_Solnichniy">
@@ -251,6 +254,8 @@
         <child type="Land_Container_1Aoh_DE" deloot="0" lootmax="5" lootmin="3" x="-44.244" z="-129.245" a="19.208" y="1.890"/>
         <child type="Land_Container_1Aoh_DE" deloot="0" lootmax="5" lootmin="3" x="-38.597" z="-112.880" a="18.048" y="1.883"/>
         <child type="Land_Container_1Aoh_DE" deloot="0" lootmax="5" lootmin="3" x="-36.758" z="-107.233" a="199.113" y="1.874"/>
+        <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-20.843" z="-30.885" a="40.0"/>
+        <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-22.5" z="-22.3" a="-50.0"/>
     </group>
     <!--pos x="1321.629" z="2398.199" a="0" y="6.309" group="Train_Mil_Kamenka"/-->
     <group name="Train_Mil_Kamenka">
@@ -822,6 +827,7 @@
         <child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="4.508" z="-18.729" a="2.192"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="4.007" z="-8.789" a="0"/>
         <child type="Land_Wreck_sed01_aban2_police_DE" deloot="1" lootmax="4" lootmin="2" x="4.460" z="-8.870" a="167.590"/>
+        <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-6.850" z="6.905" a="280.0"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="10448.940" z="8882.513" a="0" y="223.098" group="Traffic_Gorka"/-->
     <group name="Traffic_Gorka">
@@ -913,6 +919,7 @@
         <child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="0.783" z="-4.962" a="355.101"/>
         <child type="Land_Wreck_sed01_aban1_police_DE" deloot="1" lootmax="4" lootmin="2" x="8.260" z="-4.555" a="6.833"/>
         <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="7.278" z="-9.482" a="191.826"/>
+        <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="3.751" z="-6.752" a="210.0"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="7512.342" z="4660.855" a="0" y="219.617" group="Traffic_Mogilevka"/-->
     <group name="Traffic_Mogilevka">
@@ -924,6 +931,7 @@
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="7.829" z="-17.414" a="0.902"/>
         <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="-6.320" z="-25.843" a="291.091"/>
         <child type="Land_Wreck_hb02_aban1_red_DE" deloot="1" lootmax="2" lootmin="2" x="6.167" z="-21.346" a="205.497"/>
+        <child type="Land_wreck_truck01_aban2_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-0.451" z="-25.752" a="270.0"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="9044.078" z="4934.135" a="0" y="113.847" group="Traffic_Mogilevka2"/-->
     <group name="Traffic_Mogilevka2">
@@ -1068,9 +1076,8 @@
         <child type="Land_Wreck_sed01_aban1_police_DE" deloot="1" lootmax="4" lootmin="2" x="7.131" z="2.107" a="160.568"/>
         <child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="5.602" z="-13.913" a="93.979"/>
         <child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="1.979" z="-2.895" a="41.898"/>
-        <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="0" z="0" a="343.370"/>
         <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="16.865" z="-21.785" a="136.650"/>
-        <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="-10.253" z="-15.753" a="77.994"/>
+        <child type="Land_wreck_truck01_aban2_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="10.465" z="-5.820" a="135.0"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="13378.349" z="5439.850" a="0" y="5.920" group="Traffic_ThreeValleys"/-->
     <group name="Traffic_ThreeValleys">
@@ -1094,6 +1101,7 @@
         <child type="Land_Wreck_sed01_aban2_police_DE" deloot="1" lootmax="4" lootmin="2" x="-10.712" z="-15.223" a="226.186"/>
         <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="17.288" z="21.067" a="52.598"/>
         <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="-21.660" z="-21.269" a="235.210"/>
+        <child type="Land_wreck_truck01_aban2_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="6.391" z="2.502" a="60.0"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="4927.973" z="7844.380" a="0" y="333.543" group="Traffic_VMC"/-->
     <group name="Traffic_VMC">

@@ -1,10 +1,11 @@
 {
-	"version": 120,
+	"version": 122,
 	"GeneralData":
 	{
 		"disableBaseDamage": false,
 		"disableContainerDamage": false,
-		"disableRespawnDialog": false
+		"disableRespawnDialog": false,
+		"disableRespawnInUnconsciousness": false
 	},
     "PlayerData":
 	{
@@ -66,7 +67,8 @@
 			"disableIsPlacementPermittedCheck": false,
 			"disableHeightPlacementCheck": false,
 			"disableIsUnderwaterCheck": false,
-			"disableIsInTerrainCheck": false
+			"disableIsInTerrainCheck": false,
+			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]
 		},
 		"ConstructionData":
 		{
