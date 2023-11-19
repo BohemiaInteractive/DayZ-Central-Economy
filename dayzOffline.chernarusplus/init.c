@@ -4,6 +4,9 @@ void main()
 	Hive ce = CreateHive();
 	if ( ce )
 		ce.InitOffline();
+	
+	// GetCEApi().ExportProxyData("7500 0 7500", 10000);
+	// GetCEApi().ExportClusterData();
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
