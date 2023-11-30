@@ -24,26 +24,26 @@
             <counter>-1</counter>
         </group_params>
         <generator_posbubbles>
-            <group name="WestCherno">
+            <group name="WestCherno" lifetime="240" counter="-1">
                 <pos x="6063.018555" z="1931.907227" />
                 <pos x="5933.964844" z="2171.072998" />
                 <pos x="6199.782715" z="2241.805176" />
                 <pos x="13552.5654" z="5955.893066" />
             </group>
-            <group name="EastCherno">
+            <group name="EastCherno" lifetime="240" counter="-1">
                 <pos x="8040.858398" z="3332.236328" />
                 <pos x="8207.115234" z="3115.650635" />
                 <pos x="7992.118652" z="3188.600342" />
                 <pos x="8380.115234" z="3034.180664" />
             </group>
-            <group name="WestElektro">
+            <group name="WestElektro" lifetime="240" counter="-1">
                 <pos x="8747.670898" z="2357.187012" />
                 <pos x="9363.6533" z="2017.953613" />
                 <pos x="9488.868164" z="1898.900269" />
                 <pos x="9675.2216" z="1817.324585" />
                 <pos x="9821.274414" z="2194.003662" />
             </group>
-            <group name="EastElektro">
+            <group name="EastElektro" lifetime="240" counter="-1">
                 <pos x="10576.979492" z="2050.905762" />
                 <pos x="10772.804688" z="2277.397705" />
                 <pos x="10797.137695" z="2538.306152" />
@@ -69,7 +69,7 @@
                 <pos x="13032.474609" z="8110.518066" />
                 <pos x="12942.525391" z="8523.649414" />
             </group>
-            <group name="SouthBerezino">
+            <group name="SouthBerezino" lifetime="240" counter="-1">
                 <pos x="12640.7812" z="9450.762695" />
                 <pos x="12862.712891" z="9249.855469" />
                 <pos x="13005.946289" z="9568.704102" />
@@ -79,13 +79,13 @@
                 <pos x="14287.552734" z="13336.3720" />
                 <pos x="15162.078125" z="13835.192383" />
             </group>
-            <group name="Orlovets" lifetime="0">
+            <group name="Orlovets">
                 <pos x="13229.572266" z="6980.329102" />
                 <pos x="13060.773438" z="6766.2954" />
                 <pos x="13185.860352" z="7229.544922" />
                 <pos x="13112.019531" z="7386.629883" />
             </group>
-            <group name="NorthBerezino" lifetime="0">
+            <group name="NorthBerezino" lifetime="240" counter="-1">
                 <pos x="13161.286133" z="10329.4687" />
                 <pos x="12948.619141" z="10340.148438" />
                 <pos x="12592.173828" z="10401.323242" />
