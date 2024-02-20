@@ -2262,20 +2262,20 @@
 		</attachments>
 	</type>
 	<type name="VSS">
-		<attachments chance="0.25">
-			<item name="KashtanOptic" chance="0.40" />
-			<item name="PSO1Optic" chance="0.40" />
-		</attachments>
 		<attachments chance="1.0">
 			<item name="PSO11Optic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.10">
-			<item name="Mag_VSS_10Rnd" chance="1.00" />
+		<attachments chance="0.35">
+			<item name="Mag_VSS_10Rnd" chance="0.50" />
+			<item name="Mag_VAL_20Rnd" chance="0.35" />
+			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
 		</attachments>
 	</type>	
 	<type name="ASVAL">
-		<attachments chance="0.10">
-			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		<attachments chance="0.35">
+			<item name="Mag_VSS_10Rnd" chance="0.50" />
+			<item name="Mag_VAL_20Rnd" chance="0.35" />
+			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
 		</attachments>
 		<attachments chance="0.30">
 			<item name="BUISOptic" chance="0.15" />
@@ -2287,6 +2287,17 @@
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="Vikhr">
+		<attachments chance="0.25">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO1Optic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="Mag_VSS_10Rnd" chance="0.50" />
+			<item name="Mag_VAL_20Rnd" chance="0.35" />
+			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
+		</attachments>
+	</type>	
 	<type name="CZ527">
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
