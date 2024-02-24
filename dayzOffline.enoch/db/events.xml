@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
-    <event name="AmbientHen">
+    <event name="Christmastree
+">
         <nominal>3</nominal>
         <min>0</min>
         <max>50</max>
