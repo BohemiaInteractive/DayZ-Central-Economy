@@ -78,9 +78,9 @@
         </children>
     </event>
     <event name="AnimalGoat">
-        <nominal>15</nominal>
-        <min>3</min>
-        <max>6</max>
+        <nominal>16</nominal>
+        <min>6</min>
+        <max>8</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -92,8 +92,9 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="Animal_CapraHircusF"/>
-            <child lootmax="0" lootmin="0" max="8" min="4" type="Animal_CapraHircus_Black"/>
+            <child lootmax="0" lootmin="0" max="7" min="5" type="Animal_CapraHircus_Black"/>
             <child lootmax="0" lootmin="0" max="0" min="0" type="Animal_CapraHircus_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_Spooky"/>
             <child lootmax="0" lootmin="0" max="0" min="0" type="Animal_CapraHircus_White"/>
         </children>
     </event>
@@ -236,7 +237,7 @@
     <event name="InfectedBonfire">
         <nominal>50</nominal>
         <min>25</min>
-        <max>100</max>
+        <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -244,11 +245,11 @@
         <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
-        <limit>custom</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="0" min="90" type="ZmbF_MilkMaidOld_Black"/>
-            <child lootmax="5" lootmin="0" max="4" min="2" type="ZmbM_FirefighterNormal"/>
+            <child lootmax="4" lootmin="2" max="0" min="50" type="ZmbF_MilkMaidOld_Black"/>
+            <child lootmax="2" lootmin="2" max="0" min="50" type="ZmbM_FirefighterNormal"/>
         </children>
     </event>
     <event name="InfectedCity">
@@ -453,7 +454,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="3" lootmin="0" max="0" min="10" type="ZmbM_NBC_Yellow"/>
         </children>
@@ -678,22 +679,41 @@
         <active>1</active>
         <children/>
     </event>
+    <event name="StaticAirplaneCrate">
+        <nominal>9</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
+        </children>
+    </event>
     <event name="StaticBonfire">
         <nominal>20</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>86400</lifetime>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
         <distanceradius>5</distanceradius>
         <cleanupradius>2500</cleanupradius>
         <secondary>InfectedBonfire</secondary>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="8" lootmin="4" max="20" min="20" type="Bonfire"/>
+            <child lootmax="8" lootmin="5" max="20" min="20" type="Bonfire"/>
         </children>
     </event>
     <event name="StaticChristmasTree">
