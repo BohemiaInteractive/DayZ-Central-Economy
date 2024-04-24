@@ -6427,7 +6427,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="clothes"/>
         <usage name="SeasonalEvent"/>
     </type>
@@ -12103,8 +12103,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Police"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Mag_STANAG_30Rnd">
         <nominal>4</nominal>
@@ -12130,6 +12128,19 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+    </type>
+    <type name="Mag_SV98_10Rnd">
+        <nominal>6</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>30</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_SVD_10Rnd">
         <nominal>4</nominal>
@@ -15492,6 +15503,19 @@
         <category name="weapons"/>
         <usage name="Police"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="SV98">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>40</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
         <value name="Tier3"/>
     </type>
     <type name="SVD">
@@ -18946,7 +18970,7 @@
         <tag name="floor"/>
         <tag name="shelves"/>
         <tag name="ground"/>
-        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Watchtower">
         <nominal>0</nominal>
