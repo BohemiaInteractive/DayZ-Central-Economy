@@ -298,13 +298,10 @@
 				<item name="Shovel" chance="0.8" />
 		</attachments>
 		<attachments chance="0.1" name="bagsVillage">
-				<item name="Slingbag_Black" chance="0.20" />
-				<item name="SlingBag_Gray" chance="0.20" />
-				<item name="SlingBag_Brown" chance="0.20" />
-				<item name="TaloonBag_Blue" chance="0.10" />
-				<item name="TaloonBag_Green" chance="0.10" />
-				<item name="TaloonBag_Orange" chance="0.10" />
-				<item name="TaloonBag_Violet" chance="0.10" />
+				<item name="Slingbag_Black" chance="0.30" />
+				<item name="SlingBag_Gray" chance="0.30" />
+				<item name="SlingBag_Brown" chance="0.30" />
+				<item name="CanvasBag_Olive" chance="0.10" />
 		</attachments>
 		<attachments chance="0.00" name="glassesVillage"> <!--was chance="0.30"; removed coz of attachment slot is missing -->
 			<item name="ThickFramesGlasses" chance="0.10" />
@@ -350,14 +347,14 @@
 			<item name="SportGlasses_Orange" chance="0.10" />
 		</attachments>
 		<attachments chance="0.1" name="bagsCity">
-			<item name="Slingbag_Gray" chance="0.10" />
-			<item name="Slingbag_Brown" chance="0.10" />
-			<item name="Slingbag_Black" chance="0.10" />
-			<item name="CanvasBag_Olive" chance="0.30" />
-			<item name="TaloonBag_Orange" chance="0.10" />
-			<item name="TaloonBag_Blue" chance="0.10" />
-			<item name="TaloonBag_Violet" chance="0.10" />
-			<item name="TaloonBag_Green" chance="0.10" />
+			<item name="Slingbag_Gray" chance="0.20" />
+			<item name="Slingbag_Brown" chance="0.20" />
+			<item name="Slingbag_Black" chance="0.20" />
+			<item name="CanvasBag_Olive" chance="0.20" />
+			<item name="TaloonBag_Orange" chance="0.05" />
+			<item name="TaloonBag_Blue" chance="0.05" />
+			<item name="TaloonBag_Violet" chance="0.05" />
+			<item name="TaloonBag_Green" chance="0.05" />
 		</attachments>
 		<attachments chance="0.30" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
@@ -434,8 +431,8 @@
 			<item name="SmershVest" chance="0.05" />
 		</attachments>
 		<attachments chance="0.08" name="bagsArmy">
-			<item name="DuffelBagSmall_Camo" chance="0.15" />
-			<item name="DuffelBagSmall_Green" chance="0.15" />
+			<item name="DuffelBagSmall_Camo" chance="0.10" />
+			<item name="DuffelBagSmall_Green" chance="0.10" />
 			<item name="DuffelBagSmall_Medical" chance="0.10" />
 			<item name="ArmyPouch_Black" chance="0.10" />
 			<item name="ArmyPouch_Camo" chance="0.10" />
