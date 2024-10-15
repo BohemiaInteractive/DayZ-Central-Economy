@@ -9,6 +9,8 @@
 		<file path="env/wild_boar_territories.xml" />
 		<file path="env/pig_territories.xml" />
 		<file path="env/hen_territories.xml" />
+		<file path="env/hare_territories.xml" />
+		<file path="env/fox_territories.xml" />
 		<file path="env/wolf_territories.xml" />		
 		<!-- <file path="env/hare_territories.xml" /> -->
 		<file path="env/zombie_territories.xml" />		
@@ -60,6 +62,32 @@
 			<item name="zoneCountMax" val="1" />
 			<item name="playerSpawnRadiusNear" val="25" />
 			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
+		
+		<!-- HARE -->
+		<territory type="Ambient" name="AmbientHare" behavior="DZAmbientLifeGroupBeh">
+			<file usable="hare_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_LepusEuropaeus" chance="1" />
+			</agent>
+			<agent type="Female" chance="1">
+				<spawn configName="Animal_LepusEuropaeus" chance="1" />
+			</agent>
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
+		</territory>
+		
+		<!-- FOX -->
+		<territory type="Ambient" name="AmbientFox" behavior="DZAmbientLifeGroupBeh">
+			<file usable="fox_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_VulpesVulpes" chance="1" />
+			</agent>
+			<agent type="Female" chance="1">
+				<spawn configName="Animal_VulpesVulpes" chance="1" />
+			</agent>
+			<item name="zoneTouchDisableEditPeriodSec" val="450" />
 		</territory>
 
 		<!-- INFECTED -->
