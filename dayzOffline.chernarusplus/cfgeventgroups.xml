@@ -943,7 +943,7 @@
         <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="34.612" z="5.794" a="74.900"/>
         <child type="Land_Wreck_Trailer_Closed_DE" deloot="1" lootmax="3" lootmin="2" x="12.392" z="-7.651" a="170.494"/>
         <child type="Land_Wreck_hb01_aban1_blue_DE" deloot="1" lootmax="2" lootmin="2" x="5.305" z="-3.774" a="259.317"/>
-        <child type="Land_Wreck_Tractor_DE" deloot="1" lootmax="2" lootmin="2" x="9.005" z="-3.558" a="132.010"/> />
+        <child type="Land_Wreck_Tractor_DE" deloot="1" lootmax="2" lootmin="2" x="9.005" z="-3.558" a="132.010"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="9.394" z="-3.503" a="307.402"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="19.277" z="2.217" a="276.334"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="5.103" z="-3.810" a="84.440"/>
