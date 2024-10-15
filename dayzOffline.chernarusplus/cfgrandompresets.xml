@@ -349,7 +349,6 @@
 			<item name="SportGlasses_Orange" chance="0.10" />
 		</attachments>
 		<attachments chance="0.1" name="bagsCity">
-			<item name="SlingBag" chance="0.30" />
 			<item name="CanvasBag_Olive" chance="0.30" />
 			<item name="TaloonBag_Orange" chance="0.10" />
 			<item name="TaloonBag_Blue" chance="0.10" />
@@ -431,8 +430,8 @@
 			<item name="SmershVest" chance="0.05" />
 		</attachments>
 		<attachments chance="0.08" name="bagsArmy">
-			<item name="DuffelBagSmall_Camo" chance="0.15" />
-			<item name="DuffelBagSmall_Green" chance="0.15" />
+			<item name="DuffelBagSmall_Camo" chance="0.10" />
+			<item name="DuffelBagSmall_Green" chance="0.10" />
 			<item name="DuffelBagSmall_Medical" chance="0.10" />
 			<item name="ArmyPouch_Black" chance="0.10" />
 			<item name="ArmyPouch_Camo" chance="0.10" />
