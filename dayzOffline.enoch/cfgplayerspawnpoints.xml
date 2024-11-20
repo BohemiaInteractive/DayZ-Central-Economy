@@ -21,11 +21,11 @@
         <group_params>
             <enablegroups>true</enablegroups>
             <groups_as_regular>true</groups_as_regular>
-            <lifetime>360</lifetime>
+            <lifetime>240</lifetime>
             <counter>-1</counter>
         </group_params>
         <generator_posbubbles>
-            <group name="EastTopolin" lifetime="240" counter="-1">
+            <group name="EastTopolin">
                 <pos x="1136.605957" z="8039.599609" />
                 <pos x="1155.781128" z="7771.263184" />
                 <pos x="1050.992432" z="7407.925781" />
@@ -34,7 +34,7 @@
                 <pos x="1374.374878" z="7116.393066" />
                 <pos x="1638.666748" z="7131.799805" />
             </group>
-            <group name="WestTopolin" lifetime="240" counter="-1">
+            <group name="WestTopolin">
                 <pos x="2189.3608" z="7677.215332" />
                 <pos x="2173.861328" z="7460.745117" />
                 <pos x="2167.464844" z="7251.004395" />
@@ -50,7 +50,7 @@
                 <pos x="4184.289551" z="7852.6079" />
                 <pos x="4107.457031" z="8051.109863" />
             </group>
-            <group name="EastGliniska" lifetime="240" counter="-1">
+            <group name="EastGliniska">
                 <pos x="4984.470703" z="10386.576172" />
                 <pos x="4974.511719" z="10172.223633" />
                 <pos x="4797.523438" z="10062.836914" />
@@ -58,7 +58,7 @@
                 <pos x="5006.519043" z="9627.448242" />
                 <pos x="5109.297363" z="9528.849609" />
             </group>
-            <group name="WestGliniska" lifetime="240" counter="-1">
+            <group name="WestGliniska">
                 <pos x="5289.757813" z="9886.451172" />
                 <pos x="5210.599609" z="10043.5966" />
                 <pos x="5246.647949" z="10226.464844" />
@@ -80,25 +80,25 @@
                 <pos x="7965.602051" z="11643.311523" />
                 <pos x="8070.306641" z="11694.886719" />
             </group>
-            <group name="EastGrabin" lifetime="240" counter="-1">
+            <group name="EastGrabin">
                 <pos x="10563.3437" z="10836.638672" />
                 <pos x="10484.527344" z="11028.996094" />
                 <pos x="10573.258789" z="11189.707031" />
             </group>
-            <group name="WestGrabin" lifetime="240" counter="-1">
+            <group name="WestGrabin">
                 <pos x="11009.897461" z="11174.416992" />
                 <pos x="10950.235352" z="10993.746094" />
                 <pos x="10908.912109" z="10821.922852" />
                 <pos x="10738.176758" z="10713.330078" />
             </group>
-            <group name="EastStinik" lifetime="240" counter="-1">
+            <group name="EastStinik">
                 <pos x="11444.573242" z="9897.868164" />
                 <pos x="11288.900391" z="9835.7783" />
                 <pos x="11149.783203" z="9630.8720" />
                 <pos x="10954.042969" z="9522.310547" />
                 <pos x="11376.046875" z="10061.8408" />
             </group>
-            <group name="WestStinik" lifetime="240" counter="-1">
+            <group name="WestStinik">
                 <pos x="11745.474609" z="9440.917969" />
                 <pos x="11621.383789" z="9315.645508" />
                 <pos x="11432.880859" z="9260.918945" />
