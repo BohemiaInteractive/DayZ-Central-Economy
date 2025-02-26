@@ -167,7 +167,19 @@
 		<damage min="0.1" max="0.1" />
 	</type>
 	<type name="ScientificBriefcaseKeys">
-		<damage min="0.1" max="0.1" />
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ShippingContainerKeys_Blue">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ShippingContainerKeys_Yellow">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ShippingContainerKeys_Red">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ShippingContainerKeys_Orange">
+		<damage min="0.0" max="0.0" />
 	</type>
 	<type name="SmallStone">
 		<damage min="0.0" max="0.0" />
@@ -2229,7 +2241,6 @@
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
-		<attachments preset="hatsCommon_T1" />
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_FarmerFat_Blue">
@@ -2635,6 +2646,16 @@
 		</attachments>
 	</type>
 	<type name="SVD">
+		<damage min="0.0" max="0.3" />
+		<attachments chance="0.75">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.75">
+			<item name="KashtanOptic" chance="0.65" />
+			<item name="PSO11Optic" chance="0.35" />
+		</attachments>
+	</type>
+	<type name="SVD_Wooden">
 		<damage min="0.0" max="0.3" />
 		<attachments chance="0.75">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />

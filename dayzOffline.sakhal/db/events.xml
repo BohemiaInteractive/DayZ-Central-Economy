@@ -735,19 +735,40 @@
         <children/>
     </event>
     <event name="StaticChristmasTree">
-        <nominal>17</nominal>
+        <nominal>10</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>43200</lifetime>
         <restock>0</restock>
-        <saferadius>1000</saferadius>
-        <distanceradius>1000</distanceradius>
-        <cleanupradius>1000</cleanupradius>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>500</cleanupradius>
+        <secondary>InfectedSanta</secondary>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
         <limit>child</limit>
         <active>0</active>
-        <children/>
+        <children>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="ChristmasTree_Green"/>
+        </children>
+    </event>
+    <event name="StaticContainerLocked">
+        <nominal>16</nominal>
+        <min>14</min>
+        <max>0</max>
+        <lifetime>2400</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>250</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Blue_DE"/>
+            <child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Yellow_DE"/>
+        </children>
     </event>
     <event name="StaticFridgeTest">
         <nominal>0</nominal>
@@ -780,23 +801,6 @@
         <active>0</active>
         <children>
             <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
-        </children>
-    </event>
-    <event name="StaticMilitaryContainerSpecial">
-        <nominal>16</nominal>
-        <min>12</min>
-        <max>0</max>
-        <lifetime>2400</lifetime>
-        <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>250</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
-        <position>fixed</position>
-        <limit>child</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="3" lootmin="3" max="5" min="5" type="Land_Container_1Moh_DE"/>
         </children>
     </event>
     <event name="StaticMilitaryConvoy">
@@ -851,7 +855,7 @@
         <children/>
     </event>
     <event name="StaticSantaCrash">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>2100</lifetime>
@@ -864,7 +868,9 @@
         <position>fixed</position>
         <limit>child</limit>
         <active>0</active>
-        <children/>
+        <children>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_SantasSleigh"/>
+        </children>
     </event>
     <event name="StaticScientist">
         <nominal>1</nominal>
