@@ -18,8 +18,5 @@
 	<type name="WolfMask"></type>
 	<type name="Spear"></type>
 	<type name="Mag_STANAGCoupled_30Rnd"></type>
-	<type name="Wreck_Mi8"></type>
-	
-	<type name="Watchtower" cheatCheck="1"></type>
-	<type name="Fence" cheatCheck="1"></type>
+	<type name="Wreck_Mi8"></type>	
 </ignore>
