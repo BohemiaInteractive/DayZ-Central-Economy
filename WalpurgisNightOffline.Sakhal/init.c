@@ -7,8 +7,9 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	int reset_month = 9, reset_day = 20;
+	int reset_month = 2, reset_day = 15;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
+	year = 2015;
 
 	if ((month == reset_month) && (day < reset_day))
 	{
@@ -36,8 +37,26 @@ class CustomMission: MissionServer
 	{
 		if ( itemEnt )
 		{
-			float rndHlt = Math.RandomFloat( 0.45, 0.65 );
+			float rndHlt = Math.RandomFloat( 0.25, 0.65 );
 			itemEnt.SetHealth01( "", "", rndHlt );
+		}
+	}
+	
+	void SetLowHealth(EntityAI itemEnt)
+	{
+		if ( itemEnt )
+		{
+			float rndHlt = Math.RandomFloat( 0.15, 0.35 );
+			itemEnt.SetHealth01( "", "", rndHlt );
+		}
+	}
+	
+	void SetQuantity(EntityAI itemEnt)
+	{
+		if ( itemEnt )
+		{
+			float rndHlt = Math.RandomInt( 1, 5 );
+			itemEnt.SetQuantity(rndHlt);
 		}
 	}
 
@@ -67,21 +86,14 @@ class CustomMission: MissionServer
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
 			player.SetQuickBarEntityShortcut(itemEnt, 2);
 			
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "SteakKnife" );
+			SetLowHealth( itemEnt );
+			
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
 			SetRandomHealth( itemEnt );
 			player.SetQuickBarEntityShortcut(itemEnt, 1);
-
-			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-			if ( rand < 0.35 )
-				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
-			else if ( rand > 0.65 )
-				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
-			else
-				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
-			player.SetQuickBarEntityShortcut(itemEnt, 3);
-			SetRandomHealth( itemEnt );
 		}
 		
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );
@@ -89,6 +101,11 @@ class CustomMission: MissionServer
 			SetRandomHealth( itemClothing );
 		
 		itemClothing = player.FindAttachmentBySlotName( "Feet" );
+				
+		player.GetStatWater().Set( 750 );
+		player.GetStatEnergy().Set( 1000 );
+		
+		player.SetTemporaryResistanceToAgent(eAgents.INFLUENZA, 900);
 	}
 };
 
