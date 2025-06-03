@@ -1,20 +1,33 @@
 {
     "Areas": [
-		{ 	"AreaName": "Ship-SW", 
+        { 	"AreaName": "Ship-Bow", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
-				"Pos": [ 13684, 0, 11073 ],
+				"Pos": [ 13920, 0, 11170 ],
+				"Radius": 60,
+				"PosHeight": 20,
+				"NegHeight": 3,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Ship-Center", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 13785, 0, 11155 ],
 				"Radius": 100,
 				"PosHeight": 22,
-				"NegHeight": 10,
-				"InnerRingCount": 1,
-				"InnerPartDist": 50,
-				"OuterRingToggle": 1, 
-				"OuterPartDist": 50, 
-				"OuterOffset": 0, 
-				"VerticalLayers": 0,
-				"VerticalOffset": 0,
+				"NegHeight": 3,
+				"InnerPartDist": 100,
+				"OuterOffset": 30, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
 				},
 			"PlayerData": {
@@ -23,67 +36,34 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Ship-NE", 
+		{ 	"AreaName": "Ship-Stern", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
-				"Pos": [ 13881, 0, 11172 ],
+				"Pos": [ 13660, 0, 11100 ],
+				"Radius": 60,
+				"PosHeight": 20,
+				"NegHeight": 3,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Pavlovo-North-Uphill", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 2080, 0, 3500 ],
 				"Radius": 100,
-				"PosHeight": 26,
-				"NegHeight": 10,
-				"InnerRingCount": 1,
-				"InnerPartDist": 50,
-				"OuterRingToggle": 1, 
-				"OuterPartDist": 50, 
-				"OuterOffset": 0, 
-				"VerticalLayers": 0,
-				"VerticalOffset": 0,
-				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
-			}
-		},
-        { 	"AreaName": "Ship-Central", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 13752, 0, 11164 ],
-				"Radius": 100,
-				"PosHeight": 22,
-				"NegHeight": 2,
-				"InnerRingCount": 1,
-				"InnerPartDist": 50,
-				"OuterRingToggle": 1, 
-				"OuterPartDist": 60, 
-				"OuterOffset": 0, 
-				"VerticalLayers": 0,
-				"VerticalOffset": 0,
-				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
-			}
-		},
-        { 	"AreaName": "Pavlovo-North", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 2043, 0, 3485 ],
-				"Radius": 150,
-				"PosHeight": 25,
+				"PosHeight": 10,
 				"NegHeight": 20,
-				"InnerRingCount": 2,
-				"InnerPartDist": 50,
-				"OuterRingToggle": 1, 
-				"OuterPartDist": 40, 
-				"OuterOffset": 0, 
-				"VerticalLayers": 0,
-				"VerticalOffset": 0,
+				"InnerPartDist": 100,
+				"OuterOffset": 30, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
 				},
 			"PlayerData": {
@@ -92,21 +72,52 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-South", 
+        { 	"AreaName": "Pavlovo-South-Building1", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
-				"Pos": [ 2164, 0, 3335 ],
-				"Radius": 150,
-				"PosHeight": 11,
+				"Pos": [ 2165, 0, 3370 ],
+				"Radius": 75,
+				"PosHeight": 10,
 				"NegHeight": 10,
-				"InnerRingCount": 2,
-				"InnerPartDist": 50,
-				"OuterRingToggle": 1, 
-				"OuterPartDist": 40, 
-				"OuterOffset": 0, 
-				"VerticalLayers": 0,
-				"VerticalOffset": 0,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Pavlovo-South-Building2", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 2215, 0, 3290 ],
+				"Radius": 75,
+				"PosHeight": 14,
+				"NegHeight": 10,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Pavlovo-South-Downhill", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 2090, 0, 3300 ],
+				"Radius": 60,
+				"PosHeight": 10,
+				"NegHeight": 10,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
 				},
 			"PlayerData": {
