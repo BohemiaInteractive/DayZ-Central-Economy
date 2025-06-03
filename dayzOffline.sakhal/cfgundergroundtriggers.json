@@ -7,6 +7,7 @@
 			"Size": [ 30, 8, 20 ],
 			"EyeAccommodation": 1,
 			"UseLinePointFade": 1,
+			"AmbientSoundType": "caveBig",
 			"Breadcrumbs": 
 			[
 				{			
@@ -55,6 +56,7 @@
 			"Size": [ 22, 18, 19 ],
 			"EyeAccommodation": 0.2,
 			"UseLinePointFade": 1,
+			"AmbientSoundType": "caveBig",
 			"Breadcrumbs": 
 			[
 				{			
@@ -93,6 +95,102 @@
 			"Orientation": [ 40, 0, 0 ],
 			"Size": [ 50, 10, 35 ],
 			"EyeAccommodation": 1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 6983.809570, 146.756973, 9975.903320 ],
+			"Orientation": [ 145, 0, 0 ],
+			"Size": [ 10, 7, 15 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 6880.375488, 147.208023, 9381.888672 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 6, 7, 14 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 10614.082031, 216.792526, 8980.394531 ],
+			"Orientation": [ -40, 30, 0 ],
+			"Size": [ 7, 10, 14 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 11782.889648, 189.010422, 8718.484375 ],
+			"Orientation": [ 90, 0, 0 ],
+			"Size": [ 11, 6, 13 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 12566.620117, 198.722488, 9713.251953 ],
+			"Orientation": [ 55, 0, 0 ],
+			"Size": [ 9, 9, 15 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 12651.300781, 193.057175, 10471.278320 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 8, 8, 7 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 11380.710938, 254.151993, 11848.693359 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 14, 7, 15 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 9872.567383, 162.911423, 10995.979492 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 7, 8, 11 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 9257.123047, 151.052902, 11619.291992 ],
+			"Orientation": [ 45, 0, 0 ],
+			"Size": [ 9, 8, 13 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 9094.572266, 224.794846, 12680.565430 ],
+			"Orientation": [ 15, 0, 0 ],
+			"Size": [ 10, 7, 11 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+				{ 	
+			"Position": [ 8756.909180, 212.855713, 12551.108398 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 12, 15, 12 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 8072.501953, 237.749084, 11598.812500 ],
+			"Orientation": [ -35, 0, 0 ],
+			"Size": [ 7, 8, 10 ],
+			"EyeAccommodation": 1,
+			"AmbientSoundType": "caveSmall",
 			"Breadcrumbs": []
 		}
 	]
