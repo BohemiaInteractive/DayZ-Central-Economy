@@ -274,6 +274,25 @@
             <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_eastSoldier_Heavy_Navy"/>
         </children>
     </event>
+    <event name="InfectedBonfire">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>child</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="4" lootmin="2" max="0" min="50" type="ZmbF_MilkMaidOld_Black"/>
+            <child lootmax="4" lootmin="2" max="0" min="50" type="ZmbM_FirefighterNormal"/>
+        </children>
+    </event>
     <event name="InfectedCity">
         <nominal>50</nominal>
         <min>25</min>
@@ -718,21 +737,75 @@
             <child lootmax="4" lootmin="4" max="10" min="5" type="StaticObj_Misc_SupplyBox3_DE"/>
         </children>
     </event>
+    <event name="StaticAmbulance">
+        <nominal>10</nominal>
+        <min>8</min>
+        <max>10</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>500</cleanupradius>
+        <secondary>InfectedMedic</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="8" lootmin="5" max="10" min="10" type="Land_Wreck_S1023_Medic_Beige_DE"/>
+        </children>
+    </event>
+    <event name="StaticBoatFishing">
+        <nominal>15</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="8" lootmin="5" max="15" min="15" type="Land_Boat_Small9_DE"/>
+        </children>
+    </event>
+    <event name="StaticBoatMilitary">
+        <nominal>15</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="8" lootmin="5" max="15" min="15" type="StaticObj_PatrolBoat_Military_DE"/>
+        </children>
+    </event>
     <event name="StaticBonfire">
         <nominal>12</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>5</distanceradius>
-        <cleanupradius>2500</cleanupradius>
-        <secondary>InfectedFirefighter</secondary>
+        <saferadius>200</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>500</cleanupradius>
+        <secondary>InfectedBonfire</secondary>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>child</limit>
         <active>0</active>
-        <children/>
+        <children>
+            <child lootmax="8" lootmin="5" max="12" min="12" type="Misc_TirePile_Burning_DE"/>
+        </children>
     </event>
     <event name="StaticChristmasTree">
         <nominal>10</nominal>
@@ -798,7 +871,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
             <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
         </children>
@@ -825,9 +898,9 @@
         <max>0</max>
         <lifetime>2500</lifetime>
         <restock>0</restock>
-        <saferadius>500</saferadius>
+        <saferadius>200</saferadius>
         <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
+        <cleanupradius>500</cleanupradius>
         <secondary>InfectedPoliceHard</secondary>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>

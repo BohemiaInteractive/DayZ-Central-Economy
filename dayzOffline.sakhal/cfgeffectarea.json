@@ -1,13 +1,73 @@
 {
     "Areas": [
+		{ 	"AreaName": "Cluster1Geyser1", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 8906, 0, 10913 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 7200,
+				"EffectDuration": 180
+				}
+		},
+		{ 	"AreaName": "Cluster1Geyser2", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 8872.41, 0, 10878.58 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 6000,
+				"EffectDuration": 90
+				}
+		},
+		{ 	"AreaName": "Cluster4Geyser1", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 7739.39, 0, 11505.08 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 3600,
+				"EffectDuration": 30
+				}
+		},
+		{ 	"AreaName": "Cluster5Geyser1", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 11333.53, 0, 11110.10 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 3000,
+				"EffectDuration": 120
+				}
+		},
+		{ 	"AreaName": "Cluster5Geyser2", 
+			"Type": "GeyserArea", 
+			"TriggerType": "GeyserTrigger",
+			"Data": { 
+				"Pos": [ 11445.29, 0, 11089.94 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5,
+				"EffectInterval": 4500,
+				"EffectDuration": 90
+				}
+		},
 		{ 	"AreaName": "Cluster1Area1A", 
 			"Type": "HotSpringArea", 
 			"TriggerType": "HotSpringTrigger",
 			"Data": { 
 				"Pos": [ 8906, 0, 10913 ],
 				"Radius": 12,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area2A", 
@@ -16,8 +76,8 @@
 			"Data": { 
 				"Pos": [ 8898, 0, 10934.5 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area2B", 
@@ -26,8 +86,8 @@
 			"Data": { 
 				"Pos": [ 8884, 0, 10934 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area2C", 
@@ -36,8 +96,8 @@
 			"Data": { 
 				"Pos": [ 8875.2, 0, 10925.5 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area2D", 
@@ -46,8 +106,8 @@
 			"Data": { 
 				"Pos": [ 8873.25, 0, 10908 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area2E", 
@@ -56,8 +116,8 @@
 			"Data": { 
 				"Pos": [ 8865.3, 0, 10916 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area3A", 
@@ -66,8 +126,8 @@
 			"Data": { 
 				"Pos": [ 8872.5, 0, 10878.5 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area3B", 
@@ -76,8 +136,8 @@
 			"Data": { 
 				"Pos": [ 8862.2, 0, 10871 ],
 				"Radius": 5,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area3C", 
@@ -86,8 +146,8 @@
 			"Data": { 
 				"Pos": [ 8861.15, 0, 10864.25 ],
 				"Radius": 5,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area3D", 
@@ -96,8 +156,8 @@
 			"Data": { 
 				"Pos": [ 8864.5, 0, 10856.3 ],
 				"Radius": 5,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area3E", 
@@ -106,8 +166,8 @@
 			"Data": { 
 				"Pos": [ 8871.2, 0, 10850 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster1Area3F", 
@@ -116,8 +176,8 @@
 			"Data": { 
 				"Pos": [ 8856.1, 0, 10848.8 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster2Area1A", 
@@ -126,8 +186,8 @@
 			"Data": { 
 				"Pos": [ 8695.8, 0, 10207.3 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster2Area2A", 
@@ -136,8 +196,8 @@
 			"Data": { 
 				"Pos": [ 8700.75, 0, 10191.25 ],
 				"Radius": 6,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster2Area2B", 
@@ -146,8 +206,8 @@
 			"Data": { 
 				"Pos": [ 8707.1, 0, 10186.6 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster2Area3A", 
@@ -156,8 +216,8 @@
 			"Data": { 
 				"Pos": [ 8719.2, 0, 10188.8],
 				"Radius": 6,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster2Area3B", 
@@ -166,8 +226,8 @@
 			"Data": { 
 				"Pos": [ 8721.7, 0, 10199 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster3Area1A", 
@@ -176,8 +236,8 @@
 			"Data": { 
 				"Pos": [ 8357.35, 0, 9876 ],
 				"Radius": 9,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster3Area1B", 
@@ -186,8 +246,8 @@
 			"Data": { 
 				"Pos": [ 8348.75, 0, 9879.5 ],
 				"Radius": 6,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area1A", 
@@ -196,8 +256,8 @@
 			"Data": { 
 				"Pos": [ 7726.75, 0, 11534.1],
 				"Radius": 6,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area1B", 
@@ -206,8 +266,8 @@
 			"Data": { 
 				"Pos": [ 7728.8, 0, 11528.12 ],
 				"Radius": 6,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area1C", 
@@ -216,8 +276,8 @@
 			"Data": { 
 				"Pos": [ 7729.6, 0, 11519.45 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area1D", 
@@ -226,8 +286,8 @@
 			"Data": { 
 				"Pos": [ 7723.28, 0, 11514.5],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area2A", 
@@ -236,8 +296,8 @@
 			"Data": { 
 				"Pos": [ 7739.55, 0, 11505.15],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area3A", 
@@ -246,8 +306,8 @@
 			"Data": { 
 				"Pos": [ 7710.4, 0, 11504.35],
 				"Radius": 6,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area3B", 
@@ -256,8 +316,8 @@
 			"Data": { 
 				"Pos": [ 7717.210, 0, 11501],
 				"Radius": 6,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area4A", 
@@ -266,8 +326,8 @@
 			"Data": { 
 				"Pos": [ 7687.4, 0, 11482.15 ],
 				"Radius": 7,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area4B", 
@@ -276,8 +336,8 @@
 			"Data": { 
 				"Pos": [ 7676.4, 0, 11482.5],
 				"Radius": 7,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area4C", 
@@ -286,8 +346,8 @@
 			"Data": { 
 				"Pos": [ 7670.85, 0, 11475.4 ],
 				"Radius": 7,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area4D", 
@@ -296,8 +356,8 @@
 			"Data": { 
 				"Pos": [ 7672.5, 0, 11465.6 ],
 				"Radius": 7,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster4Area4E", 
@@ -306,8 +366,8 @@
 			"Data": { 
 				"Pos": [ 7676.5, 0, 11456.45 ],
 				"Radius": 6,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area1A", 
@@ -316,8 +376,8 @@
 			"Data": { 
 				"Pos": [ 11445.5, 0, 11089.5 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area2A", 
@@ -326,8 +386,8 @@
 			"Data": { 
 				"Pos": [ 11317, 0, 11050 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area3A", 
@@ -336,8 +396,8 @@
 			"Data": { 
 				"Pos": [ 11311.7, 0, 11098 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area3B", 
@@ -346,8 +406,8 @@
 			"Data": { 
 				"Pos": [ 11304.11, 0, 11097.8 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area4A", 
@@ -356,8 +416,8 @@
 			"Data": { 
 				"Pos": [ 11331, 0, 11110.8 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area4B", 
@@ -366,8 +426,8 @@
 			"Data": { 
 				"Pos": [ 11336.6, 0, 11108.86 ],
 				"Radius": 8,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area5A", 
@@ -376,8 +436,8 @@
 			"Data": { 
 				"Pos": [ 11352.4, 0, 11181.4 ],
 				"Radius": 7,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area5B", 
@@ -386,8 +446,8 @@
 			"Data": { 
 				"Pos": [ 11358.8, 0, 11169 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area5C", 
@@ -396,8 +456,8 @@
 			"Data": { 
 				"Pos": [ 11362.7, 0, 11175 ],
 				"Radius": 10,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "Cluster5Area5D", 
@@ -406,8 +466,8 @@
 			"Data": { 
 				"Pos": [ 11374.1, 0, 11170.8 ],
 				"Radius": 7,
-				"PosHeight": 10,
-				"NegHeight": 10
+				"PosHeight": 5,
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "VolcanoMouth1", 
@@ -417,7 +477,7 @@
 				"Pos": [ 10039.5, 0, 12010.3 ],
 				"Radius": 8,
 				"PosHeight": 20,
-				"NegHeight": 10
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "VolcanoMouth2", 
@@ -427,7 +487,7 @@
 				"Pos": [ 10031.9, 0, 12027.4 ],
 				"Radius": 8,
 				"PosHeight": 20,
-				"NegHeight": 10
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "VolcanoMouth3", 
@@ -437,7 +497,7 @@
 				"Pos": [ 10028.9, 0, 12014 ],
 				"Radius": 8,
 				"PosHeight": 20,
-				"NegHeight": 10
+				"NegHeight": 5
 				}
 		},
 		{ 	"AreaName": "VolcanoMouth4", 
@@ -447,7 +507,7 @@
 				"Pos": [ 10050.1, 0, 12027.9 ],
 				"Radius": 8,
 				"PosHeight": 20,
-				"NegHeight": 10
+				"NegHeight": 5
 				}
 		}
     ]
