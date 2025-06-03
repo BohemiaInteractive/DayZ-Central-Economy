@@ -2438,8 +2438,9 @@
 		</attachments>
 	</type>	
 	<type name="CZ527">
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.30">
 			<item name="Mag_CZ527_5rnd" chance="1.00" />
@@ -2447,8 +2448,9 @@
 	</type>
 	<type name="Winchester70">
 		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 	</type>
 	<type name="Mosin9130">
@@ -2637,8 +2639,9 @@
 	</type>
 	<type name="B95">
 		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 	</type>
 	<type name="Saiga">
@@ -2652,8 +2655,9 @@
 	</type>
 	<type name="Ruger1022">
 		<damage min="0.0" max="0.32" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.50">
 			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
@@ -2708,8 +2712,9 @@
 	</type>
 	<type name="CZ550">
 		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.30">
 			<item name="Mag_CZ550_10rnd" chance="1.00" />
@@ -2729,6 +2734,21 @@
 		</attachments>
 		<attachments chance="0.20">
 			<item name="Mag_PP19_64Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="PM73Rak">
+		<damage min="0.0" max="0.40" />
+		<attachments chance="0.70">
+			<item name="Mag_PM73_15Rnd" chance="0.80" />
+			<item name="Mag_PM73_25Rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="R12">
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="0.30" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ReflexOptic" chance="0.30" />
 		</attachments>
 	</type>
 	<type name="LongHorn">
