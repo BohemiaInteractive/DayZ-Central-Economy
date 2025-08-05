@@ -640,10 +640,9 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
-            <child lootmax="4" lootmin="0" max="0" min="50" type="ZmbF_MilkMaidOld_Black"/>
-            <child lootmax="4" lootmin="0" max="0" min="50" type="ZmbM_HandymanNormal_Beige"/>
+            <child lootmax="4" lootmin="0" max="0" min="50" type="Zmbm_Mummy"/>            
         </children>
     </event>
     <event name="InfectedVillage">
