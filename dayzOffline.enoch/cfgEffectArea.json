@@ -1,21 +1,26 @@
 {
     "Areas": [
-        { 	"AreaName": "Radunin-MedicalTents", 
+        { 	"AreaName": "survivorbase1", 
 			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "ContaminatedTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": { 
-				"Pos": [ 7500, 0, 6156 ],
-				"Radius": 200,
-				"PosHeight": 30,
+				"Pos": [ 4021, 0, 12058 ],
+				"Radius": 100,
+				"PosHeight": 21,
 				"NegHeight": 10,
-				"InnerPartDist": 100,
-				"OuterOffset": 20, 
-				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				"InnerRingCount": 2,
+				"InnerPartDist": 25,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 20, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
 				},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
 			}
 		},
 		{ 	"AreaName": "Radunin-Village", 
