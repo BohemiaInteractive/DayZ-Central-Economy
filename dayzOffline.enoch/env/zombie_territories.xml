@@ -361,20 +361,20 @@
 
 <!--Military Mummies-->
 
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="5001.79" z="2122.94" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="5601.41" z="3781.37" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="4466.79" z="4805.45" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="9904.31" z="3789.46" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="8921.9" z="2077.03" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="7395.56" z="2588.3" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="11305.8" z="2471.1" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="11095" z="2104.17" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="4841.67" z="872.916" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="10236.8" z="2150" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="10097.2" z="4198.61" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="556.25" z="1120.83" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="3355" z="2057.5" r="50"/>
-	<zone name=InfectedSpooky smin="0" smax="0" dmin="4" dmax="7" x="875" z="1190.63" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="5001.79" z="2122.94" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="5601.41" z="3781.37" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="4466.79" z="4805.45" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="9904.31" z="3789.46" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="8921.9" z="2077.03" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="7395.56" z="2588.3" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="11305.8" z="2471.1" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="11095" z="2104.17" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="4841.67" z="872.916" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="10236.8" z="2150" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="10097.2" z="4198.61" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="556.25" z="1120.83" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="3355" z="2057.5" r="50"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="4" dmax="7" x="875" z="1190.63" r="50"/>
 
 <!--Pillboxes-->
         
@@ -421,6 +421,10 @@
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="40" dmax="50" x="7912.5" z="11888.43" r="75"/>
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="40" dmax="50" x="8389.06" z="11911.85" r="75"/>
 
+<!--Survivor Bases-->
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="4028.91" z="12056.17" r="20"/>
+	<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="20" x="4033.91" z="12061.17" r="50"/>
+	<zone name="InfectedReligious" smin="0" smax="0" dmin="10" dmax="20" x="4038.91" z="12066.17" r="75"/>
 
 <!--Hordes-->
 
@@ -599,4 +603,5 @@
         <zone name="InfectedSpooky" smin="0" smax="0" dmin="1" dmax="2" x="4787.5" z="5603.13" r="180"/>
         
     </territory>
+
 </territory-type>
