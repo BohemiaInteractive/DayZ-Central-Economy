@@ -54,7 +54,7 @@
 	"WorldsData":
 	{
 		"lightingConfig": 0,
-		"objectSpawnersArr": [],
+		"objectSpawnersArr": ["custom/trader.json"],
 		"environmentMinTemps": [-10, -10, -10, -10, -10, -10, -10, -10, -10, -10, -10, -10],
 		"environmentMaxTemps": [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35],
 		"wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0]
