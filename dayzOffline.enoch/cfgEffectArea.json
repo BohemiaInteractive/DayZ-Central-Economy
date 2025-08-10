@@ -1,6 +1,29 @@
 {
     "Areas": [
-        { 	"AreaName": "survivorbase1", 
+        { 	"AreaName": "trader-ring", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 6303.71, 0, 6303.71 ],
+				"Radius": 300,
+				"PosHeight": 21,
+				"NegHeight": 10,
+				"InnerRingCount": 2,
+				"InnerPartDist": 25,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 20, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_M18_purple_02"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "survivorbase1", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "effecttrigger",
 			"Data": { 
