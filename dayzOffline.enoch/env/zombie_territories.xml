@@ -423,11 +423,11 @@
 
 <!--Survivor Bases-->
 	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="4028.91" z="12056.17" r="20"/>
-	<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="20" x="4033.91" z="12061.17" r="50"/>
-	<zone name="InfectedReligious" smin="0" smax="0" dmin="10" dmax="20" x="4038.91" z="12066.17" r="75"/>
+	<zone name="InfectedMedic" smin="0" smax="0" dmin="20" dmax="20" x="4033.91" z="12061.17" r="50"/>
+	<zone name="InfectedReligious" smin="0" smax="0" dmin="20" dmax="20" x="4038.91" z="12066.17" r="75"/>
 
-	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="5788.09" z="11610.69" r="20"/>
-	<zone name="InfectedReligious" smin="0" smax="0" dmin="15" dmax="30" x="5790.09" z="11620.69" r="75"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="5788.09" z="11610.69" r="10"/>
+	<zone name="InfectedPolice" smin="0" smax="0" dmin="25" dmax="35" x="5790.09" z="11620.69" r="75"/>
 		
 
 <!--Hordes-->
@@ -609,4 +609,5 @@
     </territory>
 
 </territory-type>
+
 
