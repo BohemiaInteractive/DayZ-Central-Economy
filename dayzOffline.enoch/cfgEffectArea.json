@@ -1,6 +1,6 @@
 {
     "Areas": [
-        { 	"AreaName": "trader-ring", 
+        { 	"AreaName": "traderring", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "effecttrigger",
 			"Data": { 
