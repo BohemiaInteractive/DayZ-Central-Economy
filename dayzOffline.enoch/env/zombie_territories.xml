@@ -284,7 +284,7 @@
         <zone name="InfectedVillage" smin="1" smax="2" dmin="10" dmax="20" x="9734.38" z="7206.25" r="50"/>
     </territory>
     <territory color="2260328206">
-       <zone name="InfectedNBC" smin="3" smax="5" dmin="10" dmax="20" x="7823.21" z="5846.43" r="80"/>
+<zone name="InfectedNBC" smin="3" smax="5" dmin="10" dmax="20" x="7823.21" z="5846.43" r="80"/>
 <zone name="InfectedNBC" smin="3" smax="5" dmin="10" dmax="20" x="7667.86" z="5962.5" r="80"/>
 <zone name="InfectedNBC" smin="3" smax="5" dmin="10" dmax="20" x="7541.74" z="6069.87" r="80"/>
 <zone name="InfectedNBC" smin="6" smax="8" dmin="8" dmax="15" x="4235.71" z="10364.3" r="80"/>
@@ -292,7 +292,7 @@
 
     </territory>
     <territory color="1291845632">
-       <zone name="InfectedReligious" smin="0" smax="0" dmin="15" dmax="30" x="11144.1" z="4356.73" r="60"/>
+<zone name="InfectedReligious" smin="0" smax="0" dmin="15" dmax="30" x="11144.1" z="4356.73" r="60"/>
 <zone name="InfectedReligious" smin="0" smax="0" dmin="10" dmax="20" x="3165.5" z="6883.08" r="60"/>
 <zone name="InfectedReligious" smin="0" smax="0" dmin="10" dmax="20" x="1769.99" z="7199.77" r="60"/>
 <zone name="InfectedReligious" smin="0" smax="0" dmin="10" dmax="20" x="4780.64" z="7488.57" r="60"/>
@@ -311,7 +311,7 @@
 
     </territory>
     <territory color="1124502272">
-        <zone name="InfectedArmy" smin="4" smax="8" dmin="10" dmax="15" x="6424.6" z="8152.22" r="100"/>
+<zone name="InfectedArmy" smin="4" smax="8" dmin="10" dmax="15" x="6424.6" z="8152.22" r="100"/>
 <zone name="InfectedArmy" smin="0" smax="0" dmin="10" dmax="20" x="7841.11" z="5863.65" r="100"/>
 <zone name="InfectedArmyHard" smin="4" smax="8" dmin="15" dmax="30" x="5001.79" z="2122.94" r="150"/>
 <zone name="InfectedArmy" smin="2" smax="4" dmin="8" dmax="10" x="4432.25" z="6703.5" r="80"/>
@@ -420,10 +420,16 @@
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="40" dmax="50" x="5252.34" z="9542.94" r="75"/>
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="40" dmax="50" x="7912.5" z="11888.43" r="75"/>
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="40" dmax="50" x="8389.06" z="11911.85" r="75"/>
+<!--former Gas Zones-->
+<zone name="InfectedArmyHard" smin="3" smax="5" dmin="10" dmax="25" x="7825.21" z="5846.43" r="80"/>
+<zone name="InfectedArmyHard" smin="3" smax="5" dmin="10" dmax="25" x="7669.86" z="5962.5" r="80"/>
+<zone name="InfectedArmyHard" smin="3" smax="5" dmin="10" dmax="25" x="7544.74" z="6069.87" r="80"/>
+<zone name="InfectedArmyHard" smin="6" smax="8" dmin="10" dmax="25" x="4239.71" z="10364.3" r="80"/>
+<zone name="InfectedArmyHard" smin="6" smax="8" dmin="10" dmax="25" x="4059.79" z="10194.6" r="80"/>
 
 <!--Survivor Bases-->
 	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="4028.91" z="12056.17" r="20"/>
-	<zone name="InfectedMedic" smin="0" smax="0" dmin="20" dmax="20" x="4033.91" z="12061.17" r="50"/>
+	<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="10" x="4033.91" z="12061.17" r="50"/>
 	<zone name="InfectedReligious" smin="0" smax="0" dmin="20" dmax="20" x="4038.91" z="12066.17" r="75"/>
 
 	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="5788.09" z="11610.69" r="10"/>
@@ -609,5 +615,6 @@
     </territory>
 
 </territory-type>
+
 
 
