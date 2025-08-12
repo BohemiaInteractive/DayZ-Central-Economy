@@ -683,7 +683,7 @@
 		<pos x="10026.365" z="8644.638" a="0" y="208.640" group="Train_Mil_Sitnik"/>
 	</event>
 	<event name="StaticMilitaryConvoy">
-		<zone smin="0" smax="0" dmin="15" dmax="25" r="30" />
+		<zone smin="0" smax="0" dmin="25" dmax="45" r="50" />
 		<pos x="8772.478" z="8563.994" a="0" y="269.798" group="Abandoned_Borek"/>
 		<pos x="10187.881" z="5935.272" a="0" y="228.088" group="Abandoned_Karlin"/>
 		<pos x="4756.113" z="3061.519" a="0" y="413.901" group="Abandoned_Nadbor"/>
