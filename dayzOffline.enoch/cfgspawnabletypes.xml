@@ -106,8 +106,8 @@
 	</type>
 	<type name="Mich2001Helmet">
 		<damage min="0.1" max="0.6" />
-		<attachments chance="0.85">
-			<item name="NVGoggles" chance="1.00" />
+		<attachments chance="1.00">
+			<item name="UniversalLight" chance="1.00" />
 			<item name="Battery9V" chance="1.00" />
 		</attachments>
 	</type>
