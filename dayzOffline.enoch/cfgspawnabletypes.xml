@@ -2286,6 +2286,25 @@
 	<type name="ZmbM_Santa">
 		<attachments preset="SantaHat" />
 	</type>
+	<!--Mummy-->
+	<type name="ZmbM_Mummy">
+		<cargo chance="0.25"> <item name="BandageDressing" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_9x19_25rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_22_50Rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_00buck_10rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_380_35rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>
+        <cargo chance="0.25"> <item name="AmmoBox_357_20Rnd" /> </cargo>
+        <cargo chance="0.90"> <item name="WeaponCleaningKit" /> </cargo>        
+	</type>
+
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
 	<type name="MakarovIJ70">
