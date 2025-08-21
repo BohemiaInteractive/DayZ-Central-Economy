@@ -7025,116 +7025,214 @@
             "customString": ""
         },
         {
-            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
-            "pos": [
-                5853.6748046875,
-                335.03057861328127,
-                3167.6328125
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5853.674805,
+              335.030579,
+              3167.632813
             ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5853.849609,
+              335.027374,
+              3166.544922
             ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
-            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
-            "pos": [
-                5853.849609375,
-                335.0273742675781,
-                3166.544921875
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5849.088379,
+              335.034607,
+              3167.521484
             ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5850.846191,
+              335.033264,
+              3165.298584
             ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
-            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
-            "pos": [
-                5853.81982421875,
-                335.02783203125,
-                3165.275146484375
+              "ypr": [
+              1.570796,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5853.819824,
+              335.027832,
+              3165.275146
             ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5848.928711,
+              335.026215,
+              3165.299316
             ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
-            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
-            "pos": [
-                5851.08349609375,
-                335.0352783203125,
-                3167.621826171875
+              "ypr": [
+              -0.785399,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5851.083496,
+              335.035278,
+              3167.621826
             ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5853.674805,
+              335.030579,
+              3167.632813
             ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
-            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
-            "pos": [
-                5849.08837890625,
-                335.03460693359377,
-                3167.521484375
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5853.849609,
+              335.027374,
+              3166.544922
             ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5853.819824,
+              335.027832,
+              3165.275146
             ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
-            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
-            "pos": [
-                5850.84619140625,
-                335.03326416015627,
-                3165.298583984375
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5851.083496,
+              335.035278,
+              3167.621826
             ],
-            "ypr": [
-                1.5707957744598389,
-                -0.0,
-                -0.0
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5849.088379,
+              335.034607,
+              3167.521484
             ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
-            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
-            "pos": [
-                5848.9287109375,
-                335.0262145996094,
-                3165.29931640625
+              "ypr": [
+              0,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5850.846191,
+              335.033264,
+              3165.298584
             ],
-            "ypr": [
-                -0.7853991389274597,
-                0.0,
-                0.0
+              "ypr": [
+              1.570796,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          },
+{
+              "name": "dz/gear/cultivation/cannabis_plant.p3d",
+              "pos": [
+              5848.928711,
+              335.026215,
+              3165.299316
             ],
-            "scale": 1.0,
-            "enableCEPersistency": 0,
-            "customString": ""
-        }
+              "ypr": [
+              -0.785399,
+              0,
+              0
+              ],
+              "scale": 1,
+              "enableCEPersistency": false
+          }
     ]
 }
