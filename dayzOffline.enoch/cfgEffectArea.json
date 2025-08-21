@@ -68,6 +68,29 @@
 				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
+		},
+		{ 	"AreaName": "survivorbase3", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 5851.083496, 0, 3162.621826 ],
+				"Radius": 100,
+				"PosHeight": 21,
+				"NegHeight": 10,
+				"InnerRingCount": 2,
+				"InnerPartDist": 25,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 20, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
 		}
     ],
 
