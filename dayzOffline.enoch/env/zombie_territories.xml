@@ -434,7 +434,9 @@
 
 	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="5788.09" z="11610.69" r="10"/>
 	<zone name="InfectedPolice" smin="0" smax="0" dmin="25" dmax="35" x="5790.09" z="11620.69" r="75"/>
-		
+
+	<zone name="InfectedArmyHard" smin="6" smax="8" dmin="10" dmax="25" x="5851.083496" z="3162.621826" r="75"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="5849.083496" z="3167.621826" r="20"/>	
 
 <!--Hordes-->
 
@@ -615,6 +617,7 @@
     </territory>
 
 </territory-type>
+
 
 
 
