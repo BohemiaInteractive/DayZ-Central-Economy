@@ -5537,22 +5537,6 @@
             "customString": ""
         },
         {
-            "name": "Land_Slum_House7",
-            "pos": [
-                5850.24072265625,
-                335.616943359375,
-                3168.943115234375
-            ],
-            "ypr": [
-                143.99989318847657,
-                0.0,
-                -0.0
-            ],
-            "scale": 0.9999998211860657,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
             "name": "Land_Slum_House1",
             "pos": [
                 5852.62890625,
@@ -7021,6 +7005,134 @@
                 -179.05615234375
             ],
             "scale": 0.9999906420707703,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Polytunnel",
+            "pos": [
+                5851.16357421875,
+                336.00616455078127,
+                3166.468017578125
+            ],
+            "ypr": [
+                0.00003528593515511602,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
+            "pos": [
+                5853.6748046875,
+                335.03057861328127,
+                3167.6328125
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
+            "pos": [
+                5853.849609375,
+                335.0273742675781,
+                3166.544921875
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
+            "pos": [
+                5853.81982421875,
+                335.02783203125,
+                3165.275146484375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
+            "pos": [
+                5851.08349609375,
+                335.0352783203125,
+                3167.621826171875
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
+            "pos": [
+                5849.08837890625,
+                335.03460693359377,
+                3167.521484375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
+            "pos": [
+                5850.84619140625,
+                335.03326416015627,
+                3165.298583984375
+            ],
+            "ypr": [
+                1.5707957744598389,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\gear\\cultivation\\cannabis_plant.p3d",
+            "pos": [
+                5848.9287109375,
+                335.0262145996094,
+                3165.29931640625
+            ],
+            "ypr": [
+                -0.7853991389274597,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
             "enableCEPersistency": 0,
             "customString": ""
         }
