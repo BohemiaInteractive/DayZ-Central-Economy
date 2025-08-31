@@ -2636,7 +2636,7 @@
 			<item name="Mag_SSG82_5rnd" chance="0.50" />
 			<item name="Mag_Scout_5Rnd" chance="0.50" />			
 		</cargo>
-		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
+		<cargo chance="0.05"> <item name="ShippingContainerKeys_Blue" /> </cargo>
 		cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
@@ -2664,7 +2664,7 @@
 			<item name="Mag_SSG82_5rnd" chance="0.50" />
 			<item name="Mag_Scout_5Rnd" chance="0.50" />
 		</cargo>
-		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
+		<cargo chance="0.05"> <item name="ShippingContainerKeys_Blue" /> </cargo>
 		cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
