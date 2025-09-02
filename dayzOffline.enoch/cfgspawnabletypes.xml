@@ -1466,7 +1466,7 @@
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_FNX45_15Rnd" /> </cargo>
-		<cargo chance="0.05"> <item name="ShippingContainerKeys_Yellow" /> </cargo>
+		
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
 		<cargo preset="foodArmy" />
@@ -1489,6 +1489,7 @@
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_FNX45_15Rnd" /> </cargo>
+		<cargo chance="0.05"> <item name="ShippingContainerKeys_Yellow" /> </cargo>
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
@@ -2700,6 +2701,7 @@
 	<!--Religious-->
 	<type name="ZmbM_priestPopSkinny">
 		<cargo preset="foodHermit" />
+		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
 	</type>
 	<!--Solitude-->
 	<type name="ZmbF_HikerSkinny_Blue">
@@ -2790,6 +2792,7 @@
 		<cargo chance="0.30"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>
+		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="headtorches" />
@@ -2808,6 +2811,7 @@
 		<cargo chance="0.30"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>
+		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="headtorches" />
@@ -2826,6 +2830,7 @@
 		<cargo chance="0.30"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>
+		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="headtorches" />
@@ -2844,6 +2849,7 @@
 		<cargo chance="0.30"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>
+		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
 		<attachments preset="headtorches" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
