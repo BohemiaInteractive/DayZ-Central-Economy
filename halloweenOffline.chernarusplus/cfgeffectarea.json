@@ -1,0 +1,349 @@
+{
+    "Areas": [
+        { 	"AreaName": "Ship-Bow", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 13920, 0, 11170 ],
+				"Radius": 60,
+				"PosHeight": 20,
+				"NegHeight": 3,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Ship-Center", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 13785, 0, 11155 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 3,
+				"InnerPartDist": 100,
+				"OuterOffset": 30, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Ship-Stern", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 13660, 0, 11100 ],
+				"Radius": 60,
+				"PosHeight": 20,
+				"NegHeight": 3,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Pavlovo-North-Uphill", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 2080, 0, 3500 ],
+				"Radius": 100,
+				"PosHeight": 10,
+				"NegHeight": 20,
+				"InnerPartDist": 100,
+				"OuterOffset": 30, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Pavlovo-South-Building1", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 2165, 0, 3370 ],
+				"Radius": 75,
+				"PosHeight": 10,
+				"NegHeight": 10,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Pavlovo-South-Building2", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 2215, 0, 3290 ],
+				"Radius": 75,
+				"PosHeight": 14,
+				"NegHeight": 10,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Pavlovo-South-Downhill", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 2090, 0, 3300 ],
+				"Radius": 60,
+				"PosHeight": 10,
+				"NegHeight": 10,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "BlackMountain", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [10278, 0, 12034 ],
+				"Radius": 130,
+				"PosHeight": 35,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "DevilsCastle", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [6928, 0, 11417],
+				"Radius": 130,
+				"PosHeight": 35,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Voron", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [13475, 0, 3312],
+				"Radius": 160,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Rog", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [11250, 0,4284],
+				"Radius": 130,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Zub", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [6543, 0, 5596],
+				"Radius": 130,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Krona-Est", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [1391, 0, 9268],
+				"Radius": 100,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Krona-West", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [1499, 0, 9180],
+				"Radius": 40,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		}
+    ],
+
+	"SafePositions":[
+		[434, 13624],
+		[360, 10986],
+		[1412, 13505],
+		[1290, 11773],
+		[5742, 8568],
+		[4191, 4620],
+		[4949, 6569],
+		[1018, 7138],
+		[5041, 2640],
+		[6895, 7915],
+		[6128, 8120],
+		[4422, 8117],
+		[2811, 10209],
+		[1954, 2417],
+		[3633, 8708],
+		[5222, 5737],
+		[3546, 2630],
+		[2373, 5516],
+		[2462, 6879],
+		[1653, 3600],
+		[11774, 14570],
+		[8228, 9345],
+		[11100, 13400],
+		[9333, 8697],
+		[11513, 12203],
+		[4955, 10603],
+		[5090, 15054],
+		[6513, 14579],
+		[3483, 14941],
+		[4016, 11194],
+		[7607, 12384],
+		[4307, 9528],
+		[3266, 12352],
+		[4432, 13285],
+		[5473, 12455],
+		[9731, 13685],
+		[2745, 7784],
+		[8492, 14128],
+		[3501, 13292],
+		[7912, 10943],
+		[4165, 10134],
+		[10536, 7871],
+		[1467, 14288],
+		[5479, 9709],
+		[9453, 11963],
+		[319, 9212],
+		[8009, 14843],
+		[7206, 7158],
+		[12303, 13598],
+		[3435, 5959],
+		[4060, 12050],
+		[6633, 2988],
+		[870, 2095],
+		[10286, 9071],
+		[10371, 5690]
+	]
+}
