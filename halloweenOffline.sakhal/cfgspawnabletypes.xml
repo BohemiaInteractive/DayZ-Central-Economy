@@ -167,7 +167,19 @@
 		<damage min="0.1" max="0.1" />
 	</type>
 	<type name="ScientificBriefcaseKeys">
-		<damage min="0.1" max="0.1" />
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ShippingContainerKeys_Blue">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ShippingContainerKeys_Yellow">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ShippingContainerKeys_Red">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="ShippingContainerKeys_Orange">
+		<damage min="0.0" max="0.0" />
 	</type>
 	<type name="SmallStone">
 		<damage min="0.0" max="0.0" />
@@ -481,15 +493,15 @@
 	</type>	
 	<type name="AirborneMask">
 		<damage min="0.0" max="0.35" />
-		<cargo chance="0.2">
+		<attachments chance="0.2">
 			<item name="GasMask_Filter" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="GP5GasMask">
 		<damage min="0.0" max="0.35" />
-		<cargo chance="0.2">
+		<attachments chance="0.2">
 			<item name="GasMask_Filter" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="GasMask">
 		<damage min="0.0" max="0.35" />
@@ -1284,14 +1296,8 @@
 	</type>
 	<!--NBC-->
 	<type name="ZmbM_NBC_Grey">
-		<cargo chance="0.03">
-			<item name="AntiChemInjector" chance="1.0" />
-		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
-		<cargo chance="0.01">
-			<item name="AntiChemInjector" chance="1.0" />
-		</cargo>
 	</type>
 	<!--ARMY-->
 	<type name="ZmbM_PatrolNormal_Autumn">
@@ -1540,10 +1546,10 @@
 	</type>
 	<type name="ZmbF_SurvivorNormal_Blue">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
@@ -1553,10 +1559,10 @@
 	</type>
 	<type name="ZmbF_SurvivorNormal_Orange">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
@@ -1566,10 +1572,10 @@
 	</type>
 	<type name="ZmbF_SurvivorNormal_Red">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
@@ -1579,10 +1585,10 @@
 	</type>
 	<type name="ZmbF_SurvivorNormal_White">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
@@ -1785,10 +1791,10 @@
 	</type>
 	<type name="ZmbM_SkaterYoung_Blue">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
@@ -1798,10 +1804,10 @@
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
@@ -1810,10 +1816,10 @@
 	</type>
 	<type name="ZmbM_SkaterYoung_Green">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
@@ -1822,10 +1828,10 @@
 	</type>
 	<type name="ZmbM_SkaterYoung_Grey">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
@@ -1918,11 +1924,12 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Beige">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsIndustrial" />
-		<attachments preset="vestsIndustrial" />
+		<attachments chance="1.00">
+			<item name="PumpkinHelmet" chance="1.00" />
+		</attachments>
+		<cargo chance="1.0">
+			<item name="SlicedPumpkin" chance="1.00" />	
+		</cargo>
 	</type>
 	<type name="ZmbM_HandymanNormal_Blue">
 		<cargo preset="foodCity" />
@@ -1954,10 +1961,10 @@
 	</type>
 	<type name="ZmbM_HeavyIndustryWorker">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
@@ -1967,10 +1974,10 @@
 	</type>
 	<type name="ZmbM_MechanicSkinny_Blue">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
@@ -1980,10 +1987,10 @@
 	</type>
 	<type name="ZmbM_MechanicSkinny_Green">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
@@ -1993,10 +2000,10 @@
 	</type>
 	<type name="ZmbM_MechanicSkinny_Grey">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
@@ -2006,10 +2013,10 @@
 	</type>
 	<type name="ZmbM_MechanicSkinny_Red">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
@@ -2060,10 +2067,10 @@
 	<!-- FireFighter -->
 	<type name="ZmbM_FirefighterNormal">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsFirefighter" />
@@ -2098,6 +2105,10 @@
 		<cargo preset="toolsMedic" />
 		<attachments preset="hatsMedic" />
 	</type>
+	<type name="ZmbM_DoctorFat_Winter">
+		<cargo preset="toolsMedic" />
+		<attachments preset="hatsMedic" />
+	</type>
 	<type name="ZmbM_ParamedicNormal_Black">
 		<cargo preset="toolsMedic" />
 	</type>
@@ -2116,10 +2127,10 @@
 	<!-- Police -->
 	<type name="ZmbF_PoliceWomanNormal">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
@@ -2164,10 +2175,10 @@
 	<!-- Religious -->
 	<type name="ZmbM_priestPopSkinny">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodHermit" />
 		<attachments chance="1.00">
@@ -2217,10 +2228,10 @@
 	</type>
 	<type name="ZmbM_HermitSkinny_Beige">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
@@ -2228,10 +2239,10 @@
 	</type>
 	<type name="ZmbM_HermitSkinny_Black">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
@@ -2239,10 +2250,10 @@
 	</type>
 	<type name="ZmbM_HermitSkinny_Green">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
@@ -2250,10 +2261,10 @@
 	</type>
 	<type name="ZmbM_HermitSkinny_Red">
 		<attachments chance="0.2">
-			<item name="EyeMask_Black" chance="0.2" />
-			<item name="EyeMask_Blue" chance="0.2" />
-			<item name="EyeMask_Red" chance="0.2" />
-			<item name="EyeMask_Yellow" chance="0.2" />
+			<item name="EyeMask_Black" chance="0.25" />
+			<item name="EyeMask_Blue" chance="0.25" />
+			<item name="EyeMask_Red" chance="0.25" />
+			<item name="EyeMask_Yellow" chance="0.25" />
 		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
@@ -2306,7 +2317,7 @@
 		<attachments preset="bagsHunter" />
 		<attachments preset="vestsHunter" />
 	</type>
-	<!--Village-->
+	<!-- Village -->
 	<type name="ZmbF_MilkMaidOld_Beige">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
@@ -2328,10 +2339,8 @@
 		</attachments>
 	</type>
 	<type name="ZmbF_MilkMaidOld_Green">
-		<cargo preset="drinks_T1" />
-		<cargo preset="food_T1" />
-		<cargo preset="toolsCommon_T1" />
-		<attachments preset="hatsCommon_T1" />
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
 		<cargo chance="0.20">
 			<item name="CrookedNose" chance="1.0" />
 		</cargo>
@@ -2403,7 +2412,6 @@
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
-		<attachments preset="hatsCommon_T1" />
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_FarmerFat_Blue">
@@ -2616,8 +2624,9 @@
 		</attachments>
 	</type>	
 	<type name="CZ527">
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.30">
 			<item name="Mag_CZ527_5rnd" chance="1.00" />
@@ -2625,8 +2634,9 @@
 	</type>
 	<type name="Winchester70">
 		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 	</type>
 	<type name="Mosin9130">
@@ -2818,6 +2828,16 @@
 			<item name="PSO11Optic" chance="0.35" />
 		</attachments>
 	</type>
+	<type name="SVD_Wooden">
+		<damage min="0.0" max="0.3" />
+		<attachments chance="0.75">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.75">
+			<item name="KashtanOptic" chance="0.65" />
+			<item name="PSO11Optic" chance="0.35" />
+		</attachments>
+	</type>
 	<type name="Colt1911">
 		<attachments chance="0.05">
 			<item name="PistolSuppressor" chance="1.00" />
@@ -2836,8 +2856,9 @@
 	</type>
 	<type name="B95">
 		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 	</type>
 	<type name="Saiga">
@@ -2851,8 +2872,9 @@
 	</type>
 	<type name="Ruger1022">
 		<damage min="0.0" max="0.32" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.50">
 			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
@@ -2907,8 +2929,9 @@
 	</type>
 	<type name="CZ550">
 		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
+		<attachments chance="0.20">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.30">
 			<item name="Mag_CZ550_10rnd" chance="1.00" />
@@ -2952,6 +2975,21 @@
 		<damage min="0.0" max="0.32" />
 		<attachments chance="0.30">
 			<item name="FNP45_MRDSOptic" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="PM73Rak">
+		<damage min="0.0" max="0.40" />
+		<attachments chance="0.15">
+			<item name="Mag_PM73_15Rnd" chance="0.80" />
+			<item name="Mag_PM73_25Rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="R12">
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="0.30" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ReflexOptic" chance="0.30" />
 		</attachments>
 	</type>
 	<type name="M14">
