@@ -40,7 +40,7 @@ class CustomMission: MissionServer
 			itemEnt.SetHealth01( "", "", rndHlt );
 		}
 	}
-
+	
 	override void OnClientReadyEvent(PlayerIdentity identity, PlayerBase player)
 	{
 		super.OnClientReadyEvent(identity, player);
@@ -73,7 +73,7 @@ class CustomMission: MissionServer
 			
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
 			player.SetQuickBarEntityShortcut(itemEnt, 2);
-			
+
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );

@@ -127,7 +127,7 @@
         </children>
     </event>
     <event name="AnimalGoat">
-        <nominal>20</nominal>
+        <nominal>14</nominal>
         <min>10</min>
         <max>16</max>
         <lifetime>180</lifetime>
@@ -143,7 +143,7 @@
             <child lootmax="0" lootmin="0" max="0" min="0" type="Animal_CapraHircusF"/>
             <child lootmax="0" lootmin="0" max="4" min="2" type="Animal_CapraHircus_Black"/>
             <child lootmax="0" lootmin="0" max="0" min="0" type="Animal_CapraHircus_Brown"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_CapraHircus_Spooky"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Spooky"/>
             <child lootmax="0" lootmin="0" max="0" min="0" type="Animal_CapraHircus_White"/>
         </children>
     </event>
