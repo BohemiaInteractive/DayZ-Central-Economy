@@ -16,7 +16,7 @@
 	</event>
 
 	<event name="StaticHeliCrash">
-		<zone smin="1" smax="3" dmin="30" dmax="50" r="45" />
+		<zone smin="1" smax="3" dmin="25" dmax="40" r="45" />
 		<pos x="11844.371094" z="6020.828613" a="357.697601" />
 		<pos x="10772.458984" z="7141.783691" a="236.599503" />
 		<pos x="6357.467285" z="5393.447754" a="4.996732" />
@@ -98,7 +98,7 @@
 		<pos x="5911.780762" z="3579.843506" a="274.124268" />
 	</event>
     <event name="StaticPoliceCar">
-		<zone smin="1" smax="3" dmin="13" dmax="25" r="45" />
+		<zone smin="1" smax="3" dmin="13" dmax="18" r="45" />
 		<pos x="6488.11377" z="11279.327148" a="331.097137" />
 		<pos x="6359.906" z="10970.853" a="67.064" />
 		<pos x="6338.02002" z="9893.797851" a="26.01256" />
@@ -698,7 +698,7 @@
 		<pos x="10026.365" z="8644.638" a="0" y="208.640" group="Train_Mil_Sitnik"/>
 	</event>
 	<event name="StaticMilitaryConvoy">
-		<zone smin="0" smax="0" dmin="25" dmax="45" r="50" />
+		<zone smin="0" smax="0" dmin="25" dmax="25" r="50" />
 		<pos x="8772.478" z="8563.994" a="0" y="269.798" group="Abandoned_Borek"/>
 		<pos x="10187.881" z="5935.272" a="0" y="228.088" group="Abandoned_Karlin"/>
 		<pos x="4756.113" z="3061.519" a="0" y="413.901" group="Abandoned_Nadbor"/>
@@ -715,7 +715,7 @@
 		<pos x="2411.817" z="1431.504" a="0" y="441.192" group="Supply_Tymbard"/>
 	</event>
 	<event name="StaticPoliceSituation">
-		<zone smin="0" smax="0" dmin="15" dmax="25" r="50" />
+		<zone smin="0" smax="0" dmin="15" dmax="20" r="50" />
 		<pos x="10260.424" z="4227.363" a="0" y="339.232" group="Block_Gieraltow"/>
 		<pos x="3790.821" z="8760.385" a="0" y="191.608" group="Block_Radacz"/>
 		<pos x="9027.775" z="4452.407" a="0" y="344.126" group="Block_Wrezsc"/>
