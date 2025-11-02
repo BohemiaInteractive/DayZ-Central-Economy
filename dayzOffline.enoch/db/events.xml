@@ -129,9 +129,9 @@
         </children>
     </event>
     <event name="AnimalDeer">
-        <nominal>9</nominal>
+        <nominal>5</nominal>
         <min>2</min>
-        <max>4</max>
+        <max>3</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -184,7 +184,7 @@
         </children>
     </event>
     <event name="AnimalRoeDeer">
-        <nominal>12</nominal>
+        <nominal>5</nominal>
         <min>1</min>
         <max>3</max>
         <lifetime>180</lifetime>
@@ -198,7 +198,7 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapreolusCapreolus"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="Animal_CapreolusCapreolusF"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Animal_CapreolusCapreolusF"/>
         </children>
     </event>
     <event name="AnimalSheep">
