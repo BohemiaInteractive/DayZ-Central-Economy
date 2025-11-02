@@ -3148,7 +3148,7 @@
 			<item name="Mag_CZ75_15Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00" />
@@ -3156,7 +3156,7 @@
 	</type>
 	<type name="Glock19">
 		<attachments chance="0.25">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.05">
 			<item name="TLRLight" chance="1.00" />
@@ -3170,7 +3170,7 @@
 			<item name="Mag_FNX45_15Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00" />
@@ -3181,7 +3181,7 @@
 	</type>
 	<type name="CZ61">
 		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.50">
 			<item name="Mag_CZ61_20Rnd" chance="1.00" />
@@ -3212,7 +3212,7 @@
 			<item name="MP5_Compensator" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 	</type>
 	<type name="UMP45">
@@ -3227,7 +3227,7 @@
 			<item name="ACOGOptic" chance="0.30" />
 		</attachments>
 		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00" />
@@ -3467,7 +3467,7 @@
 	</type>
 	<type name="Colt1911">
 		<attachments chance="0.05">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.30">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
@@ -3475,7 +3475,7 @@
 	</type>
 	<type name="Engraved1911">
 		<attachments chance="0.05">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.60">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
@@ -3499,7 +3499,7 @@
 	</type>
 	<type name="Ruger1022">
 		<damage min="0.0" max="0.32" />
-		<attachments chance="0.20">
+		<attachments chance="1.0">
 			<item name="SportingOptic" chance="0.90" />
 			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
@@ -3509,7 +3509,7 @@
 		</attachments>
 	</type>
 	<type name="Deagle">
-		<attachments chance="0.10">
+		<attachments chance="1.0">
 			<item name="Mag_Deagle_9rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -3565,8 +3565,8 @@
 		</attachments>
 	</type>
 	<type name="PP19">
-		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
+		<attachments chance="0.00">
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="PP19_Bttstck" chance="1.00" />
@@ -3602,7 +3602,7 @@
 	</type>
 	<type name="P1">
 		<attachments chance="0.05">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.60">
 			<item name="Mag_P1_8Rnd" chance="1.00" />
@@ -3723,7 +3723,7 @@
 			<item name="Mag_FNX45_15Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.10">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00" />
@@ -3742,7 +3742,7 @@
 	</type>
 	<type name="P1">
 		<attachments chance="0.10">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PistolSuppressor" chance="0.00" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="Mag_P1_8Rnd" chance="1.00" />
