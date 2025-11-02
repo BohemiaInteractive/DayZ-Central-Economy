@@ -18797,13 +18797,14 @@
 		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Locked Containers ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 				<group name="Land_ContainerLocked_Blue_DE" lootmax="14">
-				<usage name="Special"/>
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="14">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
-						<tag name="ground" />
 						<point pos="1.280762 -1.087738 0.534241" range="0.339402" height="1.312256" />
 						<point pos="-2.489868 -1.087738 -0.568787" range="0.479492" height="1.198730" />
 						<point pos="1.435303 -1.087738 -0.435181" range="0.492053" height="1.533203" />
