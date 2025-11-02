@@ -357,7 +357,7 @@
 <zone name="InfectedArmy" smin="0" smax="0" dmin="10" dmax="15" x="8493.75" z="10103.1" r="80"/>
 <zone name="InfectedArmy" smin="0" smax="0" dmin="10" dmax="20" x="9783.75" z="8123.75" r="80"/>
 <zone name="InfectedArmyHard" smin="4" smax="8" dmin="10" dmax="15" x="2172.5" z="10965" r="110"/>
-<zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="30" x="875" z="1190.63" r="80"/>
+
 
 <!--Military Mummies-->
 
@@ -428,15 +428,18 @@
 <zone name="InfectedArmyHard" smin="6" smax="8" dmin="10" dmax="25" x="4059.79" z="10194.6" r="80"/>
 
 <!--Survivor Bases-->
-	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="4028.91" z="12056.17" r="20"/>
-	<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="10" x="4033.91" z="12061.17" r="50"/>
-	<zone name="InfectedReligious" smin="0" smax="0" dmin="20" dmax="20" x="4038.91" z="12066.17" r="75"/>
-
-	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="5788.09" z="11610.69" r="10"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="25" dmax="35" x="5790.09" z="11620.69" r="75"/>
-
+		
+	<zone name="InfectedPolice" smin="0" smax="0" dmin="25" dmax="45" x="5529.69" z="8741.02" r="200"/>
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="2" dmax="2" x="5525.69" z="8747.02" r="75"/>
+		
 	<zone name="InfectedArmyHard" smin="6" smax="8" dmin="10" dmax="25" x="5851.083496" z="3162.621826" r="75"/>
-	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="5849.083496" z="3167.621826" r="20"/>	
+	<zone name="InfectedSpooky" smin="0" smax="0" dmin="10" dmax="10" x="5849.083496" z="3167.621826" r="20"/>
+
+<!--Bunker-->
+		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="20" dmax="30" x="550.00" z="1122.66" r="15"/> 
+		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="20" dmax="30" x="808.59" z="1227.93" r="50"/>
+		<zone name="InfectedSpooky" smin="0" smax="0" dmin="2" dmax="5" x="551.00" z="1122.66" r="15"/> 
+		<zone name="InfectedSpooky" smin="0" smax="0" dmin="2" dmax="5" x="803.59" z="1227.93" r="50"/>
 
 <!--Hordes-->
 
@@ -617,6 +620,7 @@
     </territory>
 
 </territory-type>
+
 
 
 
