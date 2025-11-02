@@ -5811,10 +5811,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="Crossbow_Autumn">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>13</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -5824,10 +5824,10 @@
         <usage name="Village"/>
     </type>
     <type name="Crossbow_Black">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>30</restock>
-        <min>3</min>
+        <min>13</min>
         <quantmin>80</quantmin>
         <quantmax>0</quantmax>
         <cost>100</cost>
@@ -5837,10 +5837,10 @@
         <usage name="Village"/>
     </type>
     <type name="Crossbow_Summer">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>13</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -5851,10 +5851,10 @@
         <usage name="Village"/>
     </type>
     <type name="Crossbow_Wood">
-        <nominal>3</nominal>
+        <nominal>13</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>11</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -12178,7 +12178,7 @@
         <value name="Tier2"/>
     </type>
     <type name="MP5K">
-        <nominal>20</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>16</min>
