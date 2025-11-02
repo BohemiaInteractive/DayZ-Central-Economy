@@ -2602,7 +2602,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Glock_15Rnd" /> </cargo>
-		<cargo chance="0.05"> <item name="PistolSuppressor" /> </cargo>
+		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
 
@@ -2629,7 +2629,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Glock_15Rnd" /> </cargo>
-		<cargo chance="0.05"> <item name="PistolSuppressor" /> </cargo>
+		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
 		<attachments preset="hatsPolice" />
@@ -2657,7 +2657,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Glock_15Rnd" /> </cargo>
-		<cargo chance="0.05"> <item name="PistolSuppressor" /> </cargo>
+		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
 		<attachments preset="hatsPolice" />
@@ -2685,7 +2685,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Glock_15Rnd" /> </cargo>
-		<cargo chance="0.05"> <item name="PistolSuppressor" /> </cargo>
+		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
 		<attachments preset="hatsPolice" />
