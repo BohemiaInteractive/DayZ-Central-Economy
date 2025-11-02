@@ -1282,11 +1282,12 @@
 	<type name="ZmbM_PatrolNormal_Autumn">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<cargo chance="0.01"> <item name="M67Grenade" /> </cargo>
 		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308Win" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308WinTracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
@@ -1295,7 +1296,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39AP" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
@@ -1309,11 +1310,12 @@
 	<type name="ZmbM_PatrolNormal_Flat">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<cargo chance="0.01"> <item name="M67Grenade" /> </cargo>
 		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308Win" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308WinTracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
@@ -1322,7 +1324,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39AP" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
@@ -1336,11 +1338,12 @@
 	<type name="ZmbM_PatrolNormal_PautRev">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<cargo chance="0.01"> <item name="M67Grenade" /> </cargo>
 		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308Win" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308WinTracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
@@ -1349,7 +1352,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39AP" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
@@ -1363,11 +1366,12 @@
 	<type name="ZmbM_PatrolNormal_Summer">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<cargo chance="0.01"> <item name="M67Grenade" /> </cargo>
 		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308Win" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308WinTracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
@@ -1376,7 +1380,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39AP" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
@@ -1389,12 +1393,13 @@
 	</type>
 	<type name="ZmbM_SoldierNormal">
 		<cargo preset="foodArmy" />
-		<cargo preset="ammoArmy" />
-		<cargo chance="0.01"> <item name="M67Grenade" /> </cargo>
+		<cargo preset="ammoArmy" />		
 		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308Win" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308WinTracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
@@ -1403,7 +1408,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39AP" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
@@ -1416,7 +1421,6 @@
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
 		<cargo preset="foodArmy" />
-		<cargo chance="0.01"> <item name="M67Grenade" /> </cargo>
 		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308Win" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308WinTracer" /> </cargo>
@@ -1444,14 +1448,14 @@
 			<item name="MedicalScrubsHat_Green" chance="1.0" />
 		</attachments>
 		<cargo preset="foodArmy" />
-		<cargo chance="0.6">
-			<item name="PunchedCard" chance="1.0" />
-		</cargo>
-		<cargo chance="0.01"> <item name="M67Grenade" /> </cargo>
+		<cargo chance="0.50"> <item name="PunchedCard" /> </cargo>
+		<cargo chance="0.50"> <item name="ShippingContainerKeys_Red" /> </cargo>
 		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308Win" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308WinTracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
@@ -1460,7 +1464,7 @@
 		<cargo chance="0.10"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.15"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39AP" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
@@ -1469,8 +1473,7 @@
 		
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
-		<cargo preset="foodArmy" />
-		<cargo chance="0.01"> <item name="M67Grenade" /> </cargo>
+		<cargo preset="foodArmy" />		
 		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308Win" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_308WinTracer" /> </cargo>
@@ -1487,9 +1490,9 @@
 		<cargo chance="0.10"> <item name="Ammo_9x39" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x39AP" /> </cargo>
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
+		<cargo chance="0.10"> <item name="Deagle" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
-		<cargo chance="0.10"> <item name="Mag_FNX45_15Rnd" /> </cargo>
-		<cargo chance="0.05"> <item name="ShippingContainerKeys_Yellow" /> </cargo>
+		<cargo chance="0.10"> <item name="Mag_FNX45_15Rnd" /> </cargo>		
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
@@ -1995,7 +1998,7 @@
 	<type name="ZmbM_ClerkFat_Brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-				<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
@@ -2638,8 +2641,7 @@
 			<item name="Mag_SSG82_5rnd" chance="0.50" />
 			<item name="Mag_Scout_5Rnd" chance="0.50" />			
 		</cargo>
-		<cargo chance="0.10"> <item name="ShippingContainerKeys_Blue" /> </cargo>
-		<cargo chance="0.05"> <item name="ShippingContainerKeys_Red" /> </cargo>
+		<cargo chance="0.02"> <item name="ShippingContainerKeys_Blue" /> </cargo>
 		cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
@@ -2700,8 +2702,7 @@
 	</type>
 	<!--Religious-->
 	<type name="ZmbM_priestPopSkinny">
-		<cargo preset="foodHermit" />
-		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
+		<cargo preset="foodHermit" />		
 	</type>
 	<!--Solitude-->
 	<type name="ZmbF_HikerSkinny_Blue">
@@ -2791,8 +2792,7 @@
 		<cargo chance="0.30"> <item name="Ammo_762x39" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54" /> </cargo>
-		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
+		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>		
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="headtorches" />
@@ -2810,8 +2810,7 @@
 		<cargo chance="0.30"> <item name="Ammo_762x39" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54" /> </cargo>
-		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
+		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>		
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="headtorches" />
@@ -2829,8 +2828,7 @@
 		<cargo chance="0.30"> <item name="Ammo_762x39" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54" /> </cargo>
-		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
+		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>		
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="headtorches" />
@@ -2848,8 +2846,7 @@
 		<cargo chance="0.30"> <item name="Ammo_762x39" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x39Tracer" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_762x54" /> </cargo>
-		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.05"> <item name="PunchedCard" /> </cargo>
+		<cargo chance="0.30"> <item name="Ammo_762x54Tracer" /> </cargo>		
 		<attachments preset="headtorches" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
