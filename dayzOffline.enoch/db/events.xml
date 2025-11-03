@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
-    <event name="StaticContainerLocked">
-        <nominal>10</nominal>
-        <min>10</min>
-        <max>0</max>
+    <event name="StaticContainerLockedBlue">
+        <nominal>6</nominal>
+        <min>3</min>
+        <max>10</max>
         <lifetime>2400</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -15,8 +15,25 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="9" lootmin="5" max="10" min="10" type="Land_ContainerLocked_Blue_DE"/>
-        <!--<child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Yellow_DE"/> Removed for just blue containers currently-->
+            <child lootmax="9" lootmin="5" max="10" min="5" type="Land_ContainerLocked_Blue_DE"/>
+        </children>
+    </event>
+    <event name="StaticContainerLockedRed">
+        <nominal>10</nominal>
+        <min>10</min>
+        <max>0</max>
+        <lifetime>2400</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>250</cleanupradius>
+        <secondary>InfectedArmyHard</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="9" lootmin="5" max="10" min="10" type="Land_ContainerLocked_Red_DE"/>
         </children>
     </event>
 
