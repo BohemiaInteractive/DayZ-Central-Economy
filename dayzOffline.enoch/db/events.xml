@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <event name="StaticContainerLockedBlue">
-        <nominal>6</nominal>
-        <min>3</min>
-        <max>10</max>
-        <lifetime>2400</lifetime>
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>2</max>
+        <lifetime>10800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
@@ -15,14 +15,14 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="9" lootmin="5" max="10" min="5" type="Land_ContainerLocked_Blue_DE"/>
+            <child lootmax="14" lootmin="5" max="10" min="5" type="Land_ContainerLocked_Blue_DE"/>
         </children>
     </event>
     <event name="StaticContainerLockedRed">
-        <nominal>10</nominal>
-        <min>10</min>
-        <max>0</max>
-        <lifetime>2400</lifetime>
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>2</max>
+        <lifetime>10800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
@@ -33,7 +33,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="9" lootmin="5" max="10" min="10" type="Land_ContainerLocked_Red_DE"/>
+            <child lootmax="14" lootmin="5" max="2" min="2" type="Land_ContainerLocked_Red_DE"/>
         </children>
     </event>
 
