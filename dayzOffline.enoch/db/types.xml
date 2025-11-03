@@ -13557,16 +13557,19 @@
         <usage name="Medic"/>
     </type>
     <type name="Mosin9130">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>50</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>        
+        <usage name="Hunting"/>
+        <usage name="Military"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>     
     </type>
     <type name="Mosin9130_Black">
         <nominal>0</nominal>
