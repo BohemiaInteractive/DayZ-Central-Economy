@@ -6812,17 +6812,16 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="FAMAS">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <usage name="Underground"/>         
     </type>
     <type name="FNP45_MRDSOptic">
         <nominal>10</nominal>
@@ -12529,10 +12528,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_FAMAS_25Rnd">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>12</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -13558,19 +13557,16 @@
         <usage name="Medic"/>
     </type>
     <type name="Mosin9130">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>50</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Hunting"/>
-        <usage name="Military"/>
-        <usage name="Village"/>
-        <value name="Tier3"/>
+        <usage name="Underground"/>        
     </type>
     <type name="Mosin9130_Black">
         <nominal>0</nominal>
@@ -15129,14 +15125,14 @@
         <value name="Tier3"/>
     </type>
     <type name="PistolSuppressor">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
         <usage name="Police"/>
@@ -19992,7 +19988,7 @@
         <usage name="Military"/>
         <usage name="Police"/>
         <usage name="Prison"/>
-        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="USMCJacket_Desert">
         <nominal>5</nominal>
