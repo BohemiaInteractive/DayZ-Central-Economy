@@ -1492,7 +1492,8 @@
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="Deagle" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
-		<cargo chance="0.10"> <item name="Mag_FNX45_15Rnd" /> </cargo>		
+		<cargo chance="0.10"> <item name="Mag_FNX45_15Rnd" /> </cargo>
+		<cargo chance="0.01"> <item name="ShippingContainerKeys_Red" /> </cargo>
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
