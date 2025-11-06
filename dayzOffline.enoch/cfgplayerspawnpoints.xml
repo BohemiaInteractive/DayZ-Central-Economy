@@ -18,40 +18,21 @@
             <min_steepness>-45</min_steepness>
             <max_steepness>45</max_steepness>
         </generator_params>
-        <group_params>
-            <enablegroups>true</enablegroups>
-            <groups_as_regular>true</groups_as_regular>
-            <lifetime>240</lifetime>
-            <counter>-1</counter>
-        </group_params>
         <generator_posbubbles>
-            <group name="EastTopolin">
-                <pos x="5890.43" z="12724.8"  />
-                <pos x="10210.94" z="12718.75"  />
-                <pos x="12690.63" z="12376.56"  />
-                <pos x="3943.75" z="12732.81"  />
-                <pos x="459.37" z="12223.44"  />
-                <pos x="179.69" z="10347.66"  />
-                <pos x="232.81" z="9746.88"  />
-                <pos x="7350" z="12700"  />
-                <pos x="2358.59" z="12292.97"  />
-                <pos x="11400" z="12087.5"  />
-                <pos x="11400" z="12087.5"  />             
-            </group>
-            <group name="WestTopolin">
-                <pos x="5890.43" z="12724.8"  />
-                <pos x="10210.94" z="12718.75"  />
-                <pos x="12690.63" z="12376.56"  />
-                <pos x="3943.75" z="12732.81"  />
-                <pos x="459.37" z="12223.44"  />
-                <pos x="179.69" z="10347.66"  />
-                <pos x="232.81" z="9746.88"  />
-                <pos x="7350" z="12700"  />
-                <pos x="2358.59" z="12292.97"  />
-                <pos x="11400" z="12087.5"  />
-                <pos x="11400" z="12087.5"  />  
-            </group>
-        </generator_posbubbles>
+      <!-- Spawn points for map: livonia -->
+      <pos x="105" z="10843" />
+      <pos x="248" z="11698" />
+      <pos x="2243" z="15175" />
+      <pos x="4715" z="15205" />
+      <pos x="6107" z="15033" />
+      <pos x="7082" z="15220" />
+      <pos x="8822" z="15149" />
+      <pos x="10139" z="15231" />
+      <pos x="9437" z="15250" />
+      <pos x="12397" z="15258" />
+      <pos x="13128" z="14571" />
+      <pos x="14955" z="14054" />
+    </generator_posbubbles>    
     </fresh>
     <hop>
         <spawn_params>
