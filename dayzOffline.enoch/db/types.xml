@@ -11601,6 +11601,8 @@
         <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Village"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
     </type>
     <type name="LeatherShirt_Natural">
         <nominal>0</nominal>
