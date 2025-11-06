@@ -140,16 +140,16 @@
 		<damage min="0.0" max="0.0" />
 	</type>
 	<type name="ShippingContainerKeys_Blue">
-		<damage min="0.0" max="0.0" />
+		<damage min="0.75" max="0.75" />
 	</type>
 	<type name="ShippingContainerKeys_Yellow">
-		<damage min="0.0" max="0.0" />
+		<damage min="0.75" max="0.75" />
 	</type>
 	<type name="ShippingContainerKeys_Red">
-		<damage min="0.0" max="0.0" />
+		<damage min="0.75" max="0.75" />
 	</type>
 	<type name="ShippingContainerKeys_Orange">
-		<damage min="0.0" max="0.0" />
+		<damage min="0.75" max="0.75" />
 	</type>
 	<type name="Ammo_40mm_Explosive">
 		<damage min="0.0" max="0.35" />
