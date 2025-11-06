@@ -121,7 +121,7 @@
 <zone name="InfectedVillage" smin="0" smax="0" dmin="15" dmax="30" x="12010.2" z="5022.73" r="100"/>
 <zone name="InfectedVillage" smin="0" smax="0" dmin="15" dmax="30" x="12176.1" z="4567.71" r="160"/>
 <zone name="InfectedVillage" smin="0" smax="0" dmin="10" dmax="20" x="11912.5" z="5316.67" r="80"/>
-<zone name="InfectedVillage" smin="0" smax="0" dmin="10" dmax="20" x="6294.79" z="6842.7" r="80"/>
+
 <zone name="InfectedVillage" smin="0" smax="0" dmin="15" dmax="30" x="9097.92" z="4414.58" r="120"/>
 <zone name="InfectedVillage" smin="0" smax="0" dmin="15" dmax="20" x="8770.28" z="6650.56" r="120"/>
 <zone name="InfectedVillage" smin="0" smax="0" dmin="15" dmax="20" x="6106.25" z="8126.05" r="180"/>
@@ -467,7 +467,7 @@
 		<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="500" z="5630" r="400"/>
 		<zone name="InfectedVillage" smin="0" smax="0" dmin="60" dmax="80" x="3504" z="5504" r="400"/>
 		<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="4142" z="5591" r="400"/>
-		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="60" dmax="80" x="6241" z="7039" r="400"/>
+		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="60" dmax="80" x="7309" z="7039" r="400"/>
 		<zone name="InfectedSolitude" smin="0" smax="0" dmin="60" dmax="80" x="8364" z="5966" r="400"/>
 		<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="10352" z="6674" r="400"/>
 		<zone name="InfectedVillage" smin="0" smax="0" dmin="60" dmax="80" x="12149" z="5940" r="400"/>
@@ -501,6 +501,7 @@
     </territory>
 
 </territory-type>
+
 
 
 
