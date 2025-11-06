@@ -43,5 +43,11 @@ Example messages:
         <text>Welcome to my server #name</text>
     </message>
     -->
+<message>
+        <delay>10</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>Join the Discord - https://discord.gg/N6TsxauT - for info on the server & rules.</text>
+    </message>
 
 </messages>
