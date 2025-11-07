@@ -2,7 +2,7 @@
     "Areas": [
         { 	"AreaName": "traderring", 
 			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "effecttrigger",
+			"TriggerType": "EffectTrigger",
 			"Data": { 
 				"Pos": [ 6303.71, 300, 6303.71 ],
 				"Radius": 300,
