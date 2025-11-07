@@ -4,7 +4,7 @@
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "effecttrigger",
 			"Data": { 
-				"Pos": [ 6303.71, 0, 6303.71 ],
+				"Pos": [ 6303.71, 300, 6303.71 ],
 				"Radius": 300,
 				"PosHeight": 0,
 				"NegHeight": 0,
