@@ -140,16 +140,16 @@
 		<damage min="0.0" max="0.0" />
 	</type>
 	<type name="ShippingContainerKeys_Blue">
-		<damage min="0.0" max="0.0" />
+		<damage min="0.75" max="0.75" />
 	</type>
 	<type name="ShippingContainerKeys_Yellow">
-		<damage min="0.0" max="0.0" />
+		<damage min="0.75" max="0.75" />
 	</type>
 	<type name="ShippingContainerKeys_Red">
-		<damage min="0.0" max="0.0" />
+		<damage min="0.75" max="0.75" />
 	</type>
 	<type name="ShippingContainerKeys_Orange">
-		<damage min="0.0" max="0.0" />
+		<damage min="0.75" max="0.75" />
 	</type>
 	<type name="Ammo_40mm_Explosive">
 		<damage min="0.0" max="0.35" />
@@ -1492,7 +1492,8 @@
 		<cargo chance="0.10"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="Deagle" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
-		<cargo chance="0.10"> <item name="Mag_FNX45_15Rnd" /> </cargo>		
+		<cargo chance="0.10"> <item name="Mag_FNX45_15Rnd" /> </cargo>
+		<cargo chance="0.01"> <item name="ShippingContainerKeys_Red" /> </cargo>
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
@@ -2670,7 +2671,7 @@
 			<item name="Mag_Scout_5Rnd" chance="0.50" />
 		</cargo>
 		<cargo chance="0.05"> <item name="ShippingContainerKeys_Blue" /> </cargo>
-		cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
+		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>

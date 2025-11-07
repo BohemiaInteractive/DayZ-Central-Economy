@@ -1,0 +1,6500 @@
+{
+    "Objects": [
+        {
+            "name": "M68Optic",
+            "pos": [
+                6313.349609375,
+                272.8664245605469,
+                6814.16650390625
+            ],
+            "ypr": [
+                53.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971985816956,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M4_T3NRDSOptic",
+            "pos": [
+                6313.3056640625,
+                272.8664245605469,
+                6814.2041015625
+            ],
+            "ypr": [
+                0.00004268882912583649,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971985816956,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "FNP45_MRDSOptic",
+            "pos": [
+                6313.28857421875,
+                272.8664245605469,
+                6814.2578125
+            ],
+            "ypr": [
+                62.99997329711914,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971389770508,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "ReflexOptic",
+            "pos": [
+                6313.24462890625,
+                272.8664245605469,
+                6814.30419921875
+            ],
+            "ypr": [
+                62.99997329711914,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971389770508,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "ACOGOptic",
+            "pos": [
+                6313.263671875,
+                272.8664245605469,
+                6814.10498046875
+            ],
+            "ypr": [
+                62.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "ACOGOptic_6x",
+            "pos": [
+                6313.220703125,
+                272.8664245605469,
+                6814.181640625
+            ],
+            "ypr": [
+                62.99997329711914,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971389770508,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "PUScopeOptic",
+            "pos": [
+                6313.17431640625,
+                272.8664245605469,
+                6814.24169921875
+            ],
+            "ypr": [
+                53.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971985816956,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "KashtanOptic",
+            "pos": [
+                6312.3798828125,
+                272.84503173828127,
+                6813.51904296875
+            ],
+            "ypr": [
+                134.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6308.54541015625,
+                273.1986389160156,
+                6822.73291015625
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingOptic",
+            "pos": [
+                6313.18408203125,
+                272.92718505859377,
+                6814.05615234375
+            ],
+            "ypr": [
+                134.99986267089845,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "PistolOptic",
+            "pos": [
+                6313.0712890625,
+                272.80609130859377,
+                6813.96630859375
+            ],
+            "ypr": [
+                152.99990844726563,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "PSO1Optic",
+            "pos": [
+                6312.51318359375,
+                272.80609130859377,
+                6813.564453125
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "PSO11Optic",
+            "pos": [
+                6312.47412109375,
+                272.80609130859377,
+                6813.62646484375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "GrozaOptic",
+            "pos": [
+                6312.943359375,
+                272.9188232421875,
+                6813.86572265625
+            ],
+            "ypr": [
+                134.99986267089845,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "KobraOptic",
+            "pos": [
+                6312.85400390625,
+                272.8692626953125,
+                6813.90869140625
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "KobraOptic",
+            "pos": [
+                6312.7998046875,
+                272.86187744140627,
+                6813.962890625
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "KazuarOptic",
+            "pos": [
+                6312.67822265625,
+                272.9239501953125,
+                6813.66357421875
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StarlightOptic",
+            "pos": [
+                6312.6962890625,
+                272.9291076660156,
+                6813.7939453125
+            ],
+            "ypr": [
+                62.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_Timbers_Log1",
+            "pos": [
+                6310.58642578125,
+                272.1880798339844,
+                6806.462890625
+            ],
+            "ypr": [
+                179.99996948242188,
+                89.98020935058594,
+                179.99996948242188
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "FangeKnife",
+            "pos": [
+                6310.30908203125,
+                273.2259826660156,
+                6806.5634765625
+            ],
+            "ypr": [
+                129.59027099609376,
+                22.73334503173828,
+                17.72300910949707
+            ],
+            "scale": 0.9999997019767761,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "FirefighterAxe_Black",
+            "pos": [
+                6310.54296875,
+                273.6042785644531,
+                6806.59716796875
+            ],
+            "ypr": [
+                58.87724685668945,
+                28.557119369506837,
+                -16.099607467651368
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Iceaxe",
+            "pos": [
+                6310.35595703125,
+                273.47821044921877,
+                6806.5712890625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -27.228925704956056
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_BagFence_3m",
+            "pos": [
+                6282.29052734375,
+                278.8801574707031,
+                6825.95947265625
+            ],
+            "ypr": [
+                80.99987030029297,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_BagFence_3m",
+            "pos": [
+                6283.404296875,
+                278.88018798828127,
+                6823.1875
+            ],
+            "ypr": [
+                57.59983444213867,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_BagFence_3m",
+            "pos": [
+                6285.08544921875,
+                278.88018798828127,
+                6820.556640625
+            ],
+            "ypr": [
+                57.59983444213867,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_BagFence_3m",
+            "pos": [
+                6286.9033203125,
+                278.8726806640625,
+                6817.994140625
+            ],
+            "ypr": [
+                57.59983444213867,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_BagFence_3m",
+            "pos": [
+                6288.6787109375,
+                278.8726806640625,
+                6815.44775390625
+            ],
+            "ypr": [
+                57.59983444213867,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_sofa_leather_old",
+            "pos": [
+                6297.46923828125,
+                278.9610900878906,
+                6818.48095703125
+            ],
+            "ypr": [
+                -35.99996566772461,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_SofaCorner",
+            "pos": [
+                6298.55322265625,
+                279.0128173828125,
+                6820.57861328125
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_lobby_table",
+            "pos": [
+                6296.97265625,
+                278.5992736816406,
+                6820.2890625
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_FireBarrel_Red",
+            "pos": [
+                6296.89794921875,
+                279.83331298828127,
+                6824.337890625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Roadblock_Table",
+            "pos": [
+                6297.8544921875,
+                278.99945068359377,
+                6822.95654296875
+            ],
+            "ypr": [
+                -122.39990997314453,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6297.62353515625,
+                279.4560241699219,
+                6823.669921875
+            ],
+            "ypr": [
+                -71.9999771118164,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999972581863403,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6297.48388671875,
+                279.4560241699219,
+                6823.58056640625
+            ],
+            "ypr": [
+                -71.9999771118164,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999972581863403,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6297.3642578125,
+                279.4560241699219,
+                6823.5029296875
+            ],
+            "ypr": [
+                -71.9999771118164,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "RabbitLegMeat",
+            "pos": [
+                6297.84814453125,
+                279.3995666503906,
+                6823.32275390625
+            ],
+            "ypr": [
+                -44.99999237060547,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MediumTent_Green",
+            "pos": [
+                6307.7041015625,
+                272.1880798339844,
+                6810.75146484375
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CarTent",
+            "pos": [
+                6308.021484375,
+                272.1880798339844,
+                6809.73779296875
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Animal_UrsusArctos",
+            "pos": [
+                6291.98486328125,
+                271.92999267578127,
+                6828.18017578125
+            ],
+            "ypr": [
+                52.17882537841797,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999949932098389,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Well_Pump_Yellow",
+            "pos": [
+                6309.91943359375,
+                272.89215087890627,
+                6816.82470703125
+            ],
+            "ypr": [
+                153.00003051757813,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999966621398926,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_00buck_10rnd",
+            "pos": [
+                6312.24658203125,
+                273.1856384277344,
+                6813.47265625
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999915957450867,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SledgeHammer",
+            "pos": [
+                6312.25439453125,
+                272.2120361328125,
+                6805.95361328125
+            ],
+            "ypr": [
+                71.9999771118164,
+                -0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "EasterEgg",
+            "pos": [
+                6290.3603515625,
+                272.2893981933594,
+                6830.31884765625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "EasterEgg",
+            "pos": [
+                6290.3603515625,
+                272.2893981933594,
+                6830.31884765625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "EasterEgg",
+            "pos": [
+                6290.3603515625,
+                272.2893981933594,
+                6830.31884765625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCnc_4",
+            "pos": [
+                6299.01513671875,
+                279.34881591796877,
+                6822.2236328125
+            ],
+            "ypr": [
+                55.79998779296875,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCnc_4",
+            "pos": [
+                6295.78564453125,
+                279.3563232421875,
+                6827.26611328125
+            ],
+            "ypr": [
+                59.39997482299805,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCnc_4",
+            "pos": [
+                6293.29150390625,
+                279.3563232421875,
+                6831.66796875
+            ],
+            "ypr": [
+                59.39997482299805,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCnc_4",
+            "pos": [
+                6288.9541015625,
+                279.3563232421875,
+                6832.24560546875
+            ],
+            "ypr": [
+                -32.40001678466797,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCnc_4",
+            "pos": [
+                6284.26904296875,
+                279.3060302734375,
+                6829.2900390625
+            ],
+            "ypr": [
+                -32.40001678466797,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_Barbedwire",
+            "pos": [
+                6298.51611328125,
+                272.6831970214844,
+                6849.6767578125
+            ],
+            "ypr": [
+                -125.57967376708985,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Well_Pump_Yellow",
+            "pos": [
+                6295.09228515625,
+                279.2752685546875,
+                6817.7607421875
+            ],
+            "ypr": [
+                -117.00003051757813,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Banana",
+            "pos": [
+                6295.294921875,
+                279.0765075683594,
+                6817.61572265625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Kiwi",
+            "pos": [
+                6295.1416015625,
+                279.07659912109377,
+                6817.56591796875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_Barbedwire",
+            "pos": [
+                6298.17138671875,
+                272.6831359863281,
+                6845.7158203125
+            ],
+            "ypr": [
+                -125.57964324951172,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_shelf_1side",
+            "pos": [
+                6312.74560546875,
+                272.252197265625,
+                6813.62744140625
+            ],
+            "ypr": [
+                56.08085632324219,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999854564666748,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.43896484375,
+                273.1908874511719,
+                6814.2841796875
+            ],
+            "ypr": [
+                53.99993896484375,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994695186615,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.40478515625,
+                273.1908874511719,
+                6814.33349609375
+            ],
+            "ypr": [
+                53.99995803833008,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999952912330627,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.36962890625,
+                273.1908874511719,
+                6814.37939453125
+            ],
+            "ypr": [
+                53.999961853027347,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999902248382568,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_table_umakart",
+            "pos": [
+                6298.38916015625,
+                272.3864440917969,
+                6805.765625
+            ],
+            "ypr": [
+                -33.48570251464844,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.3999838829040528,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_table_umakart",
+            "pos": [
+                6295.94384765625,
+                272.32098388671877,
+                6809.55859375
+            ],
+            "ypr": [
+                -33.505653381347659,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.3999813795089722,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_table_umakart",
+            "pos": [
+                6293.11376953125,
+                272.3288269042969,
+                6813.54052734375
+            ],
+            "ypr": [
+                -36.38042068481445,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.3999664783477784,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_ConcretePipe",
+            "pos": [
+                6291.74462890625,
+                272.2640380859375,
+                6812.6328125
+            ],
+            "ypr": [
+                -123.47235870361328,
+                0.0,
+                -0.0
+            ],
+            "scale": 2.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_ConcretePipe",
+            "pos": [
+                6294.47607421875,
+                272.32562255859377,
+                6808.4443359375
+            ],
+            "ypr": [
+                -123.47235870361328,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_ConcretePipe",
+            "pos": [
+                6296.9326171875,
+                272.3987121582031,
+                6804.669921875
+            ],
+            "ypr": [
+                -123.47235870361328,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.9999804496765137,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Misc_ConcretePipe",
+            "pos": [
+                6299.6416015625,
+                272.37677001953127,
+                6800.50244140625
+            ],
+            "ypr": [
+                -123.47235870361328,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.9999810457229615,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_PipeFenceWall_8",
+            "pos": [
+                6284.73193359375,
+                273.4179382324219,
+                6820.32861328125
+            ],
+            "ypr": [
+                -124.7380599975586,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.9999734163284302,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_PipeFenceWall_8",
+            "pos": [
+                6286.11181640625,
+                273.41790771484377,
+                6830.5419921875
+            ],
+            "ypr": [
+                146.34213256835938,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.999955177307129,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_PipeFenceWall_8",
+            "pos": [
+                6305.572265625,
+                273.4179382324219,
+                6801.3740234375
+            ],
+            "ypr": [
+                148.52455139160157,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.999941349029541,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6292.728515625,
+                275.34515380859377,
+                6810.3779296875
+            ],
+            "ypr": [
+                -123.23445892333985,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0499998331069947,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6298.05908203125,
+                275.3539123535156,
+                6802.4580078125
+            ],
+            "ypr": [
+                -123.23448944091797,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.049999475479126,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6284.720703125,
+                278.07989501953127,
+                6824.29443359375
+            ],
+            "ypr": [
+                -124.37874603271485,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999616146087647,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6288.74609375,
+                278.1339111328125,
+                6826.91064453125
+            ],
+            "ypr": [
+                -123.23450469970703,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999773502349854,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6292.9287109375,
+                278.1842041015625,
+                6829.6318359375
+            ],
+            "ypr": [
+                -123.23450469970703,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999772310256958,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6293.71533203125,
+                278.12640380859377,
+                6819.818359375
+            ],
+            "ypr": [
+                -123.23450469970703,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999629259109497,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6297.89794921875,
+                278.17669677734377,
+                6822.53955078125
+            ],
+            "ypr": [
+                -123.23444366455078,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999626874923706,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6289.68994140625,
+                278.0723876953125,
+                6817.2021484375
+            ],
+            "ypr": [
+                -124.37872314453125,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999619126319885,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6294.71337890625,
+                278.09710693359377,
+                6809.94775390625
+            ],
+            "ypr": [
+                -124.37879180908203,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999383687973023,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6303.4765625,
+                278.2384033203125,
+                6805.03955078125
+            ],
+            "ypr": [
+                -123.23455810546875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999556541442871,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6307.6591796875,
+                278.2886962890625,
+                6807.7607421875
+            ],
+            "ypr": [
+                -123.23469543457031,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999919056892395,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6299.451171875,
+                278.18438720703127,
+                6802.42333984375
+            ],
+            "ypr": [
+                -124.3789291381836,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9998986721038818,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_PipeFenceWall_8",
+            "pos": [
+                6291.44580078125,
+                276.43145751953127,
+                6810.515625
+            ],
+            "ypr": [
+                57.59983444213867,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999485015869141,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_PipeFenceWall_8",
+            "pos": [
+                6295.83154296875,
+                276.440185546875,
+                6804.1494140625
+            ],
+            "ypr": [
+                55.79987716674805,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999443292617798,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_PipeFenceWall_8",
+            "pos": [
+                6297.7333984375,
+                276.4390869140625,
+                6801.375
+            ],
+            "ypr": [
+                55.79999542236328,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999959468841553,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_table_umakart",
+            "pos": [
+                6290.744140625,
+                272.7010803222656,
+                6836.60546875
+            ],
+            "ypr": [
+                53.9998893737793,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999624490737915,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_table_umakart",
+            "pos": [
+                6292.7509765625,
+                272.7011413574219,
+                6838.146484375
+            ],
+            "ypr": [
+                52.1999397277832,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.100000023841858,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_table_umakart",
+            "pos": [
+                6294.80908203125,
+                272.7513732910156,
+                6839.8154296875
+            ],
+            "ypr": [
+                46.799930572509769,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999662041664124,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin7_8",
+            "pos": [
+                6291.83447265625,
+                271.1018981933594,
+                6816.45751953125
+            ],
+            "ypr": [
+                56.18062210083008,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999933838844299,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Exit",
+            "pos": [
+                6299.7763671875,
+                280.19085693359377,
+                6814.71826171875
+            ],
+            "ypr": [
+                57.48221969604492,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999954104423523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCncH_5",
+            "pos": [
+                6304.59326171875,
+                278.3112487792969,
+                6816.60693359375
+            ],
+            "ypr": [
+                59.39997482299805,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCnc_10",
+            "pos": [
+                6303.61279296875,
+                281.7937927246094,
+                6815.69482421875
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCnc_10",
+            "pos": [
+                6296.12353515625,
+                281.6889953613281,
+                6811.34423828125
+            ],
+            "ypr": [
+                57.599998474121097,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_IndCnc_10",
+            "pos": [
+                6297.3154296875,
+                281.73284912109377,
+                6817.078125
+            ],
+            "ypr": [
+                -34.19999313354492,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Panel_Lever",
+            "pos": [
+                6303.59716796875,
+                282.26416015625,
+                6814.7138671875
+            ],
+            "ypr": [
+                149.39984130859376,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Rubble_DirtPile_Medium2",
+            "pos": [
+                6304.5771484375,
+                279.4639587402344,
+                6811.1513671875
+            ],
+            "ypr": [
+                -8.518462181091309,
+                0.0,
+                -0.0
+            ],
+            "scale": 2.999959945678711,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Rubble_DirtPile_Medium2",
+            "pos": [
+                6300.16650390625,
+                279.4187927246094,
+                6808.1982421875
+            ],
+            "ypr": [
+                174.97433471679688,
+                0.0,
+                -0.0
+            ],
+            "scale": 2.999880790710449,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Castle_Stairs",
+            "pos": [
+                6301.92333984375,
+                268.848388671875,
+                6820.94580078125
+            ],
+            "ypr": [
+                139.66421508789063,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999315738677979,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6298.9794921875,
+                273.3107604980469,
+                6836.482421875
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6301.3603515625,
+                273.3753662109375,
+                6833.06005859375
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6303.9228515625,
+                273.49359130859377,
+                6829.37646484375
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6306.55322265625,
+                273.2342834472656,
+                6825.595703125
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6311.05029296875,
+                273.2507629394531,
+                6819.13232421875
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6316.68603515625,
+                273.2098693847656,
+                6811.02734375
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_5",
+            "pos": [
+                6291.45263671875,
+                271.79925537109377,
+                6836.7548828125
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999902248382568,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_5",
+            "pos": [
+                6294.41064453125,
+                271.84954833984377,
+                6839.05078125
+            ],
+            "ypr": [
+                138.59983825683595,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Fen1_5",
+            "pos": [
+                6294.10888671875,
+                274.0293273925781,
+                6839.11083984375
+            ],
+            "ypr": [
+                140.12918090820313,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999783635139465,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Fen1_5",
+            "pos": [
+                6290.146484375,
+                273.97900390625,
+                6835.95947265625
+            ],
+            "ypr": [
+                -36.560203552246097,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999595284461975,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6296.6923828125,
+                272.48028564453127,
+                6839.88623046875
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6296.724609375,
+                273.1552734375,
+                6839.8662109375
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Fen1_5",
+            "pos": [
+                6294.18408203125,
+                275.9327697753906,
+                6839.00439453125
+            ],
+            "ypr": [
+                140.12918090820313,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999783635139465,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Fen1_5",
+            "pos": [
+                6290.2216796875,
+                275.8824462890625,
+                6835.85302734375
+            ],
+            "ypr": [
+                -36.560203552246097,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999583959579468,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Fen1_5",
+            "pos": [
+                6298.42041015625,
+                273.7544250488281,
+                6805.693359375
+            ],
+            "ypr": [
+                -117.89727020263672,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999468326568604,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Fen1_5",
+            "pos": [
+                6296.0498046875,
+                273.77154541015627,
+                6809.6259765625
+            ],
+            "ypr": [
+                55.16120147705078,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999477863311768,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Fen1_5",
+            "pos": [
+                6293.017578125,
+                273.7161865234375,
+                6813.458984375
+            ],
+            "ypr": [
+                55.65041732788086,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999383091926575,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Bonfire",
+            "pos": [
+                6286.0400390625,
+                282.5806884765625,
+                6826.38134765625
+            ],
+            "ypr": [
+                -35.9999885559082,
+                0.0,
+                0.0
+            ],
+            "scale": 1.4999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AK101",
+            "pos": [
+                6304.73974609375,
+                273.4351501464844,
+                6828.2177734375
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AKM",
+            "pos": [
+                6304.01513671875,
+                273.4486083984375,
+                6829.24365234375
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Aug",
+            "pos": [
+                6303.3623046875,
+                273.47113037109377,
+                6830.1826171875
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AugShort",
+            "pos": [
+                6302.88134765625,
+                273.5124816894531,
+                6830.87353515625
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M14",
+            "pos": [
+                6302.4462890625,
+                273.5196838378906,
+                6831.49853515625
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M16A2",
+            "pos": [
+                6301.763671875,
+                273.5966491699219,
+                6832.48046875
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M4A1",
+            "pos": [
+                6301.15087890625,
+                273.6251525878906,
+                6833.361328125
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "FAMAS",
+            "pos": [
+                6300.552734375,
+                273.6108703613281,
+                6834.22119140625
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6315.783203125,
+                272.3052062988281,
+                6808.7001953125
+            ],
+            "ypr": [
+                170.99984741210938,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999933838844299,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6315.90185546875,
+                272.31256103515627,
+                6808.70703125
+            ],
+            "ypr": [
+                170.99984741210938,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999933838844299,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6315.720703125,
+                272.3284606933594,
+                6808.80615234375
+            ],
+            "ypr": [
+                170.99986267089845,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999982118606567,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Paper",
+            "pos": [
+                6315.42333984375,
+                272.2801208496094,
+                6809.1298828125
+            ],
+            "ypr": [
+                50.2557487487793,
+                -87.54743194580078,
+                -134.9568328857422
+            ],
+            "scale": 0.9999898672103882,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6315.783203125,
+                272.3052062988281,
+                6808.7001953125
+            ],
+            "ypr": [
+                170.99984741210938,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999933838844299,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6315.90185546875,
+                272.31256103515627,
+                6808.70703125
+            ],
+            "ypr": [
+                170.99986267089845,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999942779541016,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Firewood",
+            "pos": [
+                6315.720703125,
+                272.3284606933594,
+                6808.80615234375
+            ],
+            "ypr": [
+                170.99986267089845,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999982118606567,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Paper",
+            "pos": [
+                6315.42333984375,
+                272.2801208496094,
+                6809.1298828125
+            ],
+            "ypr": [
+                50.2559928894043,
+                -87.56104278564453,
+                -134.9567108154297
+            ],
+            "scale": 0.9999984502792358,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Vikhr",
+            "pos": [
+                6300.0849609375,
+                273.5951843261719,
+                6834.8583984375
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "VSS",
+            "pos": [
+                6299.63037109375,
+                273.6077575683594,
+                6835.533203125
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "ASVAL",
+            "pos": [
+                6299.10791015625,
+                273.6186828613281,
+                6836.29736328125
+            ],
+            "ypr": [
+                55.387474060058597,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999979555606842,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "FAL",
+            "pos": [
+                6298.56396484375,
+                273.6488037109375,
+                6837.07958984375
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CZ527",
+            "pos": [
+                6295.1298828125,
+                273.5286865234375,
+                6827.796875
+            ],
+            "ypr": [
+                57.599998474121097,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "B95",
+            "pos": [
+                6294.67529296875,
+                273.54730224609377,
+                6828.4677734375
+            ],
+            "ypr": [
+                55.79998779296875,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CZ550",
+            "pos": [
+                6294.05078125,
+                273.49847412109377,
+                6829.36474609375
+            ],
+            "ypr": [
+                62.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Winchester70",
+            "pos": [
+                6303.376953125,
+                273.39617919921877,
+                6815.943359375
+            ],
+            "ypr": [
+                55.79998779296875,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SV98",
+            "pos": [
+                6302.76220703125,
+                273.3775939941406,
+                6816.8271484375
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SVD",
+            "pos": [
+                6302.0380859375,
+                273.3584899902344,
+                6817.86767578125
+            ],
+            "ypr": [
+                55.799983978271487,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_FNX45_15Rnd",
+            "pos": [
+                6313.4423828125,
+                273.5887145996094,
+                6814.22998046875
+            ],
+            "ypr": [
+                -44.99985885620117,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999954104423523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_FNX45_15Rnd",
+            "pos": [
+                6313.408203125,
+                273.5887145996094,
+                6814.26611328125
+            ],
+            "ypr": [
+                -44.99985885620117,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999954104423523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Deagle_9rnd",
+            "pos": [
+                6313.37646484375,
+                273.5887145996094,
+                6814.3134765625
+            ],
+            "ypr": [
+                -35.999752044677737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999954700469971,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Deagle_9rnd",
+            "pos": [
+                6313.3486328125,
+                273.5887145996094,
+                6814.3603515625
+            ],
+            "ypr": [
+                -35.999752044677737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999954700469971,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_1911_7Rnd",
+            "pos": [
+                6313.36279296875,
+                273.5887145996094,
+                6814.173828125
+            ],
+            "ypr": [
+                -35.99996566772461,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999951124191284,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_1911_7Rnd",
+            "pos": [
+                6313.33642578125,
+                273.5887145996094,
+                6814.21484375
+            ],
+            "ypr": [
+                -35.99996566772461,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999951124191284,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ75_15Rnd",
+            "pos": [
+                6313.31103515625,
+                273.5887145996094,
+                6814.26171875
+            ],
+            "ypr": [
+                -0.00008708524546818808,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999952912330627,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ75_15Rnd",
+            "pos": [
+                6313.27978515625,
+                273.5887145996094,
+                6814.31494140625
+            ],
+            "ypr": [
+                -0.00008708524546818808,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999952912330627,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Glock_15Rnd",
+            "pos": [
+                6313.30029296875,
+                273.5887145996094,
+                6814.13134765625
+            ],
+            "ypr": [
+                -0.00008708524546818808,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999952912330627,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Glock_15Rnd",
+            "pos": [
+                6313.2734375,
+                273.5887145996094,
+                6814.17138671875
+            ],
+            "ypr": [
+                -0.00008708524546818808,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999952912330627,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_P1_8Rnd",
+            "pos": [
+                6313.2451171875,
+                273.5887145996094,
+                6814.2099609375
+            ],
+            "ypr": [
+                -26.999990463256837,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999954700469971,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_P1_8Rnd",
+            "pos": [
+                6313.220703125,
+                273.5887145996094,
+                6814.24560546875
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_MP5_30Rnd",
+            "pos": [
+                6313.22705078125,
+                273.6687316894531,
+                6814.0859375
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999914169311523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_MP5_30Rnd",
+            "pos": [
+                6313.19140625,
+                273.6687316894531,
+                6814.12841796875
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999955296516419,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ61_20Rnd",
+            "pos": [
+                6313.14453125,
+                273.55218505859377,
+                6814.169921875
+            ],
+            "ypr": [
+                152.99990844726563,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999898672103882,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ61_20Rnd",
+            "pos": [
+                6313.11572265625,
+                273.55218505859377,
+                6814.20263671875
+            ],
+            "ypr": [
+                152.99990844726563,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_FAMAS_25Rnd",
+            "pos": [
+                6312.2685546875,
+                273.57464599609377,
+                6813.57568359375
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999687671661377,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_FAMAS_25Rnd",
+            "pos": [
+                6312.23291015625,
+                273.57464599609377,
+                6813.6201171875
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999803900718689,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_MKII_10Rnd",
+            "pos": [
+                6313.22021484375,
+                273.556640625,
+                6814.26904296875
+            ],
+            "ypr": [
+                -39.62158203125,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999754428863525,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_MKII_10Rnd",
+            "pos": [
+                6313.20068359375,
+                273.556640625,
+                6814.29296875
+            ],
+            "ypr": [
+                -39.62158203125,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999733567237854,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Ruger1022_30Rnd",
+            "pos": [
+                6313.046875,
+                273.613037109375,
+                6813.95849609375
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Ruger1022_30Rnd",
+            "pos": [
+                6313.0146484375,
+                273.613037109375,
+                6814.00244140625
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999978542327881,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_AKM_Drum75Rnd",
+            "pos": [
+                6312.01611328125,
+                272.5692138671875,
+                6813.2724609375
+            ],
+            "ypr": [
+                -26.999961853027345,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971389770508,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_AKM_Palm30Rnd_Black",
+            "pos": [
+                6312.12744140625,
+                273.6343078613281,
+                6813.31201171875
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999963045120239,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_AKM_Palm30Rnd_Black",
+            "pos": [
+                6312.1025390625,
+                273.6343078613281,
+                6813.3681640625
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ527_5rnd",
+            "pos": [
+                6312.634765625,
+                273.511474609375,
+                6813.68994140625
+            ],
+            "ypr": [
+                -26.999990463256837,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999981164932251,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ527_5rnd",
+            "pos": [
+                6312.61376953125,
+                273.511474609375,
+                6813.72412109375
+            ],
+            "ypr": [
+                -26.999990463256837,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999981164932251,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ527_5rnd",
+            "pos": [
+                6312.59326171875,
+                273.511474609375,
+                6813.75439453125
+            ],
+            "ypr": [
+                -26.999990463256837,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_STANAG_60Rnd",
+            "pos": [
+                6312.17626953125,
+                272.62548828125,
+                6813.34716796875
+            ],
+            "ypr": [
+                161.9998321533203,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999961853027344,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_AK101_30Rnd",
+            "pos": [
+                6312.21728515625,
+                273.64190673828127,
+                6813.39892578125
+            ],
+            "ypr": [
+                152.99966430664063,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999972939491272,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_AK101_30Rnd",
+            "pos": [
+                6312.19091796875,
+                273.64190673828127,
+                6813.46240234375
+            ],
+            "ypr": [
+                152.9998321533203,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999983012676239,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_AK74_30Rnd_Black",
+            "pos": [
+                6312.1689453125,
+                273.63323974609377,
+                6813.48974609375
+            ],
+            "ypr": [
+                143.9998779296875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999981164932251,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_AK74_30Rnd_Black",
+            "pos": [
+                6312.1455078125,
+                273.63323974609377,
+                6813.55419921875
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999850988388062,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_FAL_20Rnd",
+            "pos": [
+                6312.3125,
+                273.60675048828127,
+                6813.45654296875
+            ],
+            "ypr": [
+                -27.000085830688478,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999727010726929,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_FAL_20Rnd",
+            "pos": [
+                6312.28076171875,
+                273.60675048828127,
+                6813.52001953125
+            ],
+            "ypr": [
+                -27.000045776367189,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999778270721436,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_UMP_25Rnd",
+            "pos": [
+                6313.12451171875,
+                273.6212158203125,
+                6814.02001953125
+            ],
+            "ypr": [
+                -30.963748931884767,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999984502792358,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_UMP_25Rnd",
+            "pos": [
+                6313.07763671875,
+                273.6212158203125,
+                6814.06494140625
+            ],
+            "ypr": [
+                -30.963769912719728,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999996542930603,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ550_10rnd",
+            "pos": [
+                6312.5556640625,
+                273.5391540527344,
+                6813.6416015625
+            ],
+            "ypr": [
+                62.99997329711914,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999986290931702,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CZ550_10rnd",
+            "pos": [
+                6312.51220703125,
+                273.5391540527344,
+                6813.61669921875
+            ],
+            "ypr": [
+                62.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_PP19_64Rnd",
+            "pos": [
+                6313.03759765625,
+                273.65545654296877,
+                6814.126953125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999974966049194,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_PP19_64Rnd",
+            "pos": [
+                6312.98876953125,
+                273.65545654296877,
+                6814.08740234375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Vikhr_30Rnd",
+            "pos": [
+                6312.97412109375,
+                273.6668395996094,
+                6813.876953125
+            ],
+            "ypr": [
+                -35.999969482421878,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997019767761,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Vikhr_30Rnd",
+            "pos": [
+                6312.92578125,
+                273.6668395996094,
+                6813.94140625
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999924898147583,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Saiga_Drum20Rnd",
+            "pos": [
+                6312.84130859375,
+                273.6036071777344,
+                6813.828125
+            ],
+            "ypr": [
+                -35.9999885559082,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999967813491821,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_Saiga_Drum20Rnd",
+            "pos": [
+                6312.7744140625,
+                273.6036071777344,
+                6813.78466796875
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.375,
+                273.22161865234377,
+                6814.18994140625
+            ],
+            "ypr": [
+                53.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999979138374329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.34765625,
+                273.22161865234377,
+                6814.169921875
+            ],
+            "ypr": [
+                53.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999979138374329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.31640625,
+                273.22161865234377,
+                6814.14697265625
+            ],
+            "ypr": [
+                53.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999979138374329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.32275390625,
+                273.22161865234377,
+                6814.26025390625
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999876022338867,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.29541015625,
+                273.22161865234377,
+                6814.240234375
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999876022338867,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.26416015625,
+                273.22161865234377,
+                6814.21728515625
+            ],
+            "ypr": [
+                53.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999979138374329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.271484375,
+                273.22161865234377,
+                6814.3310546875
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999847412109375,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.244140625,
+                273.22161865234377,
+                6814.31103515625
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999867081642151,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_308WinTracer_20Rnd",
+            "pos": [
+                6313.212890625,
+                273.22161865234377,
+                6814.2880859375
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999977350234985,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.50537109375,
+                273.17120361328127,
+                6814.20751953125
+            ],
+            "ypr": [
+                53.99993896484375,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994695186615,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.4140625,
+                273.1917419433594,
+                6814.26611328125
+            ],
+            "ypr": [
+                53.99993896484375,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999876618385315,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.3798828125,
+                273.1917419433594,
+                6814.3154296875
+            ],
+            "ypr": [
+                53.99995803833008,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999951720237732,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.3447265625,
+                273.1917419433594,
+                6814.361328125
+            ],
+            "ypr": [
+                53.99995803833008,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999831914901733,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.48046875,
+                273.17205810546877,
+                6814.189453125
+            ],
+            "ypr": [
+                53.99993896484375,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999876618385315,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.390625,
+                273.1947937011719,
+                6814.24658203125
+            ],
+            "ypr": [
+                53.99993896484375,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999987781047821,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.3564453125,
+                273.1947937011719,
+                6814.2958984375
+            ],
+            "ypr": [
+                53.99995803833008,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999951720237732,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.3212890625,
+                273.1947937011719,
+                6814.341796875
+            ],
+            "ypr": [
+                53.99995803833008,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999983549118042,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_556x45_20Rnd",
+            "pos": [
+                6313.4482421875,
+                273.17510986328127,
+                6814.16357421875
+            ],
+            "ypr": [
+                53.99993896484375,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999987781047821,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x54Tracer_20Rnd",
+            "pos": [
+                6313.2919921875,
+                273.212158203125,
+                6814.10400390625
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999973177909851,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x54Tracer_20Rnd",
+            "pos": [
+                6313.2470703125,
+                273.212158203125,
+                6814.166015625
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999973177909851,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x54Tracer_20Rnd",
+            "pos": [
+                6313.20458984375,
+                273.212158203125,
+                6814.22509765625
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999973177909851,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x54Tracer_20Rnd",
+            "pos": [
+                6313.2626953125,
+                273.212158203125,
+                6814.0830078125
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999939799308777,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x54Tracer_20Rnd",
+            "pos": [
+                6313.2177734375,
+                273.212158203125,
+                6814.14501953125
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999973177909851,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x54Tracer_20Rnd",
+            "pos": [
+                6313.17529296875,
+                273.212158203125,
+                6814.2041015625
+            ],
+            "ypr": [
+                53.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999964237213135,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.19921875,
+                273.20697021484377,
+                6814.06689453125
+            ],
+            "ypr": [
+                53.999969482421878,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999953508377075,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.16015625,
+                273.20697021484377,
+                6814.12939453125
+            ],
+            "ypr": [
+                53.999969482421878,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999953508377075,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.11572265625,
+                273.20697021484377,
+                6814.18994140625
+            ],
+            "ypr": [
+                53.999969482421878,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999953508377075,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.15087890625,
+                273.20697021484377,
+                6814.0380859375
+            ],
+            "ypr": [
+                53.99997329711914,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999897480010986,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.11181640625,
+                273.20697021484377,
+                6814.1005859375
+            ],
+            "ypr": [
+                53.999969482421878,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999953508377075,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.0673828125,
+                273.20697021484377,
+                6814.1611328125
+            ],
+            "ypr": [
+                53.99997329711914,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999943971633911,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.1025390625,
+                273.20697021484377,
+                6814.00341796875
+            ],
+            "ypr": [
+                53.99997329711914,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999834299087524,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.0634765625,
+                273.20697021484377,
+                6814.06591796875
+            ],
+            "ypr": [
+                53.999969482421878,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999953508377075,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_762x39Tracer_20Rnd",
+            "pos": [
+                6313.01904296875,
+                273.20697021484377,
+                6814.12646484375
+            ],
+            "ypr": [
+                53.99997329711914,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999834299087524,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_22_50Rnd",
+            "pos": [
+                6313.03857421875,
+                273.1563415527344,
+                6813.9755859375
+            ],
+            "ypr": [
+                -35.99997329711914,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_22_50Rnd",
+            "pos": [
+                6313.00537109375,
+                273.1563415527344,
+                6814.02490234375
+            ],
+            "ypr": [
+                -35.99997329711914,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_22_50Rnd",
+            "pos": [
+                6312.97265625,
+                273.1563415527344,
+                6814.0712890625
+            ],
+            "ypr": [
+                -35.99997329711914,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_22_50Rnd",
+            "pos": [
+                6312.94482421875,
+                273.1563415527344,
+                6814.05029296875
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_22_50Rnd",
+            "pos": [
+                6313.0107421875,
+                273.1563415527344,
+                6813.95458984375
+            ],
+            "ypr": [
+                -35.99998092651367,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999954700469971,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_22_50Rnd",
+            "pos": [
+                6312.9775390625,
+                273.1563415527344,
+                6814.00390625
+            ],
+            "ypr": [
+                -35.99998092651367,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999954700469971,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_357_20Rnd",
+            "pos": [
+                6312.98095703125,
+                273.17034912109377,
+                6813.93017578125
+            ],
+            "ypr": [
+                -124.199951171875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999985694885254,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_357_20Rnd",
+            "pos": [
+                6312.94873046875,
+                273.17034912109377,
+                6813.96875
+            ],
+            "ypr": [
+                -124.199951171875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999985694885254,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_357_20Rnd",
+            "pos": [
+                6312.92138671875,
+                273.17034912109377,
+                6814.01123046875
+            ],
+            "ypr": [
+                -124.199951171875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999985694885254,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_357_20Rnd",
+            "pos": [
+                6312.8935546875,
+                273.17034912109377,
+                6814.04736328125
+            ],
+            "ypr": [
+                -124.199951171875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999985694885254,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_357_20Rnd",
+            "pos": [
+                6312.93603515625,
+                273.17034912109377,
+                6813.9013671875
+            ],
+            "ypr": [
+                -124.199951171875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999958276748657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_357_20Rnd",
+            "pos": [
+                6312.90380859375,
+                273.17034912109377,
+                6813.93994140625
+            ],
+            "ypr": [
+                -124.199951171875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999958276748657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_357_20Rnd",
+            "pos": [
+                6312.87646484375,
+                273.17034912109377,
+                6813.982421875
+            ],
+            "ypr": [
+                -124.199951171875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999985694885254,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_357_20Rnd",
+            "pos": [
+                6312.8486328125,
+                273.17034912109377,
+                6814.0185546875
+            ],
+            "ypr": [
+                -124.199951171875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999969005584717,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_45ACP_25rnd",
+            "pos": [
+                6312.880859375,
+                273.1910095214844,
+                6813.84130859375
+            ],
+            "ypr": [
+                -30.600000381469728,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971985816956,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_45ACP_25rnd",
+            "pos": [
+                6312.8564453125,
+                273.1910095214844,
+                6813.87353515625
+            ],
+            "ypr": [
+                -34.19997787475586,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971985816956,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_45ACP_25rnd",
+            "pos": [
+                6312.83251953125,
+                273.1910095214844,
+                6813.90673828125
+            ],
+            "ypr": [
+                -34.19997787475586,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971985816956,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_45ACP_25rnd",
+            "pos": [
+                6312.80810546875,
+                273.1910095214844,
+                6813.93896484375
+            ],
+            "ypr": [
+                -34.19997787475586,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999971985816956,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_45ACP_25rnd",
+            "pos": [
+                6312.78271484375,
+                273.1910095214844,
+                6813.974609375
+            ],
+            "ypr": [
+                -34.1999626159668,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.8134765625,
+                273.2001953125,
+                6813.78564453125
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999982714653015,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.787109375,
+                273.2001953125,
+                6813.82421875
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999982714653015,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.76123046875,
+                273.2001953125,
+                6813.86328125
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999982714653015,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.73583984375,
+                273.2001953125,
+                6813.8994140625
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999982714653015,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.7109375,
+                273.2001953125,
+                6813.9365234375
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999982714653015,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.7587890625,
+                273.2001953125,
+                6813.74755859375
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999963045120239,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.732421875,
+                273.2001953125,
+                6813.7861328125
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999963045120239,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.70654296875,
+                273.2001953125,
+                6813.8251953125
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999982714653015,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.68115234375,
+                273.2001953125,
+                6813.861328125
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999963045120239,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x19_25rnd",
+            "pos": [
+                6312.65625,
+                273.2001953125,
+                6813.8984375
+            ],
+            "ypr": [
+                -32.39998245239258,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999977350234985,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_380_35rnd",
+            "pos": [
+                6312.70751953125,
+                273.1725769042969,
+                6813.69140625
+            ],
+            "ypr": [
+                -34.20000457763672,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999910593032837,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_380_35rnd",
+            "pos": [
+                6312.68701171875,
+                273.1725769042969,
+                6813.720703125
+            ],
+            "ypr": [
+                -34.20000457763672,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999910593032837,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_380_35rnd",
+            "pos": [
+                6312.6640625,
+                273.1725769042969,
+                6813.75146484375
+            ],
+            "ypr": [
+                -34.20000457763672,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999910593032837,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_380_35rnd",
+            "pos": [
+                6312.64404296875,
+                273.1725769042969,
+                6813.7802734375
+            ],
+            "ypr": [
+                -34.20000457763672,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999910593032837,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_380_35rnd",
+            "pos": [
+                6312.62451171875,
+                273.1725769042969,
+                6813.80615234375
+            ],
+            "ypr": [
+                -34.20000457763672,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999910593032837,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_380_35rnd",
+            "pos": [
+                6312.60595703125,
+                273.1725769042969,
+                6813.83154296875
+            ],
+            "ypr": [
+                -34.1999626159668,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.587890625,
+                273.1891784667969,
+                6813.677734375
+            ],
+            "ypr": [
+                -36.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999940395355225,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.56982421875,
+                273.1891784667969,
+                6813.70458984375
+            ],
+            "ypr": [
+                -35.99998092651367,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999939203262329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.5537109375,
+                273.1891784667969,
+                6813.72607421875
+            ],
+            "ypr": [
+                -35.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999940395355225,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.54052734375,
+                273.1891784667969,
+                6813.74853515625
+            ],
+            "ypr": [
+                -35.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999940395355225,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.52587890625,
+                273.1891784667969,
+                6813.77294921875
+            ],
+            "ypr": [
+                -35.999996185302737,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999940395355225,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.51123046875,
+                273.1891784667969,
+                6813.79541015625
+            ],
+            "ypr": [
+                -35.99998092651367,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999973773956299,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.5400390625,
+                273.1891784667969,
+                6813.63916015625
+            ],
+            "ypr": [
+                -36.00000762939453,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999788999557495,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.52197265625,
+                273.1891784667969,
+                6813.666015625
+            ],
+            "ypr": [
+                -36.00000762939453,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999788999557495,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.505859375,
+                273.1891784667969,
+                6813.6875
+            ],
+            "ypr": [
+                -36.00000762939453,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999788999557495,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.49267578125,
+                273.1891784667969,
+                6813.7099609375
+            ],
+            "ypr": [
+                -36.00000762939453,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999788999557495,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.47802734375,
+                273.1891784667969,
+                6813.734375
+            ],
+            "ypr": [
+                -36.00000762939453,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999788999557495,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_545x39_20Rnd",
+            "pos": [
+                6312.46337890625,
+                273.1891784667969,
+                6813.7568359375
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.5302734375,
+                273.1563415527344,
+                6813.58642578125
+            ],
+            "ypr": [
+                55.79998779296875,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.48779296875,
+                273.1563415527344,
+                6813.64599609375
+            ],
+            "ypr": [
+                55.79998779296875,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.44677734375,
+                273.1563415527344,
+                6813.705078125
+            ],
+            "ypr": [
+                55.79998779296875,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SledgeHammer",
+            "pos": [
+                6312.25439453125,
+                272.2120361328125,
+                6805.95361328125
+            ],
+            "ypr": [
+                71.9999771118164,
+                -0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Pickaxe",
+            "pos": [
+                6313.083984375,
+                272.248046875,
+                6806.5078125
+            ],
+            "ypr": [
+                53.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Pickaxe",
+            "pos": [
+                6313.083984375,
+                272.248046875,
+                6806.5078125
+            ],
+            "ypr": [
+                53.999969482421878,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.40966796875,
+                273.1563415527344,
+                6813.75830078125
+            ],
+            "ypr": [
+                55.79998779296875,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6314.90576171875,
+                272.1880798339844,
+                6807.78125
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.3642578125,
+                273.1563415527344,
+                6813.72705078125
+            ],
+            "ypr": [
+                55.79998779296875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999967217445374,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6314.85546875,
+                272.1880798339844,
+                6807.86962890625
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.4423828125,
+                273.1563415527344,
+                6813.61474609375
+            ],
+            "ypr": [
+                55.79998779296875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999967217445374,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6314.76171875,
+                272.1993408203125,
+                6807.9853515625
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6314.68212890625,
+                272.2232971191406,
+                6808.0869140625
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6314.90576171875,
+                272.1880798339844,
+                6807.78125
+            ],
+            "ypr": [
+                53.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.31689453125,
+                273.1563415527344,
+                6813.69482421875
+            ],
+            "ypr": [
+                55.799983978271487,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999927282333374,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6314.85546875,
+                272.1880798339844,
+                6807.86962890625
+            ],
+            "ypr": [
+                53.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.48486328125,
+                273.1563415527344,
+                6813.55517578125
+            ],
+            "ypr": [
+                55.79998779296875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999967217445374,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6314.76171875,
+                272.1993408203125,
+                6807.9853515625
+            ],
+            "ypr": [
+                53.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6314.68212890625,
+                272.2232971191406,
+                6808.0869140625
+            ],
+            "ypr": [
+                53.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "FenceKit",
+            "pos": [
+                6313.68115234375,
+                272.1880798339844,
+                6806.75
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.4013671875,
+                273.1563415527344,
+                6813.673828125
+            ],
+            "ypr": [
+                55.799983978271487,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "FenceKit",
+            "pos": [
+                6313.75390625,
+                272.2556457519531,
+                6806.97412109375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_12gaBeanbag_10Rnd",
+            "pos": [
+                6313.43017578125,
+                272.85089111328127,
+                6814.232421875
+            ],
+            "ypr": [
+                -35.9999885559082,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999939203262329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6312.72216796875,
+                272.2237548828125,
+                6806.2822265625
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994158744812,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_12gaBeanbag_10Rnd",
+            "pos": [
+                6313.38818359375,
+                272.85089111328127,
+                6814.294921875
+            ],
+            "ypr": [
+                -35.9999885559082,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999939203262329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6312.66455078125,
+                272.2237548828125,
+                6806.4130859375
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994158744812,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_12gaBeanbag_10Rnd",
+            "pos": [
+                6313.35107421875,
+                272.85089111328127,
+                6814.34375
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6312.5830078125,
+                272.2237548828125,
+                6806.52880859375
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994158744812,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_00buck_10rnd",
+            "pos": [
+                6312.3330078125,
+                273.1856384277344,
+                6813.44482421875
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999966025352478,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6312.5048828125,
+                272.2237548828125,
+                6806.640625
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994158744812,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_00buck_10rnd",
+            "pos": [
+                6312.29541015625,
+                273.1856384277344,
+                6813.5009765625
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999966025352478,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6311.15771484375,
+                272.1880798339844,
+                6806.078125
+            ],
+            "ypr": [
+                -30.599987030029298,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_00buck_10rnd",
+            "pos": [
+                6312.26025390625,
+                273.1856384277344,
+                6813.5498046875
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999966025352478,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6311.15771484375,
+                272.1880798339844,
+                6806.078125
+            ],
+            "ypr": [
+                -30.599987030029298,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_00buck_10rnd",
+            "pos": [
+                6312.21875,
+                273.1856384277344,
+                6813.603515625
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999966025352478,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6311.15771484375,
+                272.1880798339844,
+                6806.078125
+            ],
+            "ypr": [
+                -30.599987030029298,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_00buck_10rnd",
+            "pos": [
+                6312.169921875,
+                273.1856384277344,
+                6813.5751953125
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6311.15771484375,
+                272.1880798339844,
+                6806.078125
+            ],
+            "ypr": [
+                -30.599987030029298,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.4375,
+                273.1563415527344,
+                6813.52294921875
+            ],
+            "ypr": [
+                55.799983978271487,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999927282333374,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6311.15771484375,
+                272.1880798339844,
+                6806.078125
+            ],
+            "ypr": [
+                -30.599987030029298,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6311.15771484375,
+                272.1880798339844,
+                6806.078125
+            ],
+            "ypr": [
+                -30.599987030029298,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6311.15771484375,
+                272.1880798339844,
+                6806.078125
+            ],
+            "ypr": [
+                -30.599987030029298,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.35400390625,
+                273.1563415527344,
+                6813.6416015625
+            ],
+            "ypr": [
+                55.799983978271487,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6311.15771484375,
+                272.1880798339844,
+                6806.078125
+            ],
+            "ypr": [
+                -30.599987030029298,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6312.72216796875,
+                272.2237548828125,
+                6806.2822265625
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994158744812,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6312.66455078125,
+                272.2237548828125,
+                6806.4130859375
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994158744812,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6312.5830078125,
+                272.2237548828125,
+                6806.52880859375
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999994158744812,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6312.5048828125,
+                272.2237548828125,
+                6806.640625
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6313.17919921875,
+                272.1880798339844,
+                6807.08544921875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6313.1494140625,
+                272.2062072753906,
+                6807.134765625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6313.1201171875,
+                272.2243347167969,
+                6807.18359375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6313.09814453125,
+                272.2424621582031,
+                6807.22119140625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6313.09814453125,
+                272.2333984375,
+                6807.0849609375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6313.068359375,
+                272.25152587890627,
+                6807.13427734375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6313.0390625,
+                272.2696533203125,
+                6807.18310546875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_9x39AP_20Rnd",
+            "pos": [
+                6312.39501953125,
+                273.1563415527344,
+                6813.58251953125
+            ],
+            "ypr": [
+                55.799983978271487,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999927282333374,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6313.01708984375,
+                272.28778076171877,
+                6807.220703125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CombinationLock4",
+            "pos": [
+                6312.22216796875,
+                272.1880798339844,
+                6806.8369140625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CombinationLock4",
+            "pos": [
+                6312.498046875,
+                272.1880798339844,
+                6807.02783203125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_12gaBeanbag_10Rnd",
+            "pos": [
+                6313.4677734375,
+                272.85089111328127,
+                6814.17626953125
+            ],
+            "ypr": [
+                -35.9999885559082,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999939203262329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Barrel_Green",
+            "pos": [
+                6305.462890625,
+                272.218505859375,
+                6813.7275390625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Barrel_Green",
+            "pos": [
+                6305.99755859375,
+                272.2560119628906,
+                6814.07470703125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Barrel_Blue",
+            "pos": [
+                6305.73291015625,
+                272.1881408691406,
+                6813.09765625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_00buck_10rnd",
+            "pos": [
+                6312.2841796875,
+                273.1856384277344,
+                6813.41650390625
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999915957450867,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Barrel_Blue",
+            "pos": [
+                6306.24072265625,
+                272.1881408691406,
+                6813.4580078125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AmmoBox_00buck_10rnd",
+            "pos": [
+                6312.21142578125,
+                273.1856384277344,
+                6813.521484375
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999915957450867,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Barrel_Red",
+            "pos": [
+                6306.125,
+                272.1881408691406,
+                6812.5859375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Barrel_Red",
+            "pos": [
+                6306.65478515625,
+                272.1881408691406,
+                6812.9697265625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Barrel_Yellow",
+            "pos": [
+                6306.49609375,
+                272.1881408691406,
+                6812.10205078125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Barrel_Yellow",
+            "pos": [
+                6307.03125,
+                272.1881408691406,
+                6812.46875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SeaChest",
+            "pos": [
+                6306.83203125,
+                272.1881408691406,
+                6811.32421875
+            ],
+            "ypr": [
+                -36.00001525878906,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SeaChest",
+            "pos": [
+                6307.2294921875,
+                272.1881408691406,
+                6811.5888671875
+            ],
+            "ypr": [
+                -36.00001525878906,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SeaChest",
+            "pos": [
+                6307.5849609375,
+                272.1881408691406,
+                6811.83642578125
+            ],
+            "ypr": [
+                -36.00001525878906,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_yellow_star",
+            "pos": [
+                6289.2001953125,
+                274.9776916503906,
+                6810.87451171875
+            ],
+            "ypr": [
+                55.278404235839847,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.999999761581421,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_Anvil",
+            "pos": [
+                6291.72021484375,
+                274.8648681640625,
+                6806.7373046875
+            ],
+            "ypr": [
+                -26.57699966430664,
+                0.0,
+                -90.0
+            ],
+            "scale": 1.9999983310699463,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Forest_DeerSkeleton_Skull",
+            "pos": [
+                6294.22265625,
+                275.2588195800781,
+                6803.083984375
+            ],
+            "ypr": [
+                90.87804412841797,
+                42.64734649658203,
+                -32.333126068115237
+            ],
+            "scale": 0.999999463558197,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Forest_DeerSkeleton_Skull",
+            "pos": [
+                6297.673828125,
+                274.56585693359377,
+                6806.54345703125
+            ],
+            "ypr": [
+                90.87804412841797,
+                42.647315979003909,
+                -32.333133697509769
+            ],
+            "scale": 0.9999995231628418,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_Anvil",
+            "pos": [
+                6297.26806640625,
+                274.4594421386719,
+                6810.2353515625
+            ],
+            "ypr": [
+                148.2010498046875,
+                0.0,
+                -90.0
+            ],
+            "scale": 1.9999984502792359,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_yellow_star",
+            "pos": [
+                6294.333984375,
+                274.3874206542969,
+                6814.33740234375
+            ],
+            "ypr": [
+                -119.3260726928711,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.9999730587005616,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Forest_DeerSkeleton_Skull",
+            "pos": [
+                6299.6640625,
+                274.8640441894531,
+                6806.27783203125
+            ],
+            "ypr": [
+                -89.93277740478516,
+                42.647315979003909,
+                -32.333133697509769
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "ZmbM_Mummy",
+            "pos": [
+                6282.072265625,
+                271.92999267578127,
+                6826.16259765625
+            ],
+            "ypr": [
+                116.99991607666016,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "ImprovisedSuppressor",
+            "pos": [
+                6312.14453125,
+                273.1563415527344,
+                6813.494140625
+            ],
+            "ypr": [
+                -153.49612426757813,
+                -89.65450286865235,
+                117.515869140625
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "ImprovisedSuppressor",
+            "pos": [
+                6312.08349609375,
+                273.1563415527344,
+                6813.45556640625
+            ],
+            "ypr": [
+                -153.49612426757813,
+                -89.65450286865235,
+                117.515869140625
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M4_Suppressor",
+            "pos": [
+                6312.03515625,
+                273.1690979003906,
+                6813.3935546875
+            ],
+            "ypr": [
+                -22.09879493713379,
+                -87.50706481933594,
+                -10.905699729919434
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M4_Suppressor",
+            "pos": [
+                6312.0048828125,
+                273.16552734375,
+                6813.36669921875
+            ],
+            "ypr": [
+                -22.098791122436525,
+                -87.50706481933594,
+                -10.905695915222168
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AK_Suppressor",
+            "pos": [
+                6311.96533203125,
+                273.17413330078127,
+                6813.33984375
+            ],
+            "ypr": [
+                78.56573486328125,
+                -89.18577575683594,
+                -110.76339721679688
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AK_Suppressor",
+            "pos": [
+                6311.91943359375,
+                273.17413330078127,
+                6813.31494140625
+            ],
+            "ypr": [
+                78.56578063964844,
+                -89.1639633178711,
+                -110.76378631591797
+            ],
+            "scale": 0.9999935626983643,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SVD_Wooden",
+            "pos": [
+                6301.66357421875,
+                273.23150634765627,
+                6818.40576171875
+            ],
+            "ypr": [
+                55.79997634887695,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_SVD_10Rnd",
+            "pos": [
+                6312.4619140625,
+                273.53729248046877,
+                6813.60888671875
+            ],
+            "ypr": [
+                58.93058395385742,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999909400939941,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_SVD_10Rnd",
+            "pos": [
+                6312.43017578125,
+                273.53729248046877,
+                6813.58984375
+            ],
+            "ypr": [
+                58.93057632446289,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999902248382568,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_SV98_10Rnd",
+            "pos": [
+                6312.41943359375,
+                273.5196228027344,
+                6813.53857421875
+            ],
+            "ypr": [
+                53.999969482421878,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999984622001648,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_SV98_10Rnd",
+            "pos": [
+                6312.3876953125,
+                273.5196228027344,
+                6813.51611328125
+            ],
+            "ypr": [
+                53.99997329711914,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingKnife",
+            "pos": [
+                6310.08203125,
+                273.40289306640627,
+                6806.68603515625
+            ],
+            "ypr": [
+                80.9999771118164,
+                -0.0,
+                44.21654510498047
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "PistolSuppressor",
+            "pos": [
+                6311.87744140625,
+                273.165771484375,
+                6813.27783203125
+            ],
+            "ypr": [
+                148.57032775878907,
+                85.1041488647461,
+                178.87020874023438
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "PistolSuppressor",
+            "pos": [
+                6311.84716796875,
+                273.1659240722656,
+                6813.248046875
+            ],
+            "ypr": [
+                148.57032775878907,
+                85.10395050048828,
+                178.8701934814453
+            ],
+            "scale": 0.9999995231628418,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalPlate",
+            "pos": [
+                6305.95556640625,
+                272.0422058105469,
+                6807.06787109375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MetalWire",
+            "pos": [
+                6306.03955078125,
+                272.2588806152344,
+                6806.7109375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Nail",
+            "pos": [
+                6305.97021484375,
+                272.1197509765625,
+                6807.10107421875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6306.51513671875,
+                272.0422058105469,
+                6805.9599609375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenPlank",
+            "pos": [
+                6305.9765625,
+                272.0422058105469,
+                6806.19970703125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "FenceKit",
+            "pos": [
+                6306.42822265625,
+                272.1363830566406,
+                6804.98681640625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6304.90478515625,
+                272.04217529296877,
+                6807.10009765625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "WoodenLog",
+            "pos": [
+                6305.1611328125,
+                272.042236328125,
+                6806.7646484375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Hammer",
+            "pos": [
+                6306.86083984375,
+                272.04217529296877,
+                6806.50830078125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Pliers",
+            "pos": [
+                6307.03125,
+                272.0422058105469,
+                6806.73828125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CombinationLock4",
+            "pos": [
+                6306.373046875,
+                272.038818359375,
+                6808.46875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6313.7509765625,
+                273.18511962890627,
+                6815.24560546875
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingOptic",
+            "pos": [
+                6313.1513671875,
+                272.919921875,
+                6814.1142578125
+            ],
+            "ypr": [
+                134.99986267089845,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingOptic",
+            "pos": [
+                6313.115234375,
+                272.9262390136719,
+                6814.177734375
+            ],
+            "ypr": [
+                134.99986267089845,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SportingOptic",
+            "pos": [
+                6311.93212890625,
+                272.94683837890627,
+                6813.26220703125
+            ],
+            "ypr": [
+                125.99990844726563,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "PSO6Optic",
+            "pos": [
+                6312.36083984375,
+                272.921875,
+                6813.55615234375
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Castle_Stairs",
+            "pos": [
+                6322.0009765625,
+                269.9959411621094,
+                6809.712890625
+            ],
+            "ypr": [
+                -124.0958023071289,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999578595161438,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6313.7685546875,
+                276.1922912597656,
+                6806.8369140625
+            ],
+            "ypr": [
+                -34.08012390136719,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999858140945435,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6315.27783203125,
+                276.1124267578125,
+                6807.88671875
+            ],
+            "ypr": [
+                -34.08012008666992,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999857544898987,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6314.62939453125,
+                275.18603515625,
+                6813.98291015625
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CMAG_30Rnd",
+            "pos": [
+                6311.9462890625,
+                273.623291015625,
+                6813.31640625
+            ],
+            "ypr": [
+                152.99981689453126,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6310.57958984375,
+                275.446533203125,
+                6819.80859375
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6306.35791015625,
+                275.3321533203125,
+                6825.87646484375
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6302.4765625,
+                275.2848205566406,
+                6831.419921875
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6298.15478515625,
+                275.32696533203127,
+                6837.66796875
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin_4",
+            "pos": [
+                6293.560546875,
+                275.35589599609377,
+                6844.24755859375
+            ],
+            "ypr": [
+                -124.20001983642578,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Candycane_Green",
+            "pos": [
+                6310.0224609375,
+                272.7936706542969,
+                6817.28955078125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Candycane_Red",
+            "pos": [
+                6309.96533203125,
+                272.6934814453125,
+                6817.14013671875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Furniture_table_umakart",
+            "pos": [
+                6301.42431640625,
+                272.58306884765627,
+                6801.89990234375
+            ],
+            "ypr": [
+                -33.48570251464844,
+                0.0,
+                0.0
+            ],
+            "scale": 1.3999837636947632,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Fen1_5",
+            "pos": [
+                6301.3193359375,
+                273.8783874511719,
+                6802.0244140625
+            ],
+            "ypr": [
+                55.21056365966797,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999303817749023,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Slum_Roof1",
+            "pos": [
+                6294.64013671875,
+                280.0893859863281,
+                6820.021484375
+            ],
+            "ypr": [
+                143.99989318847657,
+                0.0,
+                -0.0
+            ],
+            "scale": 2.5,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin7_8",
+            "pos": [
+                6296.0615234375,
+                271.1431884765625,
+                6810.14404296875
+            ],
+            "ypr": [
+                56.18062210083008,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999933242797852,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MediumTent_Green",
+            "pos": [
+                6307.4697265625,
+                272.1881408691406,
+                6811.00341796875
+            ],
+            "ypr": [
+                -35.999977111816409,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "LargeTent",
+            "pos": [
+                6308.16455078125,
+                272.1880798339844,
+                6810.07666015625
+            ],
+            "ypr": [
+                -124.78052520751953,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999914169311523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "LargeTent",
+            "pos": [
+                6308.37744140625,
+                272.1880798339844,
+                6810.2470703125
+            ],
+            "ypr": [
+                -124.780517578125,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999914169311523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Wall_Tin7_8",
+            "pos": [
+                6300.42626953125,
+                271.2320251464844,
+                6803.69189453125
+            ],
+            "ypr": [
+                56.18062210083008,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999933242797852,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "LargeTent",
+            "pos": [
+                6308.17333984375,
+                272.3736572265625,
+                6810.0673828125
+            ],
+            "ypr": [
+                -124.780517578125,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999914169311523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "LargeTent",
+            "pos": [
+                6308.36279296875,
+                272.39947509765627,
+                6810.2080078125
+            ],
+            "ypr": [
+                -124.780517578125,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999914169311523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Ammo_CupidsBolt",
+            "pos": [
+                6313.115234375,
+                272.4760437011719,
+                6814.0537109375
+            ],
+            "ypr": [
+                53.99998474121094,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Crossbow_Black",
+            "pos": [
+                6312.79638671875,
+                272.4473876953125,
+                6813.7548828125
+            ],
+            "ypr": [
+                -35.99998474121094,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MK4Optic_Black",
+            "pos": [
+                6311.9775390625,
+                272.9295349121094,
+                6813.31982421875
+            ],
+            "ypr": [
+                9.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998807907105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Battery9V",
+            "pos": [
+                6313.513671875,
+                272.4473876953125,
+                6814.21142578125
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "PetrolLighter",
+            "pos": [
+                6311.91455078125,
+                272.4817199707031,
+                6813.212890625
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CMAG_30Rnd",
+            "pos": [
+                6312.00146484375,
+                273.623291015625,
+                6813.22802734375
+            ],
+            "ypr": [
+                152.99981689453126,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Mag_CMAG_30Rnd",
+            "pos": [
+                6311.97607421875,
+                273.623291015625,
+                6813.2705078125
+            ],
+            "ypr": [
+                152.99981689453126,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        }
+    ]
+}
