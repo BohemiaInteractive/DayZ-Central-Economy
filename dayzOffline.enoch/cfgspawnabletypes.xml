@@ -398,6 +398,18 @@
 		<damage min="0.0" max="0.0" />
 	</type>
 	<type name="AmmoBox">
+		<cargo chance="1.0"> <item name="AmmoBox_12gaSlug_10Rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_12gaSlug_10Rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_380_35rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_380_35rnd" /> </cargo>	
+		<cargo chance="1.0"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_9x19_25rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_9x19_25rnd" /> </cargo>	
+		<cargo chance="1.0"> <item name="AmmoBox_357_20Rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_357_20Rnd" /> </cargo>
+		<cargo chance="0.70"> <item name="AmmoBox_22_50Rnd" /> </cargo>			
+		<cargo chance="0.30"> <item name="AmmoBox_22_50Rnd" /> </cargo>	
 		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
 		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
 		<cargo chance="0.10"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>			
@@ -428,22 +440,6 @@
 		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>		
 		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>			
 		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
-		<cargo chance="0.01"> <item name="Ammo_40mm_ChemGas" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Black" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Red" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_White" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Green" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
 	</type>
 	<type name="FishingRod">
 		<attachments chance="0.35">
