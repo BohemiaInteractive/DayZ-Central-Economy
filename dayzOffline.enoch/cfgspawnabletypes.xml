@@ -1555,7 +1555,7 @@
 	<type name="ZmbF_CitizenANormal_Beige">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
@@ -2643,7 +2643,7 @@
 			<item name="Mag_Scout_5Rnd" chance="0.50" />			
 		</cargo>
 		<cargo chance="0.02"> <item name="ShippingContainerKeys_Blue" /> </cargo>
-		cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
+		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
