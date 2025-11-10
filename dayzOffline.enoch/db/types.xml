@@ -16396,7 +16396,7 @@
         <value name="Tier3"/>
     </type>
     <type name="SSG82">
-        <nominal>3</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>10</restock>
         <min>0</min>
@@ -23168,10 +23168,10 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-    <category name="food" />
-    <usage name="Farm" />
-    <usage name="Hunting" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="food"/>
+    <usage name="Farm"/>
+    <usage name="Hunting"/>
   </type>
   
   <type name="CigarettePack_Chernamorka">
@@ -23182,11 +23182,11 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-    <category name="tools" />
-    <tag name="shelves" />
-    <usage name="Town" />
-    <usage name="Village" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
   </type>
   
    <type name="CigarettePack_Merkur">
@@ -23197,11 +23197,11 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-    <category name="tools" />
-    <tag name="shelves" />
-    <usage name="Town" />
-    <usage name="Village" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
   </type>
   
    <type name="CigarettePack_Partyzanka">
@@ -23212,10 +23212,10 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-    <category name="tools" />
-    <tag name="shelves" />
-    <usage name="Town" />
-    <usage name="Village" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
   </type>
 </types>
