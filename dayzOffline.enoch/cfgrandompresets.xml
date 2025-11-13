@@ -386,8 +386,14 @@
 		<attachments chance="0.20" name="hatsPolice">
 				<item name="PoliceCap" chance="1.00" />
 		</attachments>
+		<attachments chance="1.00" name="Presshelmet">
+				<item name="BallisticHelmet_UN" chance="1.00" />
+		</attachments>
 		<attachments chance="1.00" name="vestsPolice">
 				<item name="PoliceVest" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00" name="Pressvest">
+				<item name="PressVest_LightBlue" chance="1.00" />
 		</attachments>
 		
 		<!--PRISONER ATTACHMENTS-->
