@@ -2657,7 +2657,8 @@
 		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
-		<attachments preset="hatsPolice" />
+		<attachments preset="Presshelmet" />
+		<attachments preset="Pressvest" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce_Heavy">
 		<cargo preset="toolsPolice" />
