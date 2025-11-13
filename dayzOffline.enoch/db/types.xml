@@ -12124,10 +12124,10 @@
         <value name="Tier3"/>
     </type>
     <type name="M67Grenade">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15277,10 +15277,10 @@
         <category name="food"/>
     </type>
     <type name="Plastic_Explosive">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>432000</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15971,10 +15971,10 @@
         <usage name="Police"/>
     </type>
     <type name="RGD5Grenade">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
