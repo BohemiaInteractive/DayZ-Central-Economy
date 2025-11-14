@@ -1,11 +1,11 @@
 {
     "Areas": [
         { 	"AreaName": "traderring", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "effecttrigger",
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
 			"Data": { 
-				"Pos": [ 6303.71, 300, 6303.71 ],
-				"Radius": 300,
+				"Pos": [ 6303.71, 19, 6821.53 ],
+				"Radius": 200,
 				"PosHeight": 0,
 				"NegHeight": 0,
 				"InnerRingCount": 0,
