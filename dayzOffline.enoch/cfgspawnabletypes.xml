@@ -398,6 +398,18 @@
 		<damage min="0.0" max="0.0" />
 	</type>
 	<type name="AmmoBox">
+		<cargo chance="1.0"> <item name="AmmoBox_12gaSlug_10Rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_12gaSlug_10Rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_380_35rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_380_35rnd" /> </cargo>	
+		<cargo chance="1.0"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_45ACP_25rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_9x19_25rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_9x19_25rnd" /> </cargo>	
+		<cargo chance="1.0"> <item name="AmmoBox_357_20Rnd" /> </cargo>			
+		<cargo chance="1.0"> <item name="AmmoBox_357_20Rnd" /> </cargo>
+		<cargo chance="0.70"> <item name="AmmoBox_22_50Rnd" /> </cargo>			
+		<cargo chance="0.30"> <item name="AmmoBox_22_50Rnd" /> </cargo>	
 		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
 		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
 		<cargo chance="0.10"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>			
@@ -428,22 +440,6 @@
 		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>		
 		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>			
 		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
-		<cargo chance="0.01"> <item name="Ammo_40mm_ChemGas" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Black" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Red" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_White" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Green" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
 	</type>
 	<type name="FishingRod">
 		<attachments chance="0.35">
@@ -1555,7 +1551,7 @@
 	<type name="ZmbF_CitizenANormal_Beige">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
@@ -2585,54 +2581,54 @@
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
-		<cargo chance="0.10">
+		<cargo chance="0.07">
 			<item name="Mag_SSG82_5rnd" chance="1.0" />	
 		</cargo>
-		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_556x45Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.07"> <item name="WeaponCleaningKit" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_12gaSlug" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_22" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_357" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_380" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_545x39" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_545x39Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_556x45" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_556x45Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_762x54" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_762x54Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Glock_15Rnd" /> </cargo>
 		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
-		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
+		<cargo chance="0.07"> <item name="FlashGrenade" /> </cargo>
 
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
-		<cargo chance="0.10">
+		<cargo chance="0.07">
 			<item name="Mag_SSG82_5rnd" chance="1.0" />		
 		</cargo>
-		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_556x45Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.07"> <item name="WeaponCleaningKit" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_12gaSlug" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_22" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_357" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_380" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_545x39" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_545x39Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_556x45" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_556x45Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_762x54" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_762x54Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Glock_15Rnd" /> </cargo>
 		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
-		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
+		<cargo chance="0.07"> <item name="FlashGrenade" /> </cargo>
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
@@ -2643,25 +2639,26 @@
 			<item name="Mag_Scout_5Rnd" chance="0.50" />			
 		</cargo>
 		<cargo chance="0.02"> <item name="ShippingContainerKeys_Blue" /> </cargo>
-		cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_556x45Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.07"> <item name="WeaponCleaningKit" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_12gaSlug" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_22" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_357" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_380" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_545x39" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_545x39Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_556x45" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_556x45Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_762x54" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_762x54Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Glock_15Rnd" /> </cargo>
 		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
-		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
-		<attachments preset="hatsPolice" />
+		<cargo chance="0.07"> <item name="FlashGrenade" /> </cargo>
+		<attachments preset="Presshelmet" />
+		<attachments preset="Pressvest" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce_Heavy">
 		<cargo preset="toolsPolice" />
@@ -2671,24 +2668,24 @@
 			<item name="Mag_Scout_5Rnd" chance="0.50" />
 		</cargo>
 		<cargo chance="0.05"> <item name="ShippingContainerKeys_Blue" /> </cargo>
-		<cargo chance="0.10"> <item name="WeaponCleaningKit" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_545x39" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_545x39Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_556x45" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_556x45Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_762x54" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_762x54Tracer" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.07"> <item name="WeaponCleaningKit" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_12gaSlug" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_22" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_357" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_380" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_45ACP" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_545x39" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_545x39Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_556x45" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_556x45Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_762x54" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_762x54Tracer" /> </cargo>
+		<cargo chance="0.07"> <item name="Ammo_9x19" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Glock_15Rnd" /> </cargo>
 		<cargo chance="0.05"> <item name="BandageDressing" /> </cargo>
 		<cargo chance="0.05"> <item name="Mag_Deagle_9rnd" /> </cargo>
-		<cargo chance="0.10"> <item name="FlashGrenade" /> </cargo>
+		<cargo chance="0.07"> <item name="FlashGrenade" /> </cargo>
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
