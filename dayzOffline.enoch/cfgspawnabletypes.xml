@@ -151,6 +151,9 @@
 	<type name="ShippingContainerKeys_Orange">
 		<damage min="0.75" max="0.75" />
 	</type>
+	<type name="PunchedCard">
+		<damage min="0.75" max="0.75" />
+	</type>
 	<type name="Ammo_40mm_Explosive">
 		<damage min="0.0" max="0.35" />
 	</type>
