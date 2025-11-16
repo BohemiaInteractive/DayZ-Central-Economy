@@ -14113,10 +14113,10 @@
         <usage name="Military"/>
     </type>
     <type name="NailBox">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -23216,10 +23216,10 @@
   </type>
   
    <type name="CigarettePack_Merkur">
-    <nominal>10</nominal>
+    <nominal>20</nominal>
     <lifetime>2700</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -23231,10 +23231,10 @@
   </type>
   
    <type name="CigarettePack_Partyzanka">
-    <nominal>10</nominal>
+    <nominal>20</nominal>
     <lifetime>2700</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
