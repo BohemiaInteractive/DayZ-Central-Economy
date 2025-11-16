@@ -2406,8 +2406,10 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Black">
+	
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
+		<cargo chance="0.07"> <item name="CigarettePack_Partyzanka" /> </cargo>
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
@@ -2415,12 +2417,14 @@
 	<type name="ZmbM_ConstrWorkerNormal_Green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
+		<cargo chance="0.07"> <item name="CigarettePack_Partyzanka" /> </cargo>
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Grey">
 		<cargo preset="foodCity" />
+		<cargo chance="0.07"> <item name="CigarettePack_Partyzanka" /> </cargo>
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
@@ -2709,21 +2713,25 @@
 	<type name="ZmbF_HikerSkinny_Blue">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo chance="0.10"> <item name="CigarettePack_Merkur" /> </cargo>
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Grey">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo chance="0.07"> <item name="CigarettePack_Merkur" /> </cargo>
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Green">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo chance="0.07"> <item name="CigarettePack_Merkur" /> </cargo>
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Red">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo chance="0.07"> <item name="CigarettePack_Merkur" /> </cargo>
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Blue">
