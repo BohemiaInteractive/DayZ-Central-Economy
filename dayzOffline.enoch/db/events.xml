@@ -164,9 +164,9 @@
         </children>
     </event>
     <event name="AnimalGoat">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>1</max>
+        <nominal>5</nominal>
+        <min>4</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -177,10 +177,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircusF"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Black"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Brown"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_White"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapreolusCapreolus"/>
+            <child lootmax="0" lootmin="0" max="3" min="2" type="Animal_CapreolusCapreolusF"/>
         </children>
     </event>
     <event name="AnimalPig">
@@ -202,7 +200,7 @@
     </event>
     <event name="AnimalRoeDeer">
         <nominal>8</nominal>
-        <min>1</min>
+        <min>7</min>
         <max>10</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
@@ -219,9 +217,9 @@
         </children>
     </event>
     <event name="AnimalSheep">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>1</max>
+        <nominal>5</nominal>
+        <min>5</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -232,8 +230,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_OvisAries"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_OvisAriesF"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapreolusCapreolus"/>
+            <child lootmax="0" lootmin="0" max="3" min="2" type="Animal_CapreolusCapreolusF"/>
         </children>
     </event>
     <event name="AnimalWildBoar">
