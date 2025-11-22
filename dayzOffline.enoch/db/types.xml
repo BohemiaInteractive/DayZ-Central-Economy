@@ -23174,25 +23174,23 @@
         <usage name="ContaminatedArea"/>
     </type>
 <type name="CannabisSeedsPack">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <min>5</min>
+    <quantmin>20</quantmin>
+    <quantmax>30</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="food"/>
-    <usage name="Farm"/>
-    <usage name="Hunting"/>
+    <usage name="Underground"/>    
   </type>
 <type name="CannabisSeeds">
     <nominal>10</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <min>5</min>
-    <quantmin>5</quantmin>
-    <quantmax>10</quantmax>
+    <quantmin>20</quantmin>
+    <quantmax>30</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="food"/>
@@ -23201,21 +23199,6 @@
   </type>
   
   <type name="CigarettePack_Chernamorka">
-    <nominal>10</nominal>
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>5</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="tools"/>
-    <tag name="shelves"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-  </type>
-  
-   <type name="CigarettePack_Merkur">
     <nominal>20</nominal>
     <lifetime>2700</lifetime>
     <restock>0</restock>
@@ -23224,13 +23207,19 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="food"/>
     <category name="tools"/>
     <tag name="shelves"/>
     <usage name="Town"/>
     <usage name="Village"/>
+    <usage name="Military"/>
+    <usage name="Police"/>
+    <usage name="Industrial"/>
+    <usage name="Farm"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
-  
-   <type name="CigarettePack_Partyzanka">
+    <type name="CigarettePack_Merkur">
     <nominal>20</nominal>
     <lifetime>2700</lifetime>
     <restock>0</restock>
@@ -23239,9 +23228,37 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="food"/>
     <category name="tools"/>
     <tag name="shelves"/>
     <usage name="Town"/>
     <usage name="Village"/>
+    <usage name="Military"/>
+    <usage name="Police"/>
+    <usage name="Industrial"/>
+    <usage name="Farm"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
+  </type>
+  <type name="CigarettePack_Partyzanka">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>15</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="food"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="Military"/>
+    <usage name="Police"/>
+    <usage name="Industrial"/>
+    <usage name="Farm"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
 </types>
