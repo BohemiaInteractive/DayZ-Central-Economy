@@ -105,7 +105,7 @@
 		</attachments>
 	</type>
 	<type name="Mich2001Helmet">
-		<damage min="0.1" max="0.6" />
+		<damage min="0.1" max="0.1" />
 		<attachments chance="1.00">
 			<item name="UniversalLight" chance="1.00" />
 			<item name="Battery9V" chance="1.00" />
@@ -2548,13 +2548,16 @@
 	<!--Medic-->
 	<type name="ZmbF_DoctorSkinny">
 		<cargo preset="toolsMedic" />
+		<cargo chance="0.05"> <item name="CigarettePack_Chernamorka" /> </cargo>
 		<attachments preset="hatsMedic" />
 	</type>
 	<type name="ZmbF_NurseFat">
+		<cargo chance="0.05"> <item name="CigarettePack_Chernamorka" /> </cargo>
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Blue">
 		<cargo preset="toolsMedic" />
+		<cargo chance="0.05"> <item name="CigarettePack_Chernamorka" /> </cargo>
 	</type>
 	<type name="ZmbF_ParamedicNormal_Green">
 		<cargo preset="toolsMedic" />
@@ -2564,6 +2567,7 @@
 	</type>
 	<type name="ZmbF_PatientOld">
 		<cargo preset="toolsMedic" />
+		<cargo chance="0.05"> <item name="CigarettePack_Partyzanka" /> </cargo>
 	</type>
 	<type name="ZmbM_DoctorFat">
 		<cargo preset="toolsMedic" />
@@ -2582,6 +2586,7 @@
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ZmbM_PatientSkinny">
+		
 		<cargo preset="toolsMedic" />
 	</type>
 	<!--Police-->
@@ -2707,7 +2712,8 @@
 	</type>
 	<!--Religious-->
 	<type name="ZmbM_priestPopSkinny">
-		<cargo preset="foodHermit" />		
+		<cargo preset="foodHermit" />
+		<cargo chance="0.15"> <item name="BookBible" /> </cargo>		
 	</type>
 	<!--Solitude-->
 	<type name="ZmbF_HikerSkinny_Blue">
@@ -2792,6 +2798,7 @@
 	<type name="ZmbM_HunterOld_Autumn">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo chance="0.05"> <item name="BookTheCallOfTheWild" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_HuntingBolt" /> </cargo>
 		<cargo chance="0.30"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_12gaPellets" /> </cargo>
@@ -2810,6 +2817,7 @@
 	<type name="ZmbM_HunterOld_Spring">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo chance="0.05"> <item name="BookTheCallOfTheWild" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_HuntingBolt" /> </cargo>
 		<cargo chance="0.30"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_12gaPellets" /> </cargo>
@@ -2828,6 +2836,7 @@
 	<type name="ZmbM_HunterOld_Summer">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo chance="0.05"> <item name="BookTheCallOfTheWild" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_HuntingBolt" /> </cargo>
 		<cargo chance="0.30"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_12gaPellets" /> </cargo>
@@ -2846,6 +2855,7 @@
 	<type name="ZmbM_HunterOld_Winter">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo chance="0.05"> <item name="BookTheCallOfTheWild" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_HuntingBolt" /> </cargo>
 		<cargo chance="0.30"> <item name="WeaponCleaningKit" /> </cargo>
 		<cargo chance="0.30"> <item name="Ammo_12gaPellets" /> </cargo>
@@ -4915,4 +4925,8 @@
 		</attachments>
 	</type>
 -->
+
+<!-- ADDITIONS -->
+	
+
 </spawnabletypes>

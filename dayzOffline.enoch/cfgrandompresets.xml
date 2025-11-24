@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
-		<cargo chance="0.15" name="foodHermit">				
-				<item name="Apple" chance="01.0" />
+		<cargo chance="0.10" name="foodHermit">				
+				<item name="Apple" chance="1.0" />
 		</cargo>
-		<cargo chance="0.16" name="foodVillage">
+		<cargo chance="0.10" name="foodVillage">
 				<item name="Apple" chance="1.0" />				
 		</cargo>
 		<cargo chance="0.16" name="foodCity"> <!--same as the one above - just preparing -->
 				<item name="Apple" chance="1.0" />				
 		</cargo>
-		<cargo chance="0.1" name="foodArmy">
-				<item name="Apple" chance="1.0" />				
+		<cargo chance="0.05" name="foodArmy">
+				<item name="CigarettePack_Merkur" chance="1.0" />								
 		</cargo>
 		<cargo chance="0.15" name="toolsHermit">
 				<item name="WeaponCleaningKit" chance="0.10" />
 				<item name="Matchbox" chance="0.15" />
-				<item name="CanOpener" chance="0.05" />
+				<item name="CigarettePack_Merkur" chance="0.10" />
 				<item name="Rope" chance="0.07" />
 				<item name="Rag" chance="0.07" />
 				<item name="Hatchet" chance="0.07" />
@@ -23,13 +23,14 @@
 				<item name="HuntingKnife" chance="0.08" />
 				<item name="PurificationTablets" chance="0.05" />
 				<item name="CharcoalTablets" chance="0.05" />
+				<item name="CigarettePack_Chernamorka" chance="0.10" />
 		</cargo>
 		<cargo chance="0.2" name="toolsVillage">
 				<item name="DuctTape" chance="0.07" />
 				<item name="Battery9V" chance="0.07" />
 				<item name="Matchbox" chance="0.07" />
 				<item name="SewingKit" chance="0.07" />
-				<item name="CanOpener" chance="0.05" />
+				<item name="CigarettePack_Partyzanka" chance="0.15" />
 				<item name="Rope" chance="0.07" />
 				<item name="Rag" chance="0.07" />
 				<item name="Flashlight" chance="0.07" />
@@ -65,8 +66,10 @@
 				<item name="CombatKnife" chance="0.05" />
 				<item name="Morphine" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
+				<item name="CigarettePack_Chernamorka" chance="0.30" />
 		</cargo>
 		<cargo chance="0.15" name="toolsHunter">
+				<item name="CigarettePack_Chernamorka" chance="0.10" />
 				<item name="Paper" chance="0.1" />
 				<item name="Flashlight" chance="0.1" />
 				<item name="Battery9V" chance="0.1" />
@@ -88,6 +91,7 @@
 				<item name="DuctTape" chance="0.1" />
 				<item name="Battery9V" chance="0.2" />
 				<item name="Flashlight" chance="0.2" />
+				<item name="CigarettePack_Chernamorka" chance="0.10" />
 		</cargo>
 		<cargo chance="0.15" name="ammoCivil">
 				<item name="Ammo_380" chance="0.22" />
@@ -164,7 +168,7 @@
 				<item name="RDG2SmokeGrenade_White" chance="0.25" />
 				<item name="FlashGrenade" chance="0.25" />
 				<item name="RDG2SmokeGrenade_Black" chance="0.25" />
-				<item name="RGD5Grenade" chance="0.25" />
+				<item name="RGD5Grenade" chance="0.0" />
 		</cargo>
 		<attachments chance="0.10" name="optics">
 				<item name="M4_T3NRDSOptic" chance="0.20" />
@@ -364,12 +368,11 @@
 			<item name="DuffelBagSmall_Camo" chance="0.10" />
 			<item name="DuffelBagSmall_Green" chance="0.10" />
 			<item name="DuffelBagSmall_Medical" chance="0.10" />
-			<item name="ArmyPouch_Black" chance="0.10" />
-			<item name="ArmyPouch_Camo" chance="0.10" />
-			<item name="AssaultBag_Green" chance="0.10" />
-			<item name="AssaultBag_Ttsko" chance="0.10" />
-			<item name="AssaultBag_Black" chance="0.10" />
-			<item name="TortillaBag" chance="0.10" />
+			<item name="ArmyPouch_Black" chance="0.20" />
+			<item name="ArmyPouch_Camo" chance="0.20" />
+			<item name="AssaultBag_Green" chance="0.03" />
+			<item name="AssaultBag_Ttsko" chance="0.03" />
+			<item name="AssaultBag_Black" chance="0.03" />			
 		</attachments>
 		<attachments chance="1.00" name="HeavyArmorArmy">
 			<item name="PlateCarrierVest" chance="1.00" />
