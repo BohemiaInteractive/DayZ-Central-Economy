@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <variables>
-    <var name="AnimalMaxCount" type="0" value="200"/>
+    <var name="AnimalMaxCount" type="0" value="300"/>
     <var name="CleanupAvoidance" type="0" value="50"/>
     <var name="CleanupLifetimeDeadAnimal" type="0" value="1800"/>
     <var name="CleanupLifetimeDeadInfected" type="0" value="2700"/>
