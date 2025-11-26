@@ -177,8 +177,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapreolusCapreolus"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapreolusCapreolusF"/>
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_LepusEuropaeus"/>          
         </children>
     </event>
     <event name="AnimalPig">
@@ -212,7 +211,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="10" min="3" type="Animal_LepusEuropaeus"/>            
+            <child lootmax="5" lootmin="0" max="4" min="1" type="Animal_LepusEuropaeus"/>            
         </children>
     </event>
     <event name="AnimalSheep">
@@ -229,8 +228,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapreolusCapreolus"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapreolusCapreolusF"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_LepusEuropaeus"/>            
         </children>
     </event>
     <event name="AnimalWildBoar">
