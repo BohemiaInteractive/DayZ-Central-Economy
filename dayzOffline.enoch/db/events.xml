@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
-    <event name="StaticContainerLocked">
-        <nominal>10</nominal>
-        <min>10</min>
-        <max>0</max>
-        <lifetime>2400</lifetime>
+    <event name="StaticContainerLockedBlue">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>2</max>
+        <lifetime>10800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
@@ -15,8 +15,25 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="9" lootmin="5" max="10" min="10" type="Land_ContainerLocked_Blue_DE"/>
-        <!--<child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Yellow_DE"/> Removed for just blue containers currently-->
+            <child lootmax="14" lootmin="5" max="10" min="5" type="Land_ContainerLocked_Blue_DE"/>
+        </children>
+    </event>
+    <event name="StaticContainerLockedRed">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>2</max>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>250</cleanupradius>
+        <secondary>InfectedArmyHard</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="14" lootmin="5" max="2" min="2" type="Land_ContainerLocked_Red_DE"/>
         </children>
     </event>
 
@@ -91,8 +108,8 @@
     </event>
     <event name="AnimalBear">
         <nominal>0</nominal>
-        <min>10</min>
-        <max>15</max>
+        <min>3</min>
+        <max>6</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -103,7 +120,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_UrsusArctos"/>
+            <child lootmax="0" lootmin="0" max="3" min="2" type="Animal_UrsusArctos"/>
         </children>
     </event>
     <event name="AnimalCow">
@@ -129,9 +146,9 @@
         </children>
     </event>
     <event name="AnimalDeer">
-        <nominal>9</nominal>
+        <nominal>5</nominal>
         <min>2</min>
-        <max>4</max>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -147,9 +164,9 @@
         </children>
     </event>
     <event name="AnimalGoat">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>1</max>
+        <nominal>5</nominal>
+        <min>4</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -160,10 +177,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircusF"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Black"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Brown"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_White"/>
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_LepusEuropaeus"/>          
         </children>
     </event>
     <event name="AnimalPig">
@@ -184,9 +198,9 @@
         </children>
     </event>
     <event name="AnimalRoeDeer">
-        <nominal>12</nominal>
-        <min>1</min>
-        <max>3</max>
+        <nominal>8</nominal>
+        <min>7</min>
+        <max>10</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -197,14 +211,13 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapreolusCapreolus"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="Animal_CapreolusCapreolusF"/>
+            <child lootmax="5" lootmin="0" max="4" min="1" type="Animal_LepusEuropaeus"/>            
         </children>
     </event>
     <event name="AnimalSheep">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>1</max>
+        <nominal>5</nominal>
+        <min>5</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -215,8 +228,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_OvisAries"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_OvisAriesF"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_LepusEuropaeus"/>            
         </children>
     </event>
     <event name="AnimalWildBoar">
@@ -816,7 +828,7 @@
         <nominal>1</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>7200</lifetime>
+        <lifetime>10800</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
         <distanceradius>1000</distanceradius>

@@ -1,0 +1,180 @@
+{
+    "Objects": [
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                3994.151611328125,
+                239.3686065673828,
+                10141.55078125
+            ],
+            "ypr": [
+                -0.00003910064333467744,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                6417.10888671875,
+                224.77212524414063,
+                8162.7783203125
+            ],
+            "ypr": [
+                -67.07209777832031,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999962449073792,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                2214.5771484375,
+                299.86114501953127,
+                10969.599609375
+            ],
+            "ypr": [
+                147.34532165527345,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999884366989136,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                4393.69677734375,
+                317.6088562011719,
+                6706.59033203125
+            ],
+            "ypr": [
+                139.65431213378907,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999876618385315,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                8139.37841796875,
+                205.229248046875,
+                10962.7314453125
+            ],
+            "ypr": [
+                -131.41110229492188,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999898672103882,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                9910.7509765625,
+                352.8524169921875,
+                3793.334228515625
+            ],
+            "ypr": [
+                -67.07209777832031,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999962449073792,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                9075.150390625,
+                300.964599609375,
+                6665.40234375
+            ],
+            "ypr": [
+                -67.07209777832031,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999962449073792,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                7910.525390625,
+                320.50872802734377,
+                9755.23046875
+            ],
+            "ypr": [
+                -67.07209777832031,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999963045120239,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                5583.69775390625,
+                422.85479736328127,
+                3791.580322265625
+            ],
+            "ypr": [
+                -67.07209777832031,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999962449073792,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                4956.57177734375,
+                525.076416015625,
+                2127.9296875
+            ],
+            "ypr": [
+                -23.151765823364259,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999847412109375,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_ContainerLocked_Red_DE",
+            "pos": [
+                9677.2138671875,
+                214.6763458251953,
+                8499.052734375
+            ],
+            "ypr": [
+                -67.07209777832031,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999962449073792,
+            "enableCEPersistency": 0,
+            "customString": ""
+        }
+    ]
+}
