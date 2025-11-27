@@ -3,9 +3,9 @@
     <fresh>
         <spawn_params>
             <min_dist_infected>30</min_dist_infected>
-            <max_dist_infected>5000</max_dist_infected>
-            <min_dist_player>2000</min_dist_player>
-            <max_dist_player>11000</max_dist_player>
+            <max_dist_infected>70</max_dist_infected>
+            <min_dist_player>1000</min_dist_player>
+            <max_dist_player>5000</max_dist_player>
             <min_dist_static>0</min_dist_static>
             <max_dist_static>2</max_dist_static>
         </spawn_params>
@@ -18,20 +18,42 @@
             <min_steepness>-45</min_steepness>
             <max_steepness>45</max_steepness>
         </generator_params>
+        <group_params>
+            <enablegroups>true</enablegroups>
+            <groups_as_regular>true</groups_as_regular>
+            <lifetime>240</lifetime>
+            <counter>-1</counter>
+        </group_params>
         <generator_posbubbles>
       <!-- Spawn points for map: livonia -->
-      <pos x="105" z="10843" />
-      <pos x="248" z="11698" />
-      <pos x="2243" z="15175" />
-      <pos x="4715" z="15205" />
-      <pos x="6107" z="15033" />
-      <pos x="7082" z="15220" />
-      <pos x="8822" z="15149" />
-      <pos x="10139" z="15231" />
-      <pos x="9437" z="15250" />
-      <pos x="12397" z="15258" />
-      <pos x="13128" z="14571" />
-      <pos x="14955" z="14054" />
+              <group name="Bielawa">
+              <pos x="34.37" z="8886.88" />
+              <pos x="185.94" z="9751.39" />
+              <pos x="145.31" z="10325" />
+              <pos x="459.37" z="12219.65" />
+              <pos x="3950" z="12766.69" />
+              <pos x="5875" z="12755.36" />
+              <pos x="7359.38" z="12763.63" />
+              <pos x="8476.56" z="12751.12" />
+              <pos x="8784.38" z="12604.2" />
+              <pos x="10223.44" z="12744.87" />
+              <pos x="12701.56" z="12388.64" />
+
+              </group>
+              <group name="Lukow">
+              <pos x="34.37" z="8886.88" />
+              <pos x="185.94" z="9751.39" />
+              <pos x="145.31" z="10325" />
+              <pos x="459.37" z="12219.65" />
+              <pos x="3950" z="12766.69" />
+              <pos x="5875" z="12755.36" />
+              <pos x="7359.38" z="12763.63" />
+              <pos x="8476.56" z="12751.12" />
+              <pos x="8784.38" z="12604.2" />
+              <pos x="10223.44" z="12744.87" />
+              <pos x="12701.56" z="12388.64" />
+
+              </group>
     </generator_posbubbles>    
     </fresh>
     <hop>

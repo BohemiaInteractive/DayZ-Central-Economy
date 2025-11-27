@@ -43,11 +43,54 @@ Example messages:
         <text>Welcome to my server #name</text>
     </message>
     -->
-<message>
-        <delay>10</delay>
+    <message>
+        <delay>1</delay>
         <repeat>50</repeat>
         <onconnect>1</onconnect>
-        <text>Join the Discord - https://discord.gg/dQMs4D68uN - for info on the server & rules.</text>
+        <text>*************************************************************************</text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>               W E L C O M E  T O  2 8  D A Y Z  L A T E R               </text>
+    </message>
+<message>
+        <delay>1</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>                                                                          </text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text> Discord - https://discord.gg/dQMs4D68uN - for info on the server & rules.</text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>                                                                          </text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>***************************************************************************</text>
+    </message>
+    
+     <message>
+        <repeat>30</repeat>
+        <text> For Trader / Rules / Economy join the discord https://discord.gg/dQMs4D68uN </text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>                                                                              </text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text> Server Runtime is 5pm - 2am Mon Firday, 12pm - 2am Sat and Sun day - UK TIME </text>
     </message>
 
 </messages>
