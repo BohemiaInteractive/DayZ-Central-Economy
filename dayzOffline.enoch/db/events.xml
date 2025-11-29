@@ -4,7 +4,7 @@
         <nominal>1</nominal>
         <min>0</min>
         <max>2</max>
-        <lifetime>10800</lifetime>
+        <lifetime>5400</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
@@ -22,7 +22,7 @@
         <nominal>1</nominal>
         <min>0</min>
         <max>2</max>
-        <lifetime>10800</lifetime>
+        <lifetime>5400</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
@@ -54,7 +54,7 @@
             <child lootmax="5" lootmin="0" max="0" min="0" type="Animal_VulpesVulpes"/>
         </children>
     </event>
-    <event name="AmbientHare">
+   <event name="AmbientHare">
         <nominal>0</nominal>
         <min>0</min>
         <max>50</max>
@@ -164,9 +164,9 @@
         </children>
     </event>
     <event name="AnimalGoat">
-        <nominal>5</nominal>
-        <min>4</min>
-        <max>5</max>
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -177,7 +177,10 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_LepusEuropaeus"/>            
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircusF"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Black"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_White"/>
         </children>
     </event>
     <event name="AnimalPig">
@@ -198,9 +201,9 @@
         </children>
     </event>
     <event name="AnimalRoeDeer">
-        <nominal>8</nominal>
-        <min>7</min>
-        <max>10</max>
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>2</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -211,13 +214,14 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_LepusEuropaeus"/>            
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapreolusCapreolus"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_CapreolusCapreolusF"/>            
         </children>
     </event>
     <event name="AnimalSheep">
-        <nominal>5</nominal>
-        <min>5</min>
-        <max>5</max>
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -228,7 +232,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_LepusEuropaeus"/>            
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_OvisAries"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_OvisAriesF"/>           
         </children>
     </event>
     <event name="AnimalWildBoar">
@@ -828,7 +833,7 @@
         <nominal>1</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>10800</lifetime>
+        <lifetime>5400</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
         <distanceradius>1000</distanceradius>
