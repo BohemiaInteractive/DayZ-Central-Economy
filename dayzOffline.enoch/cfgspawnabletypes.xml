@@ -1547,6 +1547,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1560,6 +1561,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1574,6 +1576,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1588,6 +1591,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1602,6 +1606,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1616,6 +1621,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1629,6 +1635,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1642,6 +1649,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1655,6 +1663,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1668,6 +1677,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1682,6 +1692,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1696,6 +1707,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1710,6 +1722,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1724,6 +1737,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1738,6 +1752,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1752,6 +1767,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1766,6 +1782,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1780,6 +1797,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1794,6 +1812,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1808,6 +1827,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="glassesCity" />
@@ -1822,6 +1842,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="glassesCity" />
@@ -1864,6 +1885,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1878,6 +1900,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1906,6 +1929,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1920,6 +1944,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1934,6 +1959,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1948,6 +1974,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1962,6 +1989,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1976,6 +2004,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -1990,6 +2019,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2004,6 +2034,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2018,6 +2049,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2032,6 +2064,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2046,6 +2079,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2060,6 +2094,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2073,6 +2108,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2086,6 +2122,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="hatsCity" />
 	</type>
@@ -2098,6 +2135,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2111,6 +2149,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2125,6 +2164,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2139,6 +2179,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2153,6 +2194,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2167,6 +2209,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
@@ -2280,12 +2323,13 @@
 	<type name="ZmbM_MotobikerFat_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-				<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_12gaPellets" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_12gaSlug" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_22" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="hatsMotorbike" />
 	</type>
@@ -2324,6 +2368,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
@@ -2337,6 +2382,7 @@
 		<cargo chance="0.10"> <item name="Ammo_357" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_380" /> </cargo>
 		<cargo chance="0.10"> <item name="Ammo_9x19" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_45ACP" /> </cargo>
 		<cargo chance="0.01"> <item name="Mag_MKII_10Rnd" /> </cargo>
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
