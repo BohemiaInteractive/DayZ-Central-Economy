@@ -201,9 +201,9 @@
         </children>
     </event>
     <event name="AnimalRoeDeer">
-        <nominal>2</nominal>
-        <min>1</min>
-        <max>2</max>
+        <nominal>4</nominal>
+        <min>3</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -830,7 +830,7 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>5400</lifetime>
