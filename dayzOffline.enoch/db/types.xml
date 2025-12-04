@@ -14127,7 +14127,7 @@
     </type>
     <type name="Nail">
         <nominal>2</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>2</min>
         <quantmin>10</quantmin>
