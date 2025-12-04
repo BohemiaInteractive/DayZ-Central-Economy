@@ -10,6 +10,7 @@
     "PlayerData":
 	{
     	"disablePersonalLight": true,
+      	"spawnGearPresetFiles": ["custom/28dayzfresieloadout.json"],
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 1.0,
