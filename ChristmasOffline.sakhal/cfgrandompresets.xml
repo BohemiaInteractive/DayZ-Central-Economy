@@ -488,7 +488,7 @@
 		</attachments>
 		
 		<!--Headtorches-->
-		<attachments chance= "0.03" name="headtorches">
+		<attachments chance="0.03" name="headtorches">
 			<item name="Headtorch_Grey" chance="0.5" />
 			<item name="Headtorch_Black" chance="0.5" />
 		</attachments>
@@ -744,12 +744,16 @@
 			<item name="MeatTenderizer" chance="0.083" />
 		</cargo>
 		<cargo chance="0.5" name="Xmas_Optics_Medium">
-			<item name="PUScopeOptic" chance="0.166" />
-			<item name="PSO1Optic" chance="0.166" />
-			<item name="ACOGOptic" chance="0.166" />
-			<item name="HuntingOptic" chance="0.166" />
-			<item name="ACOGOptic_6x" chance="0.166" />
-			<item name="KazuarOptic" chance="0.166" />
+			<item name="PUScopeOptic" chance="0.1" />
+			<item name="PSO1Optic" chance="0.1" />
+			<item name="ACOGOptic" chance="0.1" />
+			<item name="HuntingOptic" chance="0.10" />
+			<item name="ACOGOptic_6x" chance="0.10" />
+			<item name="StarlightOptic" chance="0.10" />
+			<item name="KazuarOptic" chance="0.10" />
+			<item name="MK4Optic_black" chance="0.10" />
+			<item name="MK4Optic_green" chance="0.10" />
+			<item name="MK4Optic_tan" chance="0.10" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Mags_Medium">
 			<item name="Mag_Ruger1022_30Rnd" chance="0.25" />
@@ -772,10 +776,11 @@
 			<item name="CarpFilletMeat" chance="1.0" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Weapons_Large">
-			<item name="PlateCarrierVest_Black" chance="0.25" />
-			<item name="PlateCarrierVest_Green" chance="0.25" />
-			<item name="PP19" chance="0.25" />
-			<item name="FishingRod" chance="0.25" />
+			<item name="PlateCarrierVest_Black" chance="0.20" />
+			<item name="PlateCarrierVest_Green" chance="0.20" />
+			<item name="PP19" chance="0.20" />
+			<item name="FishingRod" chance="0.20" />
+			<item name="PM73Rak" chance="0.20" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Mags_Large">
 			<item name="Mag_Saiga_Drum20Rnd" chance="0.33" />
