@@ -741,13 +741,16 @@
 			<item name="MeatTenderizer" chance="0.083" />
 		</cargo>
 		<cargo chance="0.5" name="Xmas_Optics_Medium">
-			<item name="PUScopeOptic" chance="0.05" />
-			<item name="PSO1Optic" chance="0.05" />
-			<item name="ACOGOptic" chance="0.05" />
-			<item name="HuntingOptic" chance="0.05" />
-			<item name="ACOGOptic_6x" chance="0.05" />
-			<item name="StarlightOptic" chance="0.05" />
-			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.1" />
+			<item name="PSO1Optic" chance="0.1" />
+			<item name="ACOGOptic" chance="0.1" />
+			<item name="HuntingOptic" chance="0.10" />
+			<item name="ACOGOptic_6x" chance="0.10" />
+			<item name="StarlightOptic" chance="0.10" />
+			<item name="KazuarOptic" chance="0.10" />
+			<item name="MK4Optic_black" chance="0.10" />
+			<item name="MK4Optic_green" chance="0.10" />
+			<item name="MK4Optic_tan" chance="0.10" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Mags_Medium">
 			<item name="Mag_Ruger1022_30Rnd" chance="0.05" />
@@ -770,11 +773,11 @@
 			<item name="CarpFilletMeat" chance="1.0" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Weapons_Large">
-			<item name="PlateCarrierVest_Camo" chance="0.10" />
-			<item name="MP5K" chance="0.10" />
-			<item name="PP19" chance="0.10" />
-			<item name="UMP45" chance="0.10" />
-			<item name="FishingRod" chance="0.10" />
+			<item name="PlateCarrierVest_Camo" chance="0.20" />
+			<item name="MP5K" chance="0.20" />
+			<item name="PP19" chance="0.20" />
+			<item name="UMP45" chance="0.20" />
+			<item name="PM73Rak" chance="0.20" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Mags_Large">
 			<item name="Mag_Saiga_Drum20Rnd" chance="0.05" />
