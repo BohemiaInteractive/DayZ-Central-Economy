@@ -415,27 +415,27 @@
 		
 <!--Bridges-->
         
-  		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="20" x="1445.7" z="7550" r="40"/>
-		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="20" x="4071.09" z="8970.31" r="40"/>
-		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="20" x="5303.91" z="9488.87" r="40"/>
-		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="20" x="6447.27" z="10881.05" r="40"/>
-		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="20" x="7950" z="11825" r="40"/>
-		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="20" x="8415.63" z="11848.44" r="40"/>
-		<zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="20" x="11018.75" z="11286.72" r="40"/>
-		<zone name="InfectedNBC" smin="0" smax="0" dmin="25" dmax="40" x="1450.7" z="7555" r="40"/>
-		<zone name="InfectedNBC" smin="0" smax="0" dmin="25" dmax="40" x="4076.09" z="8975.31" r="40"/>
-		<zone name="InfectedNBC" smin="0" smax="0" dmin="25" dmax="40" x="5308.91" z="9493.87" r="40"/>
-		<zone name="InfectedNBC" smin="0" smax="0" dmin="25" dmax="40" x="6452.27" z="10886.05" r="40"/>
-		<zone name="InfectedNBC" smin="0" smax="0" dmin="25" dmax="40" x="7955" z="11830" r="40"/>
-		<zone name="InfectedNBC" smin="0" smax="0" dmin="25" dmax="40" x="8420.63" z="11853.44" r="40"/>
-		<zone name="InfectedNBC" smin="0" smax="0" dmin="25" dmax="40" x="11023.75" z="11291.72" r="40"/>
-		<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="1455.7" z="7560" r="40"/>
-		<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="4081.09" z="8980.31" r="40"/>
-		<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="5313.91" z="9498.87" r="40"/>
-		<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="6457.27" z="10891.05" r="40"/>
-		<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="7960" z="11835" r="40"/>
-		<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="8425.63" z="11858.44" r="40"/>
-		<zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="11028.75" z="11296.72" r="40"/>
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="25" x="1445.7" z="7550" r="15"/>
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="25" x="4071.09" z="8970.31" r="15"/>
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="25" x="5303.91" z="9488.87" r="15"/>
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="25" x="6447.27" z="10881.05" r="15"/>
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="25" x="7950" z="11825" r="15"/>
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="25" x="8415.63" z="11848.44" r="15"/>
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="15" dmax="25" x="11018.75" z="11286.72" r="15"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="10" dmax="15" x="1450.7" z="7555" r="15"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="10" dmax="15" x="4076.09" z="8975.31" r="15"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="10" dmax="15" x="5308.91" z="9493.87" r="15"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="10" dmax="15" x="6452.27" z="10886.05" r="15"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="10" dmax="15" x="7955" z="11830" r="15"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="10" dmax="15" x="8420.63" z="11853.44" r="15"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="10" dmax="15" x="11023.75" z="11291.72" r="15"/>
+        <zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="1455.7" z="7560" r="15"/>
+        <zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="4081.09" z="8980.31" r="15"/>
+        <zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="5313.91" z="9498.87" r="15"/>
+        <zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="6457.27" z="10891.05" r="15"/>
+        <zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="7960" z="11835" r="15"/>
+        <zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="8425.63" z="11858.44" r="15"/>
+        <zone name="InfectedMedic" smin="0" smax="0" dmin="10" dmax="15" x="11028.75" z="11296.72" r="15"/>
 
 		
 <!--former Gas Zones-->
@@ -458,55 +458,56 @@
 
 <!--Hordes-->
 
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="500" z="855" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="2182" z="1272" r="250"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="70" dmax="100" x="5321" z="500" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="6769" z="500" r="250"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="70" dmax="100" x="9314" z="515" r="250"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="10021" z="612" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="12500" z="500" r="250"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="70" dmax="100" x="500" z="2090" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="3419" z="3382" r="250"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="70" dmax="100" x="5060" z="1645" r="250"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="5971" z="1874" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="7585" z="3266" r="250"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="70" dmax="100" x="11461" z="3302" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="12069" z="2706" r="250"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="70" dmax="100" x="757" z="4719" r="250"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="2989" z="3428" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="3563" z="3238" r="250"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="70" dmax="100" x="6008" z="3544" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="7549" z="4470" r="250"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="70" dmax="100" x="9633" z="3242" r="250"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="12500" z="4466" r="250"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="500" z="6392" r="200"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="60" dmax="80" x="1938" z="6623" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="4300" z="7472" r="200"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="60" dmax="80" x="6702" z="7276" r="200"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="60" dmax="80" x="8007" z="7436" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="9915" z="7156" r="200"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="60" dmax="80" x="12500" z="5826" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="628" z="7809" r="200"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="60" dmax="80" x="2280" z="9266" r="200"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="60" dmax="80" x="5425" z="8747" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="6666" z="8681" r="200"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="60" dmax="80" x="8465" z="7763" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="10822" z="9465" r="200"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="60" dmax="80" x="12258" z="9080" r="200"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="45" dmax="60" x="1428" z="9744" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="2672" z="10283" r="200"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="45" dmax="60" x="3926" z="11190" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="6043" z="10794" r="200"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="45" dmax="60" x="9385" z="10192" r="200"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="45" dmax="60" x="10895" z="9729" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="12003" z="10799" r="200"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="45" dmax="60" x="500" z="12351" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="2250" z="12500" r="200"/>
-	<zone name="InfectedArmyHard" smin="0" smax="0" dmin="45" dmax="60" x="4639" z="12500" r="200"/>
-	<zone name="InfectedSolitude" smin="0" smax="0" dmin="45" dmax="60" x="5662" z="12500" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="9129" z="12500" r="200"/>
-	<zone name="InfectedVillage" smin="0" smax="0" dmin="45" dmax="60" x="11202" z="11816" r="200"/>
-	<zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="12422" z="12500" r="200"/>
+	<zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="500" z="1237" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="3336" z="1411" r="250"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="70" dmax="100" x="4947" z="500" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="5726" z="852" r="250"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="70" dmax="100" x="7911" z="1251" r="250"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="9933" z="1696" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="12098" z="1573" r="250"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="70" dmax="100" x="500" z="1916" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="2813" z="2229" r="250"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="70" dmax="100" x="3747" z="2964" r="250"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="7193" z="2549" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="9372" z="2418" r="250"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="70" dmax="100" x="10705" z="3014" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="12500" z="3374" r="250"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="70" dmax="100" x="666" z="4289" r="250"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="2945" z="3435" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="5481" z="3055" r="250"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="70" dmax="100" x="6079" z="3668" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="70" dmax="100" x="9229" z="3442" r="250"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="70" dmax="100" x="10383" z="3458" r="250"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="70" dmax="100" x="12310" z="4978" r="250"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="500" z="5642" r="200"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="60" dmax="80" x="2474" z="5679" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="3640" z="5758" r="200"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="60" dmax="80" x="6616" z="6201" r="200"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="60" dmax="80" x="9398" z="6448" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="10052" z="7481" r="200"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="60" dmax="80" x="12500" z="5819" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="1141" z="8870" r="200"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="60" dmax="80" x="1708" z="8156" r="200"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="60" dmax="80" x="4309" z="8176" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="7041" z="7696" r="200"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="60" dmax="80" x="8406" z="8500" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="60" dmax="80" x="10423" z="9198" r="200"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="60" dmax="80" x="12500" z="7963" r="200"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="45" dmax="60" x="1182" z="10310" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="2456" z="10578" r="200"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="45" dmax="60" x="5098" z="11457" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="6901" z="11055" r="200"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="45" dmax="60" x="8285" z="11452" r="200"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="45" dmax="60" x="9979" z="11324" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="11531" z="10497" r="200"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="45" dmax="60" x="588" z="12500" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="2070" z="12475" r="200"/>
+    <zone name="InfectedArmyHard" smin="0" smax="0" dmin="45" dmax="60" x="4774" z="12414" r="200"/>
+    <zone name="InfectedSolitude" smin="0" smax="0" dmin="45" dmax="60" x="6453" z="12500" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="8225" z="12500" r="200"/>
+    <zone name="InfectedVillage" smin="0" smax="0" dmin="45" dmax="60" x="10790" z="11782" r="200"/>
+    <zone name="InfectedPolice" smin="0" smax="0" dmin="45" dmax="60" x="12500" z="12500" r="200"/>
+
 
 
     </territory>
