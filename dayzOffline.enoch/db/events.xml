@@ -201,7 +201,7 @@
         </children>
     </event>
     <event name="AnimalRoeDeer">
-        <nominal>4</nominal>
+        <nominal>8</nominal>
         <min>3</min>
         <max>5</max>
         <lifetime>180</lifetime>
@@ -214,8 +214,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapreolusCapreolus"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_CapreolusCapreolusF"/>            
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapreolusCapreolus"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapreolusCapreolusF"/>            
         </children>
     </event>
     <event name="AnimalSheep">
