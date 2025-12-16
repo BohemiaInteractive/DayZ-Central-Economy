@@ -776,7 +776,7 @@
         <child type="Land_Wreck_sed01_aban1_black_DE" deloot="1" lootmax="2" lootmin="2" x="13.211" z="24.299" a="56.078" />
         <child type="Land_Wreck_hb01_aban2_police_DE" deloot="1" lootmax="4" lootmin="2" x="10.363" z="9.711" a="221.931" />
         <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="9.342" z="15.152" a="235.0"/>
-        <child type="Land_ContainerLocked_Blue_DE" deloot="1" lootmax="14" lootmin="5" x="10.00" z="10.00" a="90.00"/>
+        <child type="Land_ContainerLocked_Blue_DE" deloot="1" lootmax="14" lootmin="5" x="15.00" z="15.00" a="45.00"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="4602.298" z="7681.091" a="0" y="269.501" group="Traffic_Olsanka"/-->
     <group name="Traffic_Olsanka">

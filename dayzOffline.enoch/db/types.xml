@@ -135,7 +135,7 @@
         <usage name="Military"/>
     </type>
     <type name="AKS74U">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -14126,7 +14126,7 @@
         <usage name="Military"/>
     </type>
     <type name="Nail">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -14134,8 +14134,11 @@
         <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
         <usage name="Military"/>
         <usage name="Police"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="NailBox">
         <nominal>0</nominal>
@@ -15970,8 +15973,8 @@
         <usage name="Village"/>
     </type>
     <type name="R12">
-        <nominal>1</nominal>
-        <lifetime>14400</lifetime>
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>10</quantmin>
@@ -15979,7 +15982,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="Prison"/>
+        <usage name="Police"/>
     </type>
     <type name="RDG2SmokeGrenade_Black">
         <nominal>10</nominal>
