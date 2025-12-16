@@ -694,7 +694,7 @@
 		<pos x="11794.729492" z="10940.535156" />
 	</event>
 	<event name="StaticTrain">
-		<zone smin="0" smax="0" dmin="20" dmax="25" r="20" />
+		<zone smin="0" smax="0" dmin="12" dmax="18" r="20" />
 		<pos x="9994.689" z="11443.961" a="0" y="174.6216" group="Train_Abandoned_Grabin"/>
 		<pos x="7468.930" z="11504.266" a="0" y="174.667" group="Train_Abandoned_Kolembrody"/>
 		<pos x="10905.792" z="9461.094" a="0" y="183.6" group="Train_Abandoned_Sitnik"/>
