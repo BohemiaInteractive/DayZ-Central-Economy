@@ -784,7 +784,7 @@
         <nominal>1</nominal>
         <min>1</min>
         <max>0</max>
-        <lifetime>14400</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
         <distanceradius>1000</distanceradius>
@@ -792,9 +792,9 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
-            <child lootmax="5" lootmin="3" max="1" min="1" type="ChristmasTree_Green"/>
+            <child lootmax="3" lootmin="3" max="1" min="1" type="ChristmasTree_Green"/>
         </children>
     </event>
     <event name="StaticContaminatedArea">

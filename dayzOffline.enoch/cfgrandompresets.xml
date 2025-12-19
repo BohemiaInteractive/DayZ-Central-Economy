@@ -461,22 +461,39 @@
 
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Ammo_Small">
+				<item name="Ammo_22" chance="0.02" />
 				<item name="Ammo_380" chance="0.1" />
+				<item name="Ammo_357" chance="0.1" />
+				<item name="Ammo_45ACP" chance="0.1" />
 				<item name="Ammo_9x19" chance="0.1" />
-				<item name="Ammo_762x39" chance="0.06" />
-				<item name="Ammo_762x54" chance="0.02" />
-				<item name="Ammo_9x19" chance="0.08" />
-				<item name="Ammo_762x39" chance="0.1" />
-				<item name="Ammo_762x54" chance="0.02" />
-				<item name="Ammo_45ACP" chance="0.2" />
+				<item name="Ammo_308Win" chance="0.03" />
+				<item name="Ammo_545x39" chance="0.1" />
+				<item name="Ammo_556x45" chance="0.1" />
+				<item name="Ammo_9x39" chance="0.03" />
+				<item name="Ammo_9x39AP" chance="0.03" />
+				<item name="Ammo_762x54" chance="0.03" />
+				<item name="Ammo_762x39" chance="0.03" />
+				<item name="Ammo_12gaPellets" chance="0.05" />
+				<item name="Ammo_12gaSlug" chance="0.05" />
 				
 		</cargo>
 		<cargo chance="1.0" name="Xmas_AmmoBoxes_Small">
-				<item name="AmmoBox_380_35Rnd" chance="0.08" />
+				<item name="AmmoBox_22_50Rnd" chance="0.15" />
+				<item name="AmmoBox_45ACP_25rnd" chance="0.2" />
+				<item name="AmmoBox_380_35rnd" chance="0.2" />
+				<item name="AmmoBox_357_20Rnd" chance="0.2" />
+				<item name="AmmoBox_00buck_10rnd" chance="0.1" />
+				<item name="AmmoBox_12gaSlug_10Rnd" chance="0.1" />
+				<item name="AmmoBox_380_35Rnd" chance="0.2" />
 				<item name="AmmoBox_45ACP_25Rnd" chance="0.2" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+				<item name="AmmoBox_9x19_25Rnd" chance="0.2" />
+				<item name="AmmoBox_308Win_20Rnd" chance="0.08" />
+				<item name="AmmoBox_545x39_20Rnd" chance="0.2" />
+				<item name="AmmoBox_556x45_20Rnd" chance="0.1" />
+				<item name="AmmoBox_9x39AP_20Rnd" chance="0.08" />
+				<item name="AmmoBox_9x39_20Rnd" chance="0.08" />
+				<item name="AmmoBox_762x39_20Rnd" chance="0.2" />
+				<item name="AmmoBox_762x54_20Rnd" chance="0.15" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Mags_Small">
 			<item name="Mag_M14_10Rnd" chance="0.03" />
@@ -495,13 +512,13 @@
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Fillers_Small">
 			<item name="XmasLights" chance="0.10" />
-			<item name="GasMask_filter" chance="0.10" />
+			<item name="GasMask_filter" chance="0.05" />
 			<item name="Battery9V" chance="0.10" />
 			<item name="Hook" chance="0.10" />
-			<item name="Jig" chance="0.10" />
+			<item name="Jig" chance="0.08" />
 			<item name="Nail" chance="0.005" />
-			<item name="GPSReceiver" chance="0.10" />
-			<item name="PunchedCard" chance="0.01" />
+			<item name="GPSReceiver" chance="0.08" />
+			<item name="PunchedCard" chance="0.03" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Repairs_Small">
 			<item name="DuctTape" chance="0.05" />
@@ -510,41 +527,13 @@
 			<item name="Whetstone" chance="0.05" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Food_Small">
-			<item name="Zagorky" chance="0.04" />
-			<item name="ZagorkyChocolate" chance="0.04" />
-			<item name="ZagorkyPeanuts" chance="0.04" />
-			<item name="SodaCan_Cola" chance="0.04" />
-			<item name="SodaCan_Kvass" chance="0.04" />
-			<item name="SodaCan_Pipsi" chance="0.04" />
-			<item name="SodaCan_Spite" chance="0.04" />
-			<item name="SodaCan_Fronta" chance="0.04" />
-			<item name="Honey" chance="0.04" />
-			<item name="Marmalade" chance="0.04" />
-			<item name="SardinesCan" chance="0.04" />
-			<item name="TunaCan" chance="0.04" />
-			<item name="DogFoodCan" chance="0.04" />
-			<item name="CatFoodCan" chance="0.04" />
-			<item name="PorkCan" chance="0.04" />
-			<item name="Lunchmeat" chance="0.04" />
-			<item name="UnknownFoodCan" chance="0.04" />
-			<item name="Pajka" chance="0.04" />
-			<item name="Pate" chance="0.04" />
-			<item name="BrisketSpread" chance="0.04" />
-			<item name="Crackers" chance="0.04" />
-			<item name="Chips" chance="0.04" />
-			<item name="SaltySticks" chance="0.04" />
-			<item name="BakedBeansCan" chance="0.04" />
-			<item name="PeachesCan" chance="0.04" />
-			<item name="SpaghettiCan" chance="0.04" />
-			<item name="TacticalBaconCan" chance="0.01" />
+
 			<item name="CowSteakMeat" chance="0.04" />
 			
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Lights_Small">
 			<item name="Headtorch_Grey" chance="0.05" />
 			<item name="Headtorch_Black" chance="0.05" />
-			<item name="NVGHeadstrap" chance="0.05" />
-			<item name="NVGoggles" chance="0.01" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Chemlights_Small">
 			<item name="Chemlight_Green" chance="0.10" />
@@ -594,21 +583,39 @@
 			<item name="Mag_MP5_30Rnd" chance="0.05" />
 			<item name="Mag_UMP_25Rnd" chance="0.05" />
 			<item name="Mag_PP19_64Rnd" chance="0.05" />
+			<item name= "Ammo_HuntingBolt" chance="0.10" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Fillers_Medium">
 			<item name="XmasLights" chance="0.05" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Repairs_Medium">
-			<item name="LeatherSewingKit" chance="0.01" />
-			<item name="TireRepairKit" chance="0.01" />
-			<item name="WeaponCleaningKit" chance="0.01" />
-			<item name="ElectronicRepairKit" chance="0.01" />
+			<item name="LeatherSewingKit" chance="0.08 " />
+			<item name="TireRepairKit" chance="0.03" />
+			<item name="WeaponCleaningKit" chance="0.03" />
+			<item name="ElectronicRepairKit" chance="0.03" />
 		</cargo>	
 		<cargo chance="1.0" name="Xmas_Food_Medium">
-			<item name="CarpFilletMeat" chance="0.10" />
+			<item name="CarpFilletMeat" chance="0.07" />
+			<item name="BoarSteakMeat" chance="0.09" />
+			<item name="CowSteakMeat" chance="0.11" />
+			<item name="DeerSteakMeat" chance="0.07" />
+			<item name="FoxSteakMeat" chance="0.05" />
+			<item name="GoatSteakMeat" chance="0.07" />
+			<item name="HumanSteakMeat" chance="0.03" />
+			<item name="MackerelFilletMeat" chance="0.07" />
+			<item name="PigSteakMeat" chance="0.07" />
+			<item name="RabbitLegMeat" chance="0.05" />
+			<item name="ReindeerSteakMeat" chance="0.09" />
+			<item name="SheepSteakMeat" chance="0.07" />
+			<item name="SteelheadTroutFilletMeat" chance="0.07" />
+			<item name="WalleyePollockFilletMeat" chance="0.07" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Weapons_Large">
-			<item name="PlateCarrierVest_Camo" chance="0.02" />
+			<item name="PlateCarrierVest_Camo" chance="0.008" />
+			<item name="PlateCarrierVest_Black" chance="0.008" />
+			<item name="PlateCarrierVest" chance="0.008" />
+			<item name="PlateCarrierVest_Green" chance="0.008" />
+			<item name="PlateCarrierVest_Winter" chance="0.008" />
 			<item name="MP5K" chance="0.02" />
 			<item name="PP19" chance="0.02" />
 			<item name="UMP45" chance="0.02" />
