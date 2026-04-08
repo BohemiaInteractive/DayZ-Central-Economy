@@ -19,4 +19,9 @@
 	<type name="Spear"></type>
 	<type name="Mag_STANAGCoupled_30Rnd"></type>
 	<type name="Wreck_Mi8"></type>	
+	<type name="Flaregun"></type>	
+	<type name="Ammo_FlareRed"></type>	
+	<type name="Ammo_FlareGreen"></type>	
+	<type name="Ammo_FlareBlue"></type>	
+	<type name="Ammo_Flare"></type>	
 </ignore>

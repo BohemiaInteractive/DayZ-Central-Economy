@@ -7,13 +7,15 @@
 			"Size": [ 15, 5.6, 10.8 ],
 			"EyeAccommodation": 1,
 			"Breadcrumbs": [],
-			"InterpolationSpeed": 1
+			"InterpolationSpeed": 1,
+			"AmbientSoundSet": "Underground_SoundSet"
 		},
 		{ 	
 			"Position": [ 735.0, 533.7, 1229.1 ],
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 15, 5.6, 10.8 ],
 			"EyeAccommodation": 0,
+			"AmbientSoundSet": "Underground_SoundSet",
 			"Breadcrumbs":
 			[
 				{			
@@ -77,41 +79,47 @@
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 55.6, 8.6, 104.6 ],
 			"EyeAccommodation": 0,
-			"Breadcrumbs": []
+			"Breadcrumbs": [],
+			"AmbientSoundSet": "Underground_SoundSet"
 		},
 		{ 	
 			"Position": [ 626.15, 504.95, 1143.3 ],
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 101.1, 71, 57.4 ],
 			"EyeAccommodation": 0,
-			"Breadcrumbs": []
+			"Breadcrumbs": [],
+			"AmbientSoundSet": "Underground_SoundSet"
 		},
 		{ 	
 			"Position": [ 605.05, 562.5, 1143.45 ],
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 33.7, 45, 34.9 ],
 			"EyeAccommodation": 0,
-			"Breadcrumbs": []
+			"Breadcrumbs": [],
+			"AmbientSoundSet": "Underground_SoundSet"
 		},
 		{ 	
 			"Position": [ 593.7, 588.75, 1131.8 ],
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 11, 22.3, 11.6 ],
 			"EyeAccommodation": 0,
-			"Breadcrumbs": []
+			"Breadcrumbs": [],
+			"AmbientSoundSet": "Underground_SoundSet"
 		},
 		{ 	
 			"Position": [ 584.65, 611, 1131.1 ],
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 6, 8, 7.6 ],
 			"EyeAccommodation": 1,
-			"Breadcrumbs": []
+			"Breadcrumbs": [],
+			"AmbientSoundSet": "Underground_SoundSet"
 		},
 		{
 			"Position": [ 592.0, 606.5, 1131.0 ],
 			"Orientation": [ 0, 0, 0 ],
 			"Size": [ 8.7, 16, 7.8 ],
 			"EyeAccommodation": 0,
+			"AmbientSoundSet": "Underground_SoundSet",
 			"Breadcrumbs":
 			[
 				{			
