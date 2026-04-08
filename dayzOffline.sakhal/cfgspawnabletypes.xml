@@ -493,15 +493,15 @@
 	</type>	
 	<type name="AirborneMask">
 		<damage min="0.0" max="0.35" />
-		<cargo chance="0.2">
+		<attachments chance="0.2">
 			<item name="GasMask_Filter" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="GP5GasMask">
 		<damage min="0.0" max="0.35" />
-		<cargo chance="0.2">
+		<attachments chance="0.2">
 			<item name="GasMask_Filter" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="GasMask">
 		<damage min="0.0" max="0.35" />
@@ -846,6 +846,15 @@
 			<item name="Derringer_Pink" chance="1.00" />
 		</cargo>
 	</type>
+	<type name="WinterMilitaryCoat_Brown">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="WinterMilitaryCoat_Grey">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="WinterMilitaryCoat_DarkGrey">
+		<cargo preset="mixArmy" />
+	</type>
 	<type name="Sweater_Gray">
 		<cargo preset="mixVillage" />
 	</type>
@@ -857,6 +866,15 @@
 	</type>
 	<type name="Sweater_Red">
 		<cargo preset="mixVillage" />
+	</type>
+	<type name="MilitarySweater_Livonia">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MilitarySweater_Chernarus">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MilitarySweater_NoPatch">
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Shirt_BlueCheck">
 		<cargo preset="mixVillage" />
@@ -1166,6 +1184,15 @@
 	<type name="BomberJacket_SkyBlue">
 		<cargo preset="mixVillage" />
 	</type>
+	<type name="PilotJacket_Brown">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="PilotJacket_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="PilotJacket_Yellow">
+		<cargo preset="mixVillage" />
+	</type>
 	<type name="MedicalScrubsShirt_Blue">
 		<cargo preset="toolsMedic" />
 	</type>
@@ -1269,6 +1296,31 @@
 		</attachments>
 	</type>
 	<!--START OF ZOMBIES  -->
+	<!--MUMMY-->
+	<type name="ZmbM_Mummy">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.05">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="HumanSteakMeat" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="BandageDressing" chance="0.5" />
+			<item name="Rag" chance="0.5" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="IodineTincture" chance="0.33" />
+			<item name="Epinephrine" chance="0.33" />
+			<item name="Morphine" chance="0.33" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="CharcoalTablets" chance="0.25" />
+			<item name="PainkillerTablets" chance="0.25" />
+			<item name="TetracyclineAntibiotics" chance="0.25" />
+			<item name="VitaminBottle" chance="0.25" />
+		</cargo>
+	</type>
 	<!--NBC-->
 	<type name="ZmbM_NBC_Grey">
 	</type>
@@ -2384,10 +2436,9 @@
 			<item name="Mag_MP5_30Rnd" chance="0.5" />
 		</attachments>
 		<attachments chance="0.20">
-			<item name="BUISOptic" chance="0.30" />
-			<item name="M68Optic" chance="0.20" />
-			<item name="M4_T3NRDSOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.40" />
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="ReflexOptic" chance="0.25" />
 			<item name="ACOGOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.10">
@@ -2402,17 +2453,16 @@
 			<item name="Mag_UMP_25Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.40" />
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="ReflexOptic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.15">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
+			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="VSS">
@@ -2432,13 +2482,13 @@
 			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.15" />
-			<item name="ReflexOptic" chance="0.15" />
-			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.40" />
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="ReflexOptic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.10" />
 		</attachments>	
 		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
+			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Vikhr">
@@ -2615,13 +2665,13 @@
 			<item name="Mag_Aug_30Rnd" chance="1.0" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.15" />
-			<item name="ReflexOptic" chance="0.15" />
-			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.40" />
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="ReflexOptic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.10" />
 		</attachments>	
 		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
+			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AugShort">
@@ -2637,11 +2687,10 @@
 			<item name="Fal_OeBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
-			<item name="BUISOptic" chance="0.20" />
-			<item name="M68Optic" chance="0.20" />
-			<item name="M4_T3NRDSOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.40" />
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="ReflexOptic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="Mag_FAL_20Rnd" chance="1.00" />
@@ -2788,9 +2837,6 @@
 		</attachments>
 	</type>
 	<type name="P1">
-		<attachments chance="0.05">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
 		<attachments chance="0.60">
 			<item name="Mag_P1_8Rnd" chance="1.00" />
 		</attachments>
