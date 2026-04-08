@@ -41,7 +41,7 @@
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
 				"Pos": [ 7860, 0, 5840 ],
-				"Radius": 150,
+				"Radius": 200,
 				"PosHeight": 20,
 				"NegHeight": 20,
 				"InnerPartDist": 100,
@@ -60,7 +60,7 @@
 			"Data": { 
 				"Pos": [ 7651, 0, 5934 ],
 				"Radius": 110,
-				"PosHeight": 30,
+				"PosHeight": 8,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
 				"OuterOffset": 20,

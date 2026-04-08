@@ -21,8 +21,8 @@
         <group_params>
             <enablegroups>true</enablegroups>
             <groups_as_regular>true</groups_as_regular>
-            <lifetime>240</lifetime>
-            <counter>-1</counter>
+            <lifetime>120</lifetime>
+            <counter>2</counter>
         </group_params>
         <generator_posbubbles>
             <group name="EastTopolin">
