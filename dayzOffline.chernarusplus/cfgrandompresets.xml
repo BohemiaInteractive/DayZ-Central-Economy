@@ -588,22 +588,23 @@
 		
 		<!--Xmas GiftBoxes-->
 		<cargo chance="1.0" name="Xmas_Clothes_Small">
-			<item name="ChristmasHeadband_Antlers" chance="0.0625" />
-			<item name="ChristmasHeadband_Trees" chance="0.0625" />
-			<item name="ChristmasHeadband_Gingerbread" chance="0.0625" />
-			<item name="WoolGlovesFingerless_ChristmasBlue" chance="0.0625" />
-			<item name="WoolGlovesFingerless_ChristmasRed" chance="0.0625" />
-			<item name="WoolGloves_ChristmasBlue" chance="0.0625" />
-			<item name="WoolGloves_ChristmasRed" chance="0.0625" />
-			<item name="EyeMask_Christmas" chance="0.0625" />
-			<item name="EyeMask_NewYears" chance="0.0625" />
-			<item name="ZmijovkaCap_Red" chance="0.0625" />
-			<item name="NBCBootsYellow" chance="0.0625" />
-			<item name="NBCBootsGray" chance="0.0625" />
-			<item name="NBCHoodYellow" chance="0.0625" />
-			<item name="NBCHoodGray" chance="0.0625" />
-			<item name="NBCGlovesYellow" chance="0.0625" />
-			<item name="NBCGlovesGray" chance="0.0625" />
+			<item name="ChristmasHeadband_Antlers" chance="0.0588" />
+			<item name="ChristmasHeadband_Trees" chance="0.0588" />
+			<item name="ChristmasHeadband_Gingerbread" chance="0.0588" />
+			<item name="WoolGlovesFingerless_ChristmasBlue" chance="0.0588" />
+			<item name="WoolGlovesFingerless_ChristmasRed" chance="0.0588" />
+			<item name="WoolGloves_ChristmasBlue" chance="0.0588" />
+			<item name="WoolGloves_ChristmasRed" chance="0.0588" />
+			<item name="EyeMask_Christmas" chance="0.0588" />
+			<item name="EyeMask_NewYears" chance="0.0588" />
+			<item name="MorozkoHat" chance="0.0588" />
+			<item name="SantaHat" chance="0.0588" />
+			<item name="NBCBootsYellow" chance="0.0588" />
+			<item name="NBCBootsGray" chance="0.0588" />
+			<item name="NBCHoodYellow" chance="0.0588" />
+			<item name="NBCHoodGray" chance="0.0588" />
+			<item name="NBCGlovesYellow" chance="0.0588" />
+			<item name="NBCGlovesGray" chance="0.0588" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Weapons_Small">
 			<item name="Flaregun" chance="0.01" />
@@ -651,7 +652,7 @@
 			<item name="XmasLights" chance="0.11" />
 			<item name="GasMask_filter" chance="0.11" />
 			<item name="Battery9V" chance="0.11" />
-			<item name="Hook" chance="0.11" />
+			<item name="Jig" chance="0.11" />
 			<item name="Derringer_Black" chance="0.11" />
 			<item name="Derringer_Grey" chance="0.11" />
 			<item name="Derringer_Pink" chance="0.11" />
@@ -659,10 +660,10 @@
 			<item name="GPSReceiver" chance="0.11" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Repairs_Small">
-			<item name="DuctTape" chance="0.05" />
-			<item name="SewingKit" chance="0.05" />
-			<item name="EpoxyPutty" chance="0.05" />
-			<item name="Whetstone" chance="0.05" />
+			<item name="DuctTape" chance="0.25" />
+			<item name="SewingKit" chance="0.25" />
+			<item name="EpoxyPutty" chance="0.25" />
+			<item name="Whetstone" chance="0.25" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Food_Small">
 			<item name="Zagorky" chance="0.10" />
@@ -708,6 +709,9 @@
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Clothes_Medium">
 			<item name="Sweater_Red" chance="0.05" />
+			<item name="Sweater_ChristmasBlue" chance="0.058" />
+			<item name="Sweater_ChristmasGreen" chance="0.058" />
+			<item name="Sweater_ChristmasRed" chance="0.058" />
 			<item name="WoolCoat_Red" chance="0.05" />
 			<item name="WoolCoat_RedCheck" chance="0.05" />
 			<item name="HuntingVest" chance="0.05" />
@@ -737,13 +741,16 @@
 			<item name="MeatTenderizer" chance="0.083" />
 		</cargo>
 		<cargo chance="0.5" name="Xmas_Optics_Medium">
-			<item name="PUScopeOptic" chance="0.05" />
-			<item name="PSO1Optic" chance="0.05" />
-			<item name="ACOGOptic" chance="0.05" />
-			<item name="HuntingOptic" chance="0.05" />
-			<item name="ACOGOptic_6x" chance="0.05" />
-			<item name="StarlightOptic" chance="0.05" />
-			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.1" />
+			<item name="PSO1Optic" chance="0.1" />
+			<item name="ACOGOptic" chance="0.1" />
+			<item name="HuntingOptic" chance="0.10" />
+			<item name="ACOGOptic_6x" chance="0.10" />
+			<item name="StarlightOptic" chance="0.10" />
+			<item name="KazuarOptic" chance="0.10" />
+			<item name="MK4Optic_black" chance="0.10" />
+			<item name="MK4Optic_green" chance="0.10" />
+			<item name="MK4Optic_tan" chance="0.10" />
 		</cargo>
 		<cargo chance="1.0" name="Xmas_Mags_Medium">
 			<item name="Mag_Ruger1022_30Rnd" chance="0.05" />
@@ -763,14 +770,14 @@
 			<item name="ElectronicRepairKit" chance="0.05" />
 		</cargo>	
 		<cargo chance="1.0" name="Xmas_Food_Medium">
-			<item name="CarpFilletMeat" chance="0.10" />
+			<item name="CarpFilletMeat" chance="1.0" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Weapons_Large">
-			<item name="PlateCarrierVest_Camo" chance="0.10" />
-			<item name="MP5K" chance="0.10" />
-			<item name="PP19" chance="0.10" />
-			<item name="UMP45" chance="0.10" />
-			<item name="FishingRod" chance="0.10" />
+			<item name="PlateCarrierVest_Camo" chance="0.20" />
+			<item name="MP5K" chance="0.20" />
+			<item name="PP19" chance="0.20" />
+			<item name="UMP45" chance="0.20" />
+			<item name="PM73Rak" chance="0.20" />
 		</cargo>
 		<cargo chance="0.25" name="Xmas_Mags_Large">
 			<item name="Mag_Saiga_Drum20Rnd" chance="0.05" />
