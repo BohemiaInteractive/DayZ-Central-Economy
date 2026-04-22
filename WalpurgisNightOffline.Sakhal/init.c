@@ -9,7 +9,6 @@ void main()
 	int year, month, day, hour, minute;
 	int reset_month = 2, reset_day = 15;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
-	year = 2015;
 
 	if ((month == reset_month) && (day < reset_day))
 	{
