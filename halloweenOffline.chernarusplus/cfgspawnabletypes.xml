@@ -835,15 +835,6 @@
 			<item name="Derringer_Pink" chance="1.00" />
 		</cargo>
 	</type>
-	<type name="WinterMilitaryCoat_Brown">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="WinterMilitaryCoat_Grey">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="WinterMilitaryCoat_DarkGrey">
-		<cargo preset="mixArmy" />
-	</type>
 	<type name="Sweater_Gray">
 		<cargo preset="mixVillage" />
 	</type>
@@ -855,15 +846,6 @@
 	</type>
 	<type name="Sweater_Red">
 		<cargo preset="mixVillage" />
-	</type>
-	<type name="MilitarySweater_Livonia">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MilitarySweater_Chernarus">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MilitarySweater_NoPatch">
-		<cargo preset="mixArmy" />
 	</type>
 	<type name="Shirt_BlueCheck">
 		<cargo preset="mixVillage" />
@@ -1171,15 +1153,6 @@
 		<cargo preset="mixVillage" />
 	</type>
 	<type name="BomberJacket_SkyBlue">
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="PilotJacket_Brown">
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="PilotJacket_Black">
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="PilotJacket_Yellow">
 		<cargo preset="mixVillage" />
 	</type>
 	<type name="MedicalScrubsShirt_Blue">
