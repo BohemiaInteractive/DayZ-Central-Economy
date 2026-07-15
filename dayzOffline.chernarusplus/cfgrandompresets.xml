@@ -443,7 +443,7 @@
 		<attachments chance="1.00" name="HeavyArmorArmy">
 			<item name="PlateCarrierVest" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00" name="HeavyHelmetArmy">
+		<attachments chance="0.30" name="HeavyHelmetArmy">
 			<item name="Ssh68Helmet" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00" name="OfficerHatArmy">
@@ -454,7 +454,7 @@
 		<attachments chance="0.20" name="hatsPolice">
 				<item name="PoliceCap" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00" name="vestsPolice">
+		<attachments chance="0.30" name="vestsPolice">
 				<item name="PoliceVest" chance="1.00" />
 		</attachments>
 		

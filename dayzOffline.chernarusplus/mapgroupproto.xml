@@ -34,7 +34,7 @@
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
-						<tag name="ground" />
+						<tag name="ground" /> 
 						<tag name="floor" />
 						<point pos="-1.299217 -1.048233 0.636453" range="0.302246" height="0.755615" flags="32" />
 						<point pos="1.220291 -1.346603 -0.727190" range="0.328613" height="0.821533" flags="32" />
@@ -16734,11 +16734,11 @@
 		
 		<!--Dynamic Events-->
 		
-		<group name="StaticObj_Wreck_Train_Wagon_Flat_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Train_Wagon_Flat_DE" lootmax="11">
 				<usage name="Industrial" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="11">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -16758,9 +16758,9 @@
 						<point pos="-3.594726 0.734655 0.395999" range="0.684375" height="1.710938" />
 				</container>
 		</group>
-				<group name="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" lootmax="15">
+				<group name="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" lootmax="11">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="11">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -16780,11 +16780,11 @@
 						<point pos="-3.594726 0.734655 0.395999" range="0.684375" height="1.710938" />
 				</container>
 		</group>
-			<group name="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" lootmax="15">
+			<group name="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" lootmax="11">
 				<usage name="Industrial" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="11">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -16807,11 +16807,11 @@
 					<proxy type="PileOfWoodenPlanks" pos="3.30 0.8 0.35" rpy="0.0 90.0 0.0" dechance="1.3" />
 				</dispatch>
 		</group>
-		<group name="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" lootmax="15">
+		<group name="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" lootmax="11">
 				<usage name="Industrial" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="loot" lootmax="15">
+				<container name="loot" lootmax="11">
 					<category name="tools" />
 					<category name="clothes" />
 					<category name="weapons" />
@@ -16833,11 +16833,11 @@
 					<proxy type="Barrel_Yellow" pos="3.40 0.7 -0.75" rpy="0.0 0.0 0.0" dechance="0.15" />						
 				</dispatch>
 		</group>
-		<group name="StaticObj_Wreck_Train_Wagon_Tanker_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Train_Wagon_Tanker_DE" lootmax="5">
 				<usage name="Industrial" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="5">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -16851,9 +16851,9 @@
 						<point pos="4.785644 -0.771843 0.640136" range="0.340625" height="0.796913" />
 				</container>
 		</group>		
-		<group name="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" lootmax="5">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="5">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -16867,7 +16867,7 @@
 						<point pos="4.785644 -0.771843 0.640136" range="0.340625" height="0.796913" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_Train_742_Blue_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Train_742_Blue_DE" lootmax="8">
 				<usage name="Industrial" />
 				<usage name="Village" />
 				<container name="lootFloor" lootmax="15">
@@ -16886,10 +16886,10 @@
 						<point pos="-0.568051 -0.656114 -1.100959" range="0.319092" height="0.795949" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_Train_742_Red_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Train_742_Red_DE" lootmax="8">
 				<usage name="Industrial" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -16905,9 +16905,9 @@
 						<point pos="-0.568051 -0.656114 -1.100959" range="0.319092" height="0.795949" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_Train_742_Blue_Mil_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Train_742_Blue_Mil_DE" lootmax="8">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="8">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="weapons" />
@@ -16924,9 +16924,9 @@
 						<point pos="-0.568051 -0.656114 -1.100959" range="0.319092" height="0.795949" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_Train_742_Red_Mil_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Train_742_Red_Mil_DE" lootmax="8">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="8">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="weapons" />
@@ -16943,9 +16943,9 @@
 						<point pos="-0.568051 -0.656114 -1.100959" range="0.319092" height="0.795949" />
 				</container>
 		</group>
-		<group name="Land_Train_Wagon_Box_Mil_DE" lootmax="15">
+		<group name="Land_Train_Wagon_Box_Mil_DE" lootmax="7">
 				<usage name="Military" />
-					<container name="lootFloor" lootmax="15">
+					<container name="lootFloor" lootmax="7">
 							<category name="containers" />
 							<category name="clothes" />
 							<category name="weapons" />
@@ -16960,10 +16960,10 @@
 							<point pos="-0.253906 -0.536711 -0.241943" range="0.876709" height="1.999990" />
 					</container>
 		</group>
-		<group name="Land_Train_Wagon_Box_DE" lootmax="15">
+		<group name="Land_Train_Wagon_Box_DE" lootmax="7">
 				<usage name="Industrial" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="7">
 						<category name="tools" />
 						<category name="clothes" />
 						<category name="food" />
@@ -16977,10 +16977,10 @@
 						<point pos="-0.253906 -0.536711 -0.241943" range="0.876709" height="1.999990" />
 				</container>
 		</group>
-		<group name="Land_Container_1Aoh_DE" lootmax="15">
+		<group name="Land_Container_1Aoh_DE" lootmax="6">
 			<usage name="Coast" />
 			<usage name="Village" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="weapons" />
@@ -16995,11 +16995,11 @@
 						<point pos="-0.109003 -1.087738 -0.011321" range="0.913440" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Container_1Bo_DE" lootmax="15">
+		<group name="Land_Container_1Bo_DE" lootmax="6">
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<usage name="Town" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="weapons" />
 						<tag name="floor" />
@@ -17013,37 +17013,37 @@
 						<point pos="-0.109003 -1.087738 -0.011321" range="0.913440" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Container_1Mo_DE" lootmax="15">
+		<group name="Land_Container_1Mo_DE" lootmax="3">
 			<usage name="Military" />
 			<value name="Unique" />
-				<container name="lootFloor" lootmax="15">
-						<category name="weapons" />
-						<category name="explosives" />
-						<tag name="floor" />
-						<tag name="shelves" />
-						<tag name="ground" />
-						<point pos="-2.160580 -1.098483 0.040472" range="0.695068" height="1.737670" />
-						<point pos="-0.503185 -1.098483 -0.055332" range="0.962891" height="2.000000" />
-						<point pos="1.861666 -1.098483 0.032419" range="1.030762" height="2.000000" />
-				</container>
-		</group>
-		<group name="Land_Container_1Moh_DE" lootmax="15">
-			<usage name="Military" />
-			<value name="Unique" />
-				<container name="lootFloor" lootmax="15">
-						<category name="weapons" />
-						<category name="explosives" />
-						<tag name="floor" />
-						<tag name="shelves" />
-						<tag name="ground" />
-						<point pos="-2.160580 -1.098483 0.040472" range="0.695068" height="1.737670" />
-						<point pos="-0.503185 -1.098483 -0.055332" range="0.962891" height="2.000000" />
-						<point pos="1.861666 -1.098483 0.032419" range="1.030762" height="2.000000" />
-				</container>
-		</group>
-		<group name="Land_Wreck_V3S_DE" lootmax="15">
-				<usage name="Military" />
 				<container name="lootFloor" lootmax="3">
+						<category name="weapons" />
+						<category name="explosives" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<tag name="ground" />
+						<point pos="-2.160580 -1.098483 0.040472" range="0.695068" height="1.737670" />
+						<point pos="-0.503185 -1.098483 -0.055332" range="0.962891" height="2.000000" />
+						<point pos="1.861666 -1.098483 0.032419" range="1.030762" height="2.000000" />
+				</container>
+		</group>
+		<group name="Land_Container_1Moh_DE" lootmax="3">
+			<usage name="Military" />
+			<value name="Unique" />
+				<container name="lootFloor" lootmax="3">
+						<category name="weapons" />
+						<category name="explosives" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<tag name="ground" />
+						<point pos="-2.160580 -1.098483 0.040472" range="0.695068" height="1.737670" />
+						<point pos="-0.503185 -1.098483 -0.055332" range="0.962891" height="2.000000" />
+						<point pos="1.861666 -1.098483 0.032419" range="1.030762" height="2.000000" />
+				</container>
+		</group>
+		<group name="Land_Wreck_V3S_DE" lootmax="6">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="6">
 						<category name="containers" />
 						<category name="clothes" />
 						<tag name="floor" />
@@ -17057,9 +17057,9 @@
 						<point pos="-1.596639 -1.601072 -2.043298" range="1.199951" height="2.000000" flags="32" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_BMP1_DE" lootmax="15">
+		<group name="StaticObj_Wreck_BMP1_DE" lootmax="6">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="6">
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
@@ -17072,9 +17072,9 @@
 						<point pos="0.888672 0.484102 1.568848" range="0.443750" height="1.109372" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_BMP2_DE" lootmax="15">
+		<group name="StaticObj_Wreck_BMP2_DE" lootmax="6">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="6">
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
@@ -17102,9 +17102,9 @@
 						<point pos="-0.741699 -0.552717 -2.021484" range="0.777832" height="1.944580" flags="32" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_Ural_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Ural_DE" lootmax="5">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="5">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="weapons" />
@@ -17118,9 +17118,9 @@
 						<point pos="1.637501 0.006088 -2.358333" range="1.199951" height="2.000000" flags="32" />
 				</container>
 		</group>
-		<group name="Land_wreck_truck01_aban2_green_DE" lootmax="15">
+		<group name="Land_wreck_truck01_aban2_green_DE" lootmax="5">
 						<usage name="Military" />				
-						<container name="lootFloor" lootmax="3">
+						<container name="lootFloor" lootmax="5">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="weapons" />
@@ -17139,9 +17139,9 @@
 								<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
-		<group name="Land_wreck_truck01_aban1_green_DE" lootmax="15">
+		<group name="Land_wreck_truck01_aban1_green_DE" lootmax="5">
 						<usage name="Military" />
-						<container name="lootFloor" lootmax="3">
+						<container name="lootFloor" lootmax="5">
 						<category name="containers" />
 						<category name="clothes" />
 						<tag name="floor" />
@@ -17159,9 +17159,9 @@
 								<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
-		<group name="StaticObj_Wreck_HMMWV_DE" lootmax="15">
+		<group name="StaticObj_Wreck_HMMWV_DE" lootmax="6">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="6">
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
@@ -17174,9 +17174,9 @@
 						<point pos="1.125000 0.677094 -0.023194" range="0.203125" height="0.507813" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_Uaz_DE" lootmax="15">
+		<group name="StaticObj_Wreck_Uaz_DE" lootmax="6">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="6">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="weapons" />
@@ -17191,9 +17191,9 @@
 						<point pos="-0.705573 -0.841156 0.946659" range="0.474225" height="1.185562" flags="32" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_T72_Chassis_DE" lootmax="15">
+		<group name="StaticObj_Wreck_T72_Chassis_DE" lootmax="8">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="4">
+				<container name="lootFloor" lootmax="8">
 						<category name="weapons" />
 						<category name="explosives" />
 						<tag name="floor" />
@@ -17209,9 +17209,9 @@
 						<point pos="-0.715810 -0.774078 1.608267" range="0.901124" height="2.000000" flags="32" />
 				</container>
 		</group>
-		<group name="StaticObj_Wreck_BMP1_NoPlacement_DE" lootmax="15">
+		<group name="StaticObj_Wreck_BMP1_NoPlacement_DE" lootmax="7">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="7">
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
@@ -17225,10 +17225,10 @@
 						<point pos="-0.585749 -1.144867 -1.176118" range="0.375000" height="0.937500" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_Ikarus_DE" lootmax="15">
+		<group name="Land_Wreck_Ikarus_DE" lootmax="7">
 				<usage name="Police" />
 				<usage name="Prison" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="7">
 						<category name="clothes" />
 						<category name="weapons" />
 						<tag name="floor" />
@@ -17243,9 +17243,9 @@
 						<point pos="-0.585749 -1.144867 -1.176118" range="0.375000" height="0.937500" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_Trailer_Closed_DE" lootmax="15">
+		<group name="Land_Wreck_Trailer_Closed_DE" lootmax="5">
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="5">
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="shelves" />
@@ -17257,9 +17257,9 @@
 						<point pos="0.636096 -0.862862 -1.244848" range="0.375000" height="0.916817" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_Tractor_DE" lootmax="15">
+		<group name="Land_Wreck_Tractor_DE" lootmax="5">
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="5">
 						<category name="food" />
 						<category name="tools" />
 						<category name="clothes" />
@@ -17274,10 +17274,10 @@
 						<point pos="0.177550 -0.955399 -1.609987" range="0.581250" height="1.453125" flags="32" />
 						</container>
 		</group>
-		<group name="Land_Wreck_truck01_aban1_blue_DE" lootmax="3">
+		<group name="Land_Wreck_truck01_aban1_blue_DE" lootmax="5">
 						<usage name="Village" />		
 						<usage name="Industrial" />		
-						<container name="loot" lootmax="3">
+						<container name="loot" lootmax="5">
 							<category name="tools" />
 							<category name="containers" />
 							<category name="clothes" />
@@ -17297,10 +17297,10 @@
 								<proxy type="Truck_01_Hood_BlueRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
-		<group name="Land_Wreck_truck01_aban1_orange_DE" lootmax="3">
+		<group name="Land_Wreck_truck01_aban1_orange_DE" lootmax="5">
 						<usage name="Village" />		
 						<usage name="Industrial" />		
-						<container name="loot" lootmax="3">
+						<container name="loot" lootmax="5">
 							<category name="tools" />
 							<category name="containers" />
 							<category name="clothes" />
@@ -17320,10 +17320,10 @@
 								<proxy type="Truck_01_Hood_OrangeRust" pos="-1.85 1.70 -0.1" rpy="0.0 180.0 0.0" />
 						</dispatch>
 		</group>
-		<group name="Land_Wreck_truck01_aban2_blue_DE" lootmax="3">
+		<group name="Land_Wreck_truck01_aban2_blue_DE" lootmax="5">
 						<usage name="Village" />		
 						<usage name="Industrial" />		
-						<container name="loot" lootmax="3">
+						<container name="loot" lootmax="5">
 							<category name="tools" />
 							<category name="containers" />
 							<category name="clothes" />
@@ -17342,10 +17342,10 @@
 								<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
-		<group name="Land_Wreck_truck01_aban2_orange_DE" lootmax="3">
+		<group name="Land_Wreck_truck01_aban2_orange_DE" lootmax="5">
 						<usage name="Village" />		
 						<usage name="Industrial" />	
-						<container name="loot" lootmax="3">
+						<container name="loot" lootmax="5">
 							<category name="tools" />
 							<category name="containers" />
 							<category name="clothes" />
@@ -17364,9 +17364,9 @@
 								<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 						</dispatch>
 		</group>
-		<group name="Land_Wreck_offroad02_aban1_DE" lootmax="3">
+		<group name="Land_Wreck_offroad02_aban1_DE" lootmax="14">
 				<usage name="Military" />
-				<container name="loot" lootmax="3">
+				<container name="loot" lootmax="14">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
@@ -17395,9 +17395,9 @@
 						<proxy type="Offroad_02_Trunk_Rust" pos="1.75 -0.3 0.0" rpy="37.0 0.0 100.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_offroad02_aban2_DE" lootmax="3">
+		<group name="Land_Wreck_offroad02_aban2_DE" lootmax="14">
 				<usage name="Military" />
-				<container name="loot" lootmax="3">
+				<container name="loot" lootmax="14">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="food" />
@@ -17425,10 +17425,10 @@
 						<proxy type="Offroad_02_Wheel" pos=" -1.7 -1.2 -1.05" rpy="0.0 0.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban1_blue_DE" lootmax="2">
+		<group name="Land_Wreck_hb01_aban1_blue_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17451,11 +17451,11 @@
                         <proxy type="HatchbackTrunk_BlueRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban1_green_DE" lootmax="2">
+		<group name="Land_Wreck_hb01_aban1_green_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Hunting" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17478,10 +17478,10 @@
                         <proxy type="HatchbackTrunk_GreenRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban1_white_DE" lootmax="2">
+		<group name="Land_Wreck_hb01_aban1_white_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17504,10 +17504,10 @@
                         <proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban2_blue_DE" lootmax="2">
+		<group name="Land_Wreck_hb01_aban2_blue_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17530,11 +17530,11 @@
 						<proxy type="HatchbackHood_BlueRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban2_green_DE" lootmax="2">
+		<group name="Land_Wreck_hb01_aban2_green_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Hunting" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17557,10 +17557,10 @@
 						<proxy type="HatchbackHood_GreenRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban2_white_DE" lootmax="2">
+		<group name="Land_Wreck_hb01_aban2_white_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17583,10 +17583,10 @@
 						<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban1_red_DE" lootmax="2">
+		<group name="Land_Wreck_hb02_aban1_red_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17610,10 +17610,10 @@
 						<proxy type="Hatchback_02_Trunk_RedRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban1_black_DE" lootmax="2">
+		<group name="Land_Wreck_hb02_aban1_black_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17637,10 +17637,10 @@
 						<proxy type="Hatchback_02_Trunk_BlackRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban1_blue_DE" lootmax="2">
+		<group name="Land_Wreck_hb02_aban1_blue_DE" lootmax="8">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17664,10 +17664,10 @@
 						<proxy type="Hatchback_02_Trunk_BlueRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban2_red_DE" lootmax="2">
+		<group name="Land_Wreck_hb02_aban2_red_DE" lootmax="10">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17693,10 +17693,10 @@
 						<proxy type="Hatchback_02_Hood_RedRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban2_black_DE" lootmax="2">
+		<group name="Land_Wreck_hb02_aban2_black_DE" lootmax="10">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17722,9 +17722,9 @@
 						<proxy type="Hatchback_02_Hood_BlackRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban1_police_DE" lootmax="4">
+		<group name="Land_Wreck_hb01_aban1_police_DE" lootmax="9">
 				<usage name="Police" />
-				<container name="loot" lootmax="4">
+				<container name="loot" lootmax="9">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17740,9 +17740,9 @@
 						<point pos="1.553578 -0.305939 -0.257805" range="0.203125" height="0.507813" />
 				</container>
 		</group>
-		<group name="Land_Wreck_hb01_aban2_police_DE" lootmax="4">
+		<group name="Land_Wreck_hb01_aban2_police_DE" lootmax="8">
 				<usage name="Police" />
-				<container name="loot" lootmax="4">
+				<container name="loot" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -17757,10 +17757,10 @@
 						<point pos="-0.129650 -0.169647 -0.330082" range="0.234375" height="0.585937" />
 				</container>
 		</group>
-		<group name="Land_Wreck_hb02_aban2_blue_DE" lootmax="2">
+		<group name="Land_Wreck_hb02_aban2_blue_DE" lootmax="9">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="9">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -18257,6 +18257,254 @@
 						<point pos="-1.673562 -0.097094 -1.753175" range="0.856250" height="2.000000" flags="32" />
 						<point pos="-3.175378 -0.039291 -0.205491" range="0.856250" height="2.140625" flags="32" />
 						<point pos="-1.728465 0.473426 -0.689999" range="0.100000" height="0.250000" />
+				</container>
+		</group>
+		<group name="StaticObj_Wreck_MTVR_Cargo" lootmax="10">
+				<usage name="Military" />
+				<container name="loot" lootmax="6">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<category name="explosives" />
+						<point pos="0.670003 0.007099 -1.976003" range="1.121513" height="1.728673" flags="32" />
+						<point pos="-3.777125 -0.005199 -2.458486" range="0.757652" height="2.000000" flags="32" />
+						<point pos="0.996084 0.003212 2.575604" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-2.021690 -0.004249 -1.829074" range="0.791505" height="1.978762" flags="32" />
+						<point pos="3.420322 0.018376 2.000742" range="1.175600" height="1.964894" flags="32" />
+						<point pos="-1.660825 -0.009439 2.324473" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-4.157995 0.001223 1.819114" range="1.151811" height="2.000000" flags="32" />
+						<point pos="-4.910884 -0.001669 -0.862621" range="1.199951" height="2.000000" flags="32" />
+						<point pos="3.491506 0.025769 -1.870576" range="0.895277" height="1.790067" flags="32" />
+						<point pos="0.528872 1.472548 -0.218964" range="0.711914" height="1.583359" />
+						<point pos="2.254426 1.926121 0.736490" range="0.100000" height="0.250000" />
+						<point pos="2.829871 1.939937 0.718103" range="0.174805" height="0.437012" />
+				</container>
+		</group>
+		<group name="StaticObj_Wreck_Stryker">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="6">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<category name="explosives" />
+						<point pos="0.393002 0.006653 -2.649083" range="1.118924" height="1.999999" flags="32" />
+						<point pos="-2.174281 -0.035909 -2.175787" range="0.901001" height="1.079358" flags="32" />
+						<point pos="3.971963 0.065700 -0.265398" range="1.199951" height="1.159460" flags="32" />
+						<point pos="1.236349 0.017508 2.556009" range="1.095599" height="1.850566" flags="32" />
+						<point pos="3.171777 0.050809 1.966664" range="0.927844" height="1.809422" flags="32" />
+						<point pos="2.826780 0.046795 -2.402780" range="1.199951" height="1.374294" flags="32" />
+						<point pos="-1.110927 -0.022084 2.647504" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-3.516431 -0.061924 1.595330" range="1.199951" height="1.363525" flags="32" />
+				</container>
+		</group>
+		<group name="Land_Wreck_offroad02_aban1_TK" lootmax="6">
+				<usage name="Military" />
+				<container name="loot" lootmax="6">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<point pos="-0.303983 -1.279922 -0.610146" range="0.083643" height="0.250000" />
+						<point pos="0.665800 -1.186035 -0.555596" range="0.097782" height="0.250000" />
+						<point pos="0.555047 -0.987457 0.805647" range="0.100000" height="0.250000" />
+						<point pos="-1.955514 -0.903815 -0.629182" range="0.134375" height="0.335938" />
+						<point pos="-2.040521 -0.863313 0.940076" range="0.134375" height="0.335938" />
+						<point pos="0.761712 -0.108078 -0.549853" range="0.168750" height="0.421875" />
+						<point pos="0.490189 0.023346 0.634130" range="0.168750" height="0.421875" />
+						<point pos="-0.174269 -1.116562 0.734719" range="0.169871" height="0.424678" />
+						<point pos="-1.501057 -0.717227 0.920875" range="0.203125" height="0.507742" />
+						<point pos="-1.285030 -0.790954 -0.774216" range="0.203125" height="0.507784" />
+						<point pos="1.648551 -0.890152 0.067422" range="0.340625" height="0.851563" />
+						<point pos="-1.643712 -1.834764 1.813673" range="0.592407" height="1.481018" flags="32" />
+						<point pos="1.292126 -1.723114 1.789030" range="0.867656" height="2.138657" flags="32" />
+						<point pos="2.706940 -1.723343 0.249501" range="0.945068" height="2.148758" flags="32" />
+						<point pos="0.280301 -1.869156 -1.589443" range="1.199951" height="2.019852" flags="32" />
+				</container>
+				<dispatch dechance="0.000000">
+						<proxy type="Offroad_02_Door_2_2_BeigeRust" pos="0.549977 -0.850000 1.149997" rpy="2.000000 168.324295 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Door_2_1_BeigeRust" pos="-0.349944 -0.850000 1.150007" rpy="2.000000 168.324295 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Wheel" pos="1.499971 -1.400000 1.099979" rpy="0.000000 -1.675709 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Trunk_BeigeRust" pos="1.750015 -0.300000 -0.000027" rpy="38.675709 0.000000 100.000000" dechance="0.000000" />
+				</dispatch>
+		</group>
+		<group name="Land_Wreck_offroad02_aban2_TK" lootmax="6">
+				<usage name="Military" />
+				<container name="loot" lootmax="6">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<point pos="-0.220215 -0.938707 -0.745850" range="0.085201" height="0.442276" />
+						<point pos="-0.326202 -1.021822 0.652100" range="0.134375" height="0.335938" />
+						<point pos="0.610352 -1.053724 0.626709" range="0.168750" height="0.421875" />
+						<point pos="0.573029 -0.953724 -0.709473" range="0.168750" height="0.421875" />
+						<point pos="1.541626 -0.975311 0.096680" range="0.248629" height="0.702160" />
+						<point pos="-1.554413 -0.488274 0.639648" range="0.271875" height="0.679688" />
+						<point pos="-1.636780 -0.433453 -0.132813" range="0.306250" height="0.765625" />
+						<point pos="0.720245 0.005749 0.418945" range="0.306250" height="0.765625" />
+						<point pos="-0.312958 0.126001 -0.616699" range="0.375000" height="0.937500" />
+						<point pos="2.170593 -1.640118 -1.906494" range="0.984270" height="2.000000" flags="32" />
+						<point pos="2.717285 -1.640118 0.620361" range="1.199951" height="0.122368" flags="32" />
+						<point pos="0.086334 -1.640118 1.810547" range="1.199951" height="0.234701" flags="32" />
+						<point pos="-0.319641 -1.640118 -1.818115" range="1.199951" height="0.390852" flags="32" />
+						<point pos="-3.030426 -1.640118 -0.200683" range="1.199951" height="2.000000" flags="32" />
+				</container>
+				<dispatch dechance="0.000000">
+						<proxy type="Offroad_02_Door_1_2_BeigeRust" pos="0.550000 -0.750000 -1.150000" rpy="-2.000000 190.000000 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Door_1_1_BeigeRust" pos="-0.350000 -0.650000 -1.200000" rpy="0.000000 190.000000 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Wheel" pos="-1.700000 -1.200000 -1.050000" rpy="0.000000 0.000000 0.000000" dechance="0.000000" />
+				</dispatch>
+		</group>
+		<group name="Land_Wreck_offroad02_Medic_TK">
+				<usage name="Military" />
+				<usage name="Medic" />
+				<container name="loot" lootmax="6">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<point pos="-1.835435 1.001580 0.466278" range="0.134375" height="0.335938" />
+						<point pos="-1.869394 0.898381 -0.766322" range="0.134375" height="0.335938" />
+						<point pos="-1.245559 1.086118 -0.123878" range="0.271875" height="0.679688" />
+						<point pos="4.212828 0.077312 0.691567" range="1.199951" height="2.000000" flags="32" />
+						<point pos="2.924958 0.049351 -1.711077" range="1.199951" height="1.480454" flags="32" />
+						<point pos="2.486563 0.047808 1.509201" range="0.710385" height="1.579197" flags="32" />
+						<point pos="0.260370 0.008191 1.771262" range="1.199951" height="1.859864" flags="32" />
+						<point pos="-2.529590 -0.040322 1.519061" range="1.199951" height="1.999999" flags="32" />
+						<point pos="-2.923677 -0.050249 -0.767194" range="1.120041" height="0.329797" flags="32" />
+						<point pos="-1.077553 -0.021932 -2.636000" range="1.199951" height="2.000000" flags="32" />
+						<point pos="0.971744 0.012566 -2.594298" range="0.850061" height="2.000000" flags="32" />
+				</container>
+		</group>
+		<group name="StaticObj_Wreck_MTVR_Cargo_DE" lootmax="12">
+				<usage name="Military" />
+				<container name="loot" lootmax="12">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<category name="tools" />
+						<point pos="0.670003 0.007099 -1.976003" range="1.121513" height="1.728673" flags="32" />
+						<point pos="-3.777125 -0.005199 -2.458486" range="0.757652" height="2.000000" flags="32" />
+						<point pos="0.996084 0.003212 2.575604" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-2.021690 -0.004249 -1.829074" range="0.791505" height="1.978762" flags="32" />
+						<point pos="3.420322 0.018376 2.000742" range="1.175600" height="1.964894" flags="32" />
+						<point pos="-1.660825 -0.009439 2.324473" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-4.157995 0.001223 1.819114" range="1.151811" height="2.000000" flags="32" />
+						<point pos="-4.910884 -0.001669 -0.862621" range="1.199951" height="2.000000" flags="32" />
+						<point pos="3.491506 0.025769 -1.870576" range="0.895277" height="1.790067" flags="32" />
+						<point pos="0.528872 1.472548 -0.218964" range="0.711914" height="1.583359" />
+						<point pos="2.254426 1.926121 0.736490" range="0.100000" height="0.250000" />
+						<point pos="2.829871 1.939937 0.718103" range="0.174805" height="0.437012" />
+				</container>
+		</group>
+		<group name="StaticObj_Wreck_Stryker_DE" lootmax="8">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="8">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<category name="tools" />
+						<point pos="0.393002 0.006653 -2.649083" range="1.118924" height="1.999999" flags="32" />
+						<point pos="-2.174281 -0.035909 -2.175787" range="0.901001" height="1.079358" flags="32" />
+						<point pos="3.971963 0.065700 -0.265398" range="1.199951" height="1.159460" flags="32" />
+						<point pos="1.236349 0.017508 2.556009" range="1.095599" height="1.850566" flags="32" />
+						<point pos="3.171777 0.050809 1.966664" range="0.927844" height="1.809422" flags="32" />
+						<point pos="2.826780 0.046795 -2.402780" range="1.199951" height="1.374294" flags="32" />
+						<point pos="-1.110927 -0.022084 2.647504" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-3.516431 -0.061924 1.595330" range="1.199951" height="1.363525" flags="32" />
+				</container>
+		</group>
+		<group name="Land_Wreck_offroad02_aban1_TK_DE" lootmax="15">
+				<usage name="Military" />
+				<container name="loot" lootmax="15">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<category name="tools" />
+						<point pos="-0.303983 -1.279922 -0.610146" range="0.083643" height="0.250000" />
+						<point pos="0.665800 -1.186035 -0.555596" range="0.097782" height="0.250000" />
+						<point pos="0.555047 -0.987457 0.805647" range="0.100000" height="0.250000" />
+						<point pos="-1.955514 -0.903815 -0.629182" range="0.134375" height="0.335938" />
+						<point pos="-2.040521 -0.863313 0.940076" range="0.134375" height="0.335938" />
+						<point pos="0.761712 -0.108078 -0.549853" range="0.168750" height="0.421875" />
+						<point pos="0.490189 0.023346 0.634130" range="0.168750" height="0.421875" />
+						<point pos="-0.174269 -1.116562 0.734719" range="0.169871" height="0.424678" />
+						<point pos="-1.501057 -0.717227 0.920875" range="0.203125" height="0.507742" />
+						<point pos="-1.285030 -0.790954 -0.774216" range="0.203125" height="0.507784" />
+						<point pos="1.648551 -0.890152 0.067422" range="0.340625" height="0.851563" />
+						<point pos="-1.643712 -1.834764 1.813673" range="0.592407" height="1.481018" flags="32" />
+						<point pos="1.292126 -1.723114 1.789030" range="0.867656" height="2.138657" flags="32" />
+						<point pos="2.706940 -1.723343 0.249501" range="0.945068" height="2.148758" flags="32" />
+						<point pos="0.280301 -1.869156 -1.589443" range="1.199951" height="2.019852" flags="32" />
+				</container>
+				<dispatch dechance="0.000000">
+						<proxy type="Offroad_02_Door_2_2_BeigeRust" pos="0.549977 -0.850000 1.149997" rpy="2.000000 168.324295 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Door_2_1_BeigeRust" pos="-0.349944 -0.850000 1.150007" rpy="2.000000 168.324295 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Wheel" pos="1.499971 -1.400000 1.099979" rpy="0.000000 -1.675709 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Trunk_BeigeRust" pos="1.750015 -0.300000 -0.000027" rpy="38.675709 0.000000 100.000000" dechance="0.000000" />
+				</dispatch>
+		</group>
+		<group name="Land_Wreck_offroad02_aban2_TK_DE" lootmax="14">
+				<usage name="Military" />
+				<container name="loot" lootmax="14">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<category name="tools" />
+						<point pos="-0.220215 -0.938707 -0.745850" range="0.085201" height="0.442276" />
+						<point pos="-0.326202 -1.021822 0.652100" range="0.134375" height="0.335938" />
+						<point pos="0.610352 -1.053724 0.626709" range="0.168750" height="0.421875" />
+						<point pos="0.573029 -0.953724 -0.709473" range="0.168750" height="0.421875" />
+						<point pos="1.541626 -0.975311 0.096680" range="0.248629" height="0.702160" />
+						<point pos="-1.554413 -0.488274 0.639648" range="0.271875" height="0.679688" />
+						<point pos="-1.636780 -0.433453 -0.132813" range="0.306250" height="0.765625" />
+						<point pos="0.720245 0.005749 0.418945" range="0.306250" height="0.765625" />
+						<point pos="2.170593 -1.640118 -1.906494" range="0.984270" height="2.000000" flags="32" />
+						<point pos="2.717285 -1.640118 0.620361" range="1.199951" height="0.122368" flags="32" />
+						<point pos="0.086334 -1.640118 1.810547" range="1.199951" height="0.234701" flags="32" />
+						<point pos="-0.319641 -1.640118 -1.818115" range="1.199951" height="0.390852" flags="32" />
+						<point pos="-3.030426 -1.640118 -0.200683" range="1.199951" height="2.000000" flags="32" />
+				</container>
+				<dispatch dechance="0.000000">
+						<proxy type="Offroad_02_Door_1_2_BeigeRust" pos="0.550000 -0.750000 -1.150000" rpy="-2.000000 190.000000 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Door_1_1_BeigeRust" pos="-0.350000 -0.650000 -1.200000" rpy="0.000000 190.000000 0.000000" dechance="0.000000" />
+						<proxy type="Offroad_02_Wheel" pos="-1.700000 -1.200000 -1.050000" rpy="0.000000 0.000000 0.000000" dechance="0.000000" />
+				</dispatch>
+		</group>
+		<group name="Land_Wreck_offroad02_Medic_TK_DE" lootmax="11">
+				<usage name="Military" />
+				<usage name="Medic" />
+				<container name="loot" lootmax="11">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<category name="tools" />
+						<point pos="-1.835435 1.001580 0.466278" range="0.134375" height="0.335938" />
+						<point pos="-1.869394 0.898381 -0.766322" range="0.134375" height="0.335938" />
+						<point pos="-1.245559 1.086118 -0.123878" range="0.271875" height="0.679688" />
+						<point pos="4.212828 0.077312 0.691567" range="1.199951" height="2.000000" flags="32" />
+						<point pos="2.924958 0.049351 -1.711077" range="1.199951" height="1.480454" flags="32" />
+						<point pos="2.486563 0.047808 1.509201" range="0.710385" height="1.579197" flags="32" />
+						<point pos="0.260370 0.008191 1.771262" range="1.199951" height="1.859864" flags="32" />
+						<point pos="-2.529590 -0.040322 1.519061" range="1.199951" height="1.999999" flags="32" />
+						<point pos="-2.923677 -0.050249 -0.767194" range="1.120041" height="0.329797" flags="32" />
+						<point pos="-1.077553 -0.021932 -2.636000" range="1.199951" height="2.000000" flags="32" />
+						<point pos="0.971744 0.012566 -2.594298" range="0.850061" height="2.000000" flags="32" />
 				</container>
 		</group>
 		
