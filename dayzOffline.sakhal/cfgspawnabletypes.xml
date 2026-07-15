@@ -117,6 +117,15 @@
 	<type name="ChristmasHeadband_Gingerbread">
 		<damage min="0.0" max="0.0" />
 	</type>
+	<type name="MorsecodeLeaflet_blood">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="MorsecodeLeaflet_coffee">
+		<damage min="0.0" max="0.0" />
+	</type>
+	<type name="MorsecodeLeaflet_fire">
+		<damage min="0.0" max="0.0" />
+	</type>	
 	<type name="PlateCarrierVest_Winter">
 		<damage min="0.1" max="0.4" />
 		<attachments chance="1.0">
@@ -143,6 +152,17 @@
 		<attachments chance="0.15">
 			<item name="PlateCarrierPouches_Green" chance="1.00" />
 		</attachments>
+	</type>
+	<type name="PlateCarrierVest_Desert">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.25">
+			<item name="PlateCarrierHolster_Desert" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PlateCarrierPouches_Desert" chance="1.00" />
+		</attachments>
+	</type> 
+	<type name="PlateCarrierPouches_Desert">
 	</type>
 	<type name="SparkPlug">
 	</type>
@@ -312,6 +332,13 @@
 	<type name="TortillaBag_Winter">
 		<cargo preset="foodArmy" />
 		<cargo preset="mixArmy" />
+	</type>
+	<type name="TortillaBag_Desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+		<cargo chance="0.2">
+			<item name="Mag_SCARH_20Rnd" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="ArmyPouch_Beige">
 		<cargo preset="foodVillage" />
@@ -2694,6 +2721,40 @@
 		</attachments>
 		<attachments chance="0.10">
 			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+♦	<type name="SCARH">
+		<damage min="0.15" max="0.35" />
+		<attachments chance="1.00">
+			<item name="SCAR_PrecisionBttstck" chance="0.50" />
+			<item name="SCAR_StockBttstck" chance="0.50" />
+		</attachments>
+		<attachments chance="0.33">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_SCARH_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+♦	<type name="SCARH_Black">
+		<damage min="0.15" max="0.35" />
+		<attachments chance="1.00">
+			<item name="SCAR_PrecisionBttstck_Black" chance="0.50" />
+			<item name="SCAR_StockBttstck_Black" chance="0.50" />
+		</attachments>
+		<attachments chance="0.33">
+			<item name="M68Optic" chance="0.30" />
+			<item name="HoloOptic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_SCARH_20Rnd_Black" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SVD">

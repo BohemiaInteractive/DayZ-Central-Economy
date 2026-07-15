@@ -844,8 +844,8 @@
         </children>
     </event>
     <event name="StaticContainerLocked">
-        <nominal>16</nominal>
-        <min>14</min>
+        <nominal>13</nominal>
+        <min>11</min>
         <max>0</max>
         <lifetime>2400</lifetime>
         <restock>0</restock>
