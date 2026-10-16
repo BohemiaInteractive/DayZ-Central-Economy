@@ -1,0 +1,265 @@
+{
+    "Areas": [
+		{ 	"AreaName": "Tunnel1", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 5507, 247, 5634 ],
+				"Radius": 75,
+				"PosHeight": 5,
+				"NegHeight": 10,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Tunnel2", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 5621, 247, 5664 ],
+				"Radius": 60,
+				"PosHeight": 5,
+				"NegHeight": 10,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Tunnel3", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 5752, 245, 5661 ],
+				"Radius": 90,
+				"PosHeight": 20,
+				"NegHeight": 2,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Tunnel4", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 5387, 244, 5564 ],
+				"Radius": 90,
+				"PosHeight": 20,
+				"NegHeight": 2,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Tunnel5", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 5433, 237, 5596 ],
+				"Radius": 10,
+				"PosHeight": 10,
+				"NegHeight": 2,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Tunnel6", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 5687, 237, 5668 ],
+				"Radius": 10,
+				"PosHeight": 10,
+				"NegHeight": 2,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "OilPit0",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 12376.940430, 181.842117, 5725.245117 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit1",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 12325.356445, 176.664154, 5868.138672 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit2",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 12225.976563, 182.326294, 5614.452637 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit3",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 12049.227539, 192.468903, 4980.267090 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit4",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 12097.303711, 176.333633, 5381.237305 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit5",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 12123.842773, 176.086685, 5524.674316 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit6",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 12026.752930, 176.140640, 5597.426270 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit7",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 11930.460938, 176.566223, 5351.499512 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit8",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 11768.733398, 176.169052, 5210.104004 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit9",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 11932.421875, 176.904099, 5783.904785 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit10",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 11492.033203, 176.860992, 5613.491699 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit11",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 11395.325195, 175.587128, 5406.987793 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit12",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 11945.961914, 176.079956, 6022.846680 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit13",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 11945.536133, 176.550339, 6062.524414 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		},
+		{ 	"AreaName": "OilPit14",
+			"Type": "OilPitArea",
+			"TriggerType": "OilPitTrigger",
+			"Data": {
+				"Pos": [ 12081.806641, 176.817596, 5966.033691 ],
+				"Radius": 2,
+				"PosHeight": 20,
+				"NegHeight": 5
+				}
+		}
+	],
+
+	"SafePositions":[
+	]
+}

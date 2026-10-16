@@ -440,7 +440,7 @@
 			<item name="AssaultBag_Black" chance="0.10" />
 			<item name="TortillaBag" chance="0.10" />
 		</attachments>
-		<attachments chance="1.00" name="HeavyArmorArmy">
+		<attachments chance="0.8" name="HeavyArmorArmy">
 			<item name="PlateCarrierVest" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30" name="HeavyHelmetArmy">

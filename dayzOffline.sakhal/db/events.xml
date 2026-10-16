@@ -1146,6 +1146,24 @@
             <child lootmax="0" lootmin="0" max="8" min="4" type="Boat_01_Camo"/>
         </children>
     </event>
+    <event name="VehicleMotorbike">
+        <nominal>12</nominal>
+        <min>5</min>
+        <max>11</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="10" min="6" type="Motorbike_01_Blue"/>
+            <child lootmax="0" lootmin="0" max="10" min="6" type="Motorbike_02_Red"/>
+        </children>
+    </event>
     <event name="VehicleOffroadHatchback">
         <nominal>4</nominal>
         <min>2</min>

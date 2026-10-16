@@ -33,7 +33,7 @@
 		"MovementData":
 		{
 			"timeToStrafeJog": 0.1,
-			"rotationSpeedJog": 0.3,
+			"rotationSpeedJog": 0.15,
 			"timeToSprint": 0.45,
 			"timeToStrafeSprint": 0.3,
 			"rotationSpeedSprint": 0.15,
@@ -81,7 +81,10 @@
 		{
 			"disablePerformRoofCheck": false,
 			"disableIsCollidingCheck": false,
-			"disableDistanceCheck": false
+			"disableDistanceCheck": false,
+			"disableItemFalling": false,
+			"disableDropAttachmentsOnFall": false,
+			"disableRefundMaterialsOnFall": false
 		}
 	},
 	"UIData":
@@ -108,6 +111,10 @@
 	},
 	"VehicleData":
 	{
-		"boatDecayMultiplier": 1
+		"boatDecayMultiplier": 1,
+		"canDetachAttachedCarWheels": true,
+		"canDamageAttachedCarWheels": true,
+		"canDetachAttachedBikeWheels": true,
+		"canDamageAttachedBikeWheels": true
 	}
 }
